@@ -121,7 +121,7 @@ _Exemples d'utilisation: alternative aux autres algorithmes classique, reconnais
 
 #### Carte auto adaptative (SOM = Self Organizing Maps)
 <br>Dataset: [Credit_Card_Applications.csv](supervised_learning/regression/simple_linear_regression.py) 
--  [Code | SOM](homemade/neural_network/multilayer_perceptron.py) - détecter le potentiel de fraude d'un client à partir de des réponses à un formulaire.
+-  [Code | SOM](deep_learning/som.py) - détecter le potentiel de fraude d'un client à partir de des réponses à un formulaire.
 
 
 #### Machine de Boltzmann (BM = Boltzmann Machines)
