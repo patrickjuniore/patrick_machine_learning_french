@@ -105,11 +105,11 @@ _Exemples d'utilisation: alternative aux autres algorithmes classique, reconnais
 
 #### Au cour de tout les reseux neuronaux:la Rétropropagation du gradient | backpropagation
 <br>Dataset: [Salary_Data.csv](dataset/Salary_Data.csv) 
--  [Code | network_nielsen](homemade/neural_network/multilayer_perceptron.py) - J'ai remanié le code de Michael Nielsen.Un code **sans tensorflow,sans keras** pour bien suivre comprendre les reseux neuronaux,notamment la backpropagation.
+-  [Code | network_nielsen](deep_learning/network_nielsen.py) - J'ai remanié le code de Michael Nielsen.Un code **sans tensorflow,sans keras** pour bien suivre comprendre les reseux neuronaux,notamment la backpropagation.
 
 #### Perceptron multicouche (MLP= Multilayer perceptron)
 <br>Dataset: [Churn_Modelling.csv](deep_learning/ann.py) 
--  [Code | MLP](deep_learning/ann.py) - prédire si un client suivant va ou non quitter la banque dans les 6 mois
+-  [Code | MLP](deep_learning/ann.py) - prédire si un client suivant va ou non quitter la banque dans les 6 mois.
 
 #### Réseau neuronal convolutif (CNN= Convolutional Neural Networks)
 <br>Dataset: [Salary_Data.csv](deep_learning/cnn.py) 
