@@ -28,11 +28,16 @@ _Exemple ci-dessous: prédire la quantité d’expression de l’antigène qui e
 -  [Code | Regression Linéaire régularisée LASSO](supervised_learning/regression/Regression_regularized_lasso.py)
 -  [Code | Regression Linéaire régularisée RIDGE](supervised_learning/regression/Regression_regularized_ridge.py)
 
+####  Regression multi-Linéaire
+
+_Exemple : Pour prédire si il est sûr d'investir dans un startup en particulier ou non_
+<br>Dataset: [50_Startups.csv](dataset/50_Startups.csv) 
+-  [Code | Regression multi-Linéaire](supervised_learning/regression/multiple_linear_regression.py)
+
 ####  autres methodes non ensemblistes
 
 _Exemple ci-dessous: predire le salaire `Salary`  en fonction du nombre d'année d'expérience `YearsExperience`_
 <br>Dataset: [Position_Salaries.csv](dataset/Position_Salaries.csv) 
--  [Code | régression polynomiale|Polynomial Regression](supervised_learning/regression/polynomial_regression.py) 
 -  [Code | Machine à vecteurs de support (Regression) |Support Vector Regression (SVR)](supervised_learning/regression/svr.py) 
 
 ####  methodes ensemblistes
@@ -42,15 +47,9 @@ _Exemple ci-dessous: predire le salaire `Salary`  en fonction du nombre d'année
 -  [Code | Arbre de décision|Decision tree learning en anglais](ensemble_learning/boosting/decision_tree_regression.py) 
 -  [Code | Forêt d'arbres décisionnels|Random forest en anglais](ensemble_learning/bagging/random_forest_regression.py)
 
-####  Regression multi-Linéaire
-
-_Exemple : Pour prédire si il est sûr d'investir dans un startup en particulier ou non_
-<br>Dataset: [50_Startups.csv](dataset/50_Startups.csv) 
--  [Code | Regression multi-Linéaire](https://github.com/juniorepat/patrick_siraj_money_ML/blob/master/image_style.jpg)
-
 ### Classification
 
-Dans les tâches de classification, on cherche dtistinguer les exemples d'entrée en fonction de certaines caractéristiques.
+Dans les tâches de classification, on cherche distinguer les exemples d'entrée en fonction de certaines caractéristiques.
 Les valeurs prédites sont les classes des exemples.
 
 _Exemple d'utilisations: filtres anti-spam, détection de la langue, recherche de documents similaires, reconnaissance de lettres manuscrites, etc._
@@ -60,8 +59,7 @@ _Exemple d'utilisations: filtres anti-spam, détection de la langue, recherche d
 
 -  [Code |Régression logistique | Logistic Regression](supervised_learning/classification/logistic_regression.py)
 -  [Code |Méthode des k plus proches voisins| K-NN ](supervised_learning/classification/knn.py) 
--  [Code | Machine à vecteurs de support|SVM ](supervised_learning/classification/svm.py)
-) 
+-  [Code | Machine à vecteurs de support|SVM ](supervised_learning/classification/svm.py) 
 -  [Code | SVM à noyaux|Kernel method ](supervised_learning/classification/kernel_svm.py) 
 -  [Code | Classification naïve bayésienne|naive bayes ](supervised_learning/classification/naive_bayes.py) 
 -  [Code | Arbre de décision|Decision tree learning ](supervised_learning/ensemble_learning/boosting/decision_tree_classification.py) 
@@ -102,10 +100,11 @@ Un réseau neuronal lui-même n'est pas un algorithme, mais plutôt un cadre per
 
 _Exemples d'utilisation: alternative aux autres algorithmes classique, reconnaissance d'image, reconnaissance vocale, traduction de langue, etc._
 
+### apprentissage supervisé
 
 #### Au cour de tout les reseux neuronaux:la Rétropropagation du gradient | backpropagation
 <br>Dataset: [Salary_Data.csv](dataset/Salary_Data.csv) 
--  [Code | network_nielsen](deep_learning/network_nielsen.py) - J'ai remanié le code de Michael Nielsen.Un code **sans tensorflow,sans keras** pour bien suivre comprendre les reseux neuronaux,notamment la backpropagation.
+-  [Code | network_nielsen](deep_learning/network_nielsen.py) - J'ai remanié le code de Michael Nielsen.Un code **sans tensorflow,sans keras** pour bien suivre comprendre les reseaux neuronaux,notamment **l'algorithme du gradient stochastique et la backpropagation**.
 
 #### Perceptron multicouche (MLP= Multilayer perceptron)
 <br>Dataset: [Churn_Modelling.csv](deep_learning/ann.py) 
@@ -118,6 +117,8 @@ _Exemples d'utilisation: alternative aux autres algorithmes classique, reconnais
 #### Réseau de neurones récurrents (RNN = Recurrent Neural Networks)
 <br>Datasets: [Google_Stock_Price_Test.csv](dataset/Google_Stock_Price_Test.csv) et [Google_Stock_Price_Train.csv](dataset/Google_Stock_Price_Train.csv) 
 -  [Code | RNN](deep_learning/rnn.py) - prédire la valeur de l'action Google dans le futur.
+
+### apprentissage non supervisé
 
 #### Carte auto adaptative (SOM = Self Organizing Maps)
 <br>Dataset: [Credit_Card_Applications.csv](supervised_learning/regression/simple_linear_regression.py) 
@@ -134,7 +135,7 @@ _Exemples d'utilisation: alternative aux autres algorithmes classique, reconnais
 
 
 
-## Machine Learning Map
+## Intelligence artificielle Map
 
 ![Machine Learning Map](machine-learning-map.png)
 
