@@ -1,5 +1,5 @@
 import mnist_loader
-import network
+import network_nielsen_redesigned
 
 training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
 net = network.Network([784, 30, 10])
