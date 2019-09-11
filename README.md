@@ -103,8 +103,9 @@ _Exemples d'utilisation: alternative aux autres algorithmes classique, reconnais
 ### apprentissage supervisé
 
 #### Au cour de tout les reseux neuronaux:la Rétropropagation du gradient | backpropagation
-<br>Dataset: [Salary_Data.csv](dataset/Salary_Data.csv) 
--  [Code | network_nielsen](deep_learning/network_nielsen.py) - J'ai remanié le code de Michael Nielsen.Un code **sans tensorflow,sans keras** pour bien suivre comprendre les reseaux neuronaux,notamment **l'algorithme du gradient stochastique et la backpropagation**.
+<br>Dataset: banque d'images de chiffres écrits à la main (MNIST). Utiliser cette [fonction](https://github.com/mnielsen/neural-networks-and-deep-learning/blob/master/src/mnist_loader.py) développé by Michael Nielsen pour charger ces données.
+-  [Code | network_nielsen](deep_learning/network_nielsen_redesigned.py) - J'ai remanié le code de Michael Nielsen.Un code **sans tensorflow,sans keras** pour bien suivre comprendre les reseaux neuronaux,notamment **l'algorithme du gradient stochastique et la backpropagation**.
+-  [Code | tester le code remanié](deep_learning/test_network_nielsen_redesigned.py) - reconnaîtres des chiffres écrits à la main avec la descente de gradient stochastique via le code remanié.
 
 #### Perceptron multicouche (MLP= Multilayer perceptron)
 <br>Dataset: [Churn_Modelling.csv](deep_learning/ann.py) 
