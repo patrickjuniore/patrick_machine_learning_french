@@ -12,7 +12,8 @@ import seaborn as sns
 
 ################ load dataset ###########################
 #raw_data = pd.read_csv('prostate.data.txt', delimiter='\t')
-raw_data = pd.read_csv(r"C:\Users\p_michel-ext\patrick_projets\perso\data\TP_1_prostate_dataset.txt", delimiter='\t')
+raw_data_path= r"C:\Users\p_michel-ext\patrick_projets\perso\data\TP_1_prostate_dataset.txt"
+raw_data = pd.read_csv(raw_data_path, delimiter='\t')
 
 #LassoCV
 
