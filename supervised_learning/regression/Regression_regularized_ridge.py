@@ -1,6 +1,4 @@
 ################ import libraries ###########################
-import pandas as pd
-from matplotlib import pyplot as plt
 ##load dataset 
 import pandas as pd
 ## 
