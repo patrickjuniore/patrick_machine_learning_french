@@ -54,6 +54,15 @@ ridgecv_alpha = ridgecv.alpha_
 print('CV', ridgecv.coef_)
 
 ################ vizualization ##################################
+ax = plt.gca()
+
+ax.plot(alphas, coefs)
+ax.set_xscale('log')
+plt.xlabel('alpha')
+plt.ylabel('weights')
+plt.axis('tight')
+plt.show()
+
 plt.plot(alphas, scores, '-ko')
 plt.axhline(ridgecv_score, color='b', ls='--')
 plt.axvline(ridgecv_alpha, color='b', ls='--')
