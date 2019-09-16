@@ -1,6 +1,8 @@
 ################ import libraries ###########################
 ##load dataset 
 import pandas as pd
+# Splitting the dataset into the Training set and Test set
+from sklearn.model_selection import train_test_split
 ## 
 from sklearn import linear_model
 import numpy as np
@@ -14,22 +16,19 @@ raw_data = pd.read_csv(r"C:\Users\p_michel-ext\patrick_projets\perso\data\TP_1_p
 
 #LassoCV
 
-X_train = raw_data.iloc[:60,1:-3]
-y_train = raw_data.iloc[:60,-2]
+X = raw_data.iloc[:60,1:-3]
+Y = raw_data.iloc[:60,-2]
 
-X_test = raw_data.iloc[60:,1:-3]
-y_test = raw_data.iloc[60:,-2]
+# Splitting the dataset into the Training set and Test set
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 1/3, random_state = 0)
 ################ baseline : classic linear regression  ################
-# create regression linéar modele
-lr = linear_model.LinearRegression()
+# Fitting Simple Linear Regression to the Training set
 
-# train the model on training set
-lr.fit(X_train,y_train)
+lr = linear_model.LinearRegression() # create regression linéar modele
+lr.fit(X_train,y_train) # train the model on training set
 
 # get the nomr 2 error on training set as baseline 
 baseline_error = np.mean((lr.predict(X_test) - y_test) ** 2)
-print(baseline_error)
-
 print(baseline_error)
 #2.8641499657014458
 
@@ -64,6 +63,13 @@ plt.ylabel('weights')
 plt.axis('tight')
 plt.show()
 
+ax = plt.gca()
+ax.plot(alphas, errors)
+ax.set_xscale('log')
+plt.xlabel('alpha')
+plt.ylabel('error')
+plt.axis('tight')
+plt.show()
 
 plt.plot(alphas, scores, '-ko')
 plt.axhline(lassocv_score, color='b', ls='--')
