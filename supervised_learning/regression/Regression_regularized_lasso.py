@@ -56,6 +56,15 @@ lassocv_alpha = lassocv.alpha_
 print('CV', lassocv.coef_)
 
 ################ vizualization ##################################
+ax = plt.gca()
+ax.plot(alphas, coefs)
+ax.set_xscale('log')
+plt.xlabel('alpha')
+plt.ylabel('weights')
+plt.axis('tight')
+plt.show()
+
+
 plt.plot(alphas, scores, '-ko')
 plt.axhline(lassocv_score, color='b', ls='--')
 plt.axvline(lassocv_alpha, color='b', ls='--')
