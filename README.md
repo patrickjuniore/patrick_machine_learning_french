@@ -72,7 +72,7 @@ Mais cette fois ces exemples ne sont pas labelisés: le modèle doit identifier 
 
 ### Clustering
 
-Dans les tâches de Clustering, le modèle modèle apprend à sbdiviser les données qu'ont lui fournies selon des caractéristiques inconnues au préalable. 
+Dans les tâches de Clustering, le modèle modèle apprend à subdiviser les données qu'ont lui fournies selon des caractéristiques inconnues au préalable. 
 L'algorithme lui-même décide quelle caractéristique utiliser pour le fractionnement.
 
 _Exemples d'utilisation: segmentation du marché, analyse de réseaux sociaux, organisation de clusters informatiques, analyse de données astronomiques, compression d'images, etc._
