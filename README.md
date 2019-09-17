@@ -62,8 +62,8 @@ _Exemple d'utilisations: filtres anti-spam, détection de la langue, recherche d
 -  [Code | Machine à vecteurs de support|SVM ](supervised_learning/classification/svm.py) 
 -  [Code | SVM à noyaux|Kernel method ](supervised_learning/classification/kernel_svm.py) 
 -  [Code | Classification naïve bayésienne|naive bayes ](supervised_learning/classification/naive_bayes.py) 
--  [Code | Arbre de décision|Decision tree learning ](supervised_learning/ensemble_learning/boosting/decision_tree_classification.py) 
--  [Code | Forêt d'arbres décisionnels|Random forest ](supervised_learning/ensemble_learning/bagging/random_forest_classification.py)
+-  [Code | Arbre de décision|Decision tree learning ](ensemble_learning/boosting/decision_tree_classification.py) 
+-  [Code | Forêt d'arbres décisionnels|Random forest ](ensemble_learning/bagging/random_forest_classification.py)
 
 ## apprentissage non supervisé
 
