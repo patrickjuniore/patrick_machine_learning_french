@@ -1,0 +1,99 @@
+https://profoundphysics.com/the-ricci-tensor/#:~:text=The%20geometric%20interpretation%20of%20the%20Ricci%20tensor%20is%20that%20it,geodesic%20in%20any%20given%20direction.
+https://profoundphysics.com/the-ricci-tensor/#open
+https://profoundphysics.com/general-relativity-for-dummies/
+http://einsteinrelativelyeasy.com/index.php/general-relativity/63-the-riemann-curvature-tensor-part-ii-derivation-from-the-geodesic-deviation
+http://www.numericana.com/answer/gr.htm
+bianchi
+On the analytical formulation of classical electromagnetic fields
+https://www.ita.uni-heidelberg.de/~spirou/2021/02/17/antisymmetric-tensors.html
+https://www.math.tecnico.ulisboa.pt/~jnatar/talks/gravitomagnetism.pdf
+https://mcgreevy.physics.ucsd.edu/f13/225A-lectures.pdf
+https://arxiv.org/pdf/1607.00406.pdf
+http://people.tamu.edu/~c-pope/EM611/em611-2010.pdf
+https://www.fermedesetoiles.fr/documents/supports/equation-de-maxwell-ou-einstein-meme-combat.pdf
+https://newbedev.com/how-to-derive-maxwell-s-equations-from-the-electromagnetic-lagrangian
+(1)F = dA (Faraday tensor is the exterior derivative of the four-potential)
+(2) dd = 0 (the exterior derivative of the exterior derivative vanishes)
+https://scholar.umw.edu/cgi/viewcontent.cgi?article=1179&context=student_research --Maxwell's Equations, Gauge Fields, and Yang-Mills Theory 
+https://peeterjoot.wordpress.com/tag/bianchi-identity/
+https://fse.studenttheses.ub.rug.nl/11123/1/thesis_natk.pdf
+https://cdn.intechopen.com/pdfs/33433/InTech-Reformulation_of_electromagnetism_with_differential_forms.pdf
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.590.1206&rep=rep1&type=pdf
+http://www.iphc.cnrs.fr/IMG/pdf/radiation.pdf
+https://www.repo.uni-hannover.de/bitstream/handle/123456789/8267/787621285.pdf?sequence=1&isAllowed=y
+
+Bianchi
+Levi-Civita faraday bianchi
+http://settheory.net/fr/relativite-generale
+https://arxiv.org/pdf/1703.02655.pdf
+https://physics.stackexchange.com/questions/543237/electromagnetism-bianchi-identity
+https://en.wikipedia.org/wiki/Mathematical_descriptions_of_the_electromagnetic_field
+http://www-fourier.univ-grenoble-alpes.fr/~ycolver/All-Articles/96e.pdf
+
+pour chaque petite COURBE FERMÉE le long de laquelle on considère un transport parallèle, 
+la rotation produite par ce transport ne DÉPEND PAS DU CHOIX DE LA SURFACE DÉLIMITÉE par cette COURBE
+sur laquelle nous intégrons la courbure pour calculer cette petite rotation
+DÉPLACER cette surface (de direction ij) vers la direction k mais en GARDANT LE MÊME BORD, n'a AUCUN EFFET
+
+contraction entre LES DUAUX DE HODGE des PAIRES ANTISYMÉTRIQUES dans le tenseur de Riemann 
+(AU LIEU d'une contraction entre CES PAIRES ELLES-MÊMES)
+la COURBURE D'UNE PAIRE DE DIMENSIONS donnée ne contribue au tenseur d'Einstein QUE DANS LES DIMENSIONS ORTHOGONALES.
+
+36 années; 2 mois; 3 semaines
+dimanche‎ ‎12‎ ‎juin‎ ‎2016
+http://www-cosmosaf.iap.fr/Tenseurs-presentation.pdf
+
+--j fois contravariant et k fois covariant
+ENTRÉE j vecteurs COVARIANTS 	 et k vecteurs CONTRAVARIANTS et en SORTIE génère 1 nombre.
+equivalent
+ENTRÉE k vecteurs CONTRAVARIANTS 						  	  et en SORTIE génère j vecteurs CONTRAVARIANTS
+
+si on rajoute en 
+entrée les j vecteurs COVARIANTS ils "mangent "les j vecteurs CONTRAVARIANTS pour produire un nombre
+
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/chap_FormeDif.pdf
+http://raphaelducatez.neowordpress.fr/2020/07/16/geometrie-differentielle-et-equations-de-maxwell/#:~:text=La%20d%C3%A9riv%C3%A9e%20ext%C3%A9rieure&text=%E2%80%9Dl'int%C3%A9grale%20de%20la%20forme,int%C3%A9rieur%20de%20cette%20sous%20vari%C3%A9t%C3%A9%E2%80%9D.&text=Le%20but%20de%20ce%20poste,Maxwell%20avec%20des%20d%C3%A9riv%C3%A9es%20ext%C3%A9rieurs.
+
+”l’intégrale de la FORME DIFFÉRENTIELLE sur le BORD de la sous variété est égale 
+à l’intégrale de sa DÉRIVÉE EXTÉRIEURE sur L’INTÉRIEUR de cette sous variété”. 
+Cela pourrait même être la définition de la dérivée extérieure et celle ci a l’avantage de donner immédiatement l’intuition et la motivation de cette notion. 
+
+De même que pour la notion “vitesse” la définition intuitive serait 
+“la quantité qui intégré sur le temps donne la distance parcourue”
+, pour la dérivé extérieure dω on aurait 
+“la forme différentielle de degré supérieur qui satisfait le théorème de Stokes”. 
+
+Malheureusement si il est clair que la dérivée extérieure est une notion naturelle et centrale en analyse
+, que ce soit en physique, en géoscience, en analyse numérique et dans pleins d’autres domaines
+, on manipule constamment des champs de vecteurs sur des variétés en ne les traitant que comme un ensemble de fonctions réelles sans se poser la question de leurs natures mathématiques. 
+
+Je trouve donc dommage d’ignorer au passages des très belles notions de géométrie différentielle ou topologie algébrique.
+Le but de ce poste est d’écrire toute la théorie de Maxwell avec des dérivées extérieurs. 
+Outre le fait que cette construction est extrêmement élégante. 
+Elle illustre le fait que les formes différentielles et la dérivée extérieure (et la cohomologie de De Rham) sont naturelles et devraient être utilisées plus souvent.
+
+http://www-cosmosaf.iap.fr/MIT-RG1F.htm
+
+Evgueni Chapochnikov
+https://www.universalis.fr/evenement/3-30-decembre-1991-disparition-de-l-et-demission-de-mikhail-gorbatchev-apres-la-creation-de-la-c-e-i/
+
+---deviation geodesique
+http://www-cosmosaf.iap.fr/MIT-RG3F.pdf
+	déviation géodésique: 		 p52-53
+	règle de Leibniz (produit) : p5
+
+	
+https://math.stackexchange.com/questions/2028572/what-is-exactly-the-relation-between-vectors-matrices-and-tensors
+https://apc.u-paris.fr/APC_CS/Conferences/Site_Cargese/Courses_files/novak_notes.pdf
+
+Levi-Civita
+https://d197for5662m48.cloudfront.net/documents/publicationstatus/40398/preprint_pdf/4a9c3af307146df9d5f21f8ceeb61988.pdf
+
+https://inis.iaea.org/collection/NCLCollectionStore/_Public/49/089/49089264.pdf p35
+tenseurs
+https://www.phys.ens.fr/IMG/pdf/-35.pdf
+
+
+https://mathstrek.blog/2015/01/29/tensor-product-and-linear-algebra/
+https://algebrology.github.io/tensor-products/
+https://www.physicsforums.com/threads/why-is-a-linear-transformation-a-type-1-1-tensor.558822/
