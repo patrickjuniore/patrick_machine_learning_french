@@ -1,0 +1,19 @@
+https://users.dickinson.edu/~richesod/latex/latexcheatsheet.pdf
+https://www.math-linux.com/latex-26/faq/latex-faq/article/how-to-write-matrices-in-latex-matrix-pmatrix-bmatrix-vmatrix-vmatrix
+https://latexbase.com/d/c0c4be7f-51b8-46a7-b14a-d132e7c06be1
+https://www.mathweb.fr/euclide/2019/04/18/creer-un-fichier-latex-avec-python/
+
+\documentclass[12pt]{article}
+\title{Untitled Document}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+\maketitle
+\[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
+
+I want this $\displaystyle \sum_{n=1}^{\infty}
+\frac{1}{n}$, not this $\sum_{n=1}^{\infty}
+\frac{1}{n}$
+
+\end{document}
