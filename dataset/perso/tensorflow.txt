@@ -1,0 +1,82 @@
+https://www.programiz.com/python-programming/online-compiler/
+https://www.thecrazyprogrammer.com/2017/09/plsql-online-compiler.html
+https://www.geeksforgeeks.org/most-important-type-of-algorithms/
+https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/
+https://www.hackerrank.com/domains/data-structures
+
+https://www.youtube.com/watch?v=5u391bX9FVE&list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6&index=12
+https://github.com/codingforentrepreneurs/30-Days-of-Python/tree/master/tutorial-reference
+https://www.youtube.com/watch?v=RUMohoZzNLc&list=PLEsfXFp6DpzT-1RVQVsL7C2XGMeQzfqAL
+https://github.com/codingforentrepreneurs/Django-Bootcamp-1
+
+https://a2oj.com/Ladders.html
+https://github.com/iciamyplant/Cub3d-MacOS
+
+https://project.inria.fr/deeplearning/files/2016/05/DLFrameworks.pdf (p14) Support Applicatif - Système de Risques de Contreparties 
+https://github.com/aymericdamien/TensorFlow-Examples
+https://github.com/aymericdamien/TensorFlow-Examples/blob/master/tensorflow_v2/notebooks/3_NeuralNetworks/convolutional_network.ipynb		keras
+https://github.com/aymericdamien/TensorFlow-Examples/blob/master/tensorflow_v2/notebooks/3_NeuralNetworks/convolutional_network_raw.ipynb	tensorflow
+--https://gitlab.charlesbordet.com/charles/deeplearning/blob/master/Part%201%20-%20Artificial_Neural_Networks/ann.py
+--https://thedatafrog.com/fr/premier-reseau-neurones-keras/
+https://cnvrg.io/cnn-tensorflow/?gclid=Cj0KCQjwjPaCBhDkARIsAISZN7RmLv9Bjrt_kl9N0mNNJPSBwMOo6WO4tcYm4ZTcr-xPue7TebLIVWEaAtncEALw_wcB
+https://stackoverflow.com/questions/41848660/why-the-negative-reshape-1-in-mnist-tutorial/41848962
+https://qastack.fr/programming/34642595/tensorflow-strides-argument
+https://www.tensorflow.org/api_docs/python/tf/reshape
+https://openclassrooms.com/en/courses/4470531-classez-et-segmentez-des-donnees-visuelles/5088816-apprenez-a-construire-un-cnn-et-gagnez-du-temps-avec-le-transfer-learning
+https://openclassrooms.com/en/courses/4470531-classez-et-segmentez-des-donnees-visuelles/5097666-tp-implementez-votre-premier-reseau-de-neurones-avec-keras
+
+file:///C:/Users/User/desk/download_tmp/download_txt/			tensorflow%20-%20Copie.txt
+file:///C:/Users/User/desk/machine_learning/siraj/my_github/	natural_language_processing%20-%20Copie.py
+
+https://www2.cs.sfu.ca/CourseCentral/165/common/ref/thinkpy/html/index.html
+https://eng.libretexts.org/Bookshelves/Computer_Science/Book%3A_Think_Python_2ed._(Downey)/13%3A_Case_study_-_data_structure_selection
+https://github.com/AllenDowney/ThinkPython2/tree/master/code
+
+#######TF example:
+
+kernel = tf.Variable(tf.truncated_normal([3, 3, 64, 64], type=tf.float32,stddev=1e-1), name='weights')
+conv = tf.nn.conv2d(self.conv1_1, kernel, [1, 1, 1, 1], padding='SAME')
+
+biases = tf.Variable(tf.constant(0.0, shape=[64], dtype=tf.float32), trainable=True, name='biases')
+
+out = tf.nn.bias_add(conv, biases)
+self.conv1_2 = tf.nn.relu(out, name='block1_conv2')
+
+
+#######Keras:
+x = Convolution2D(64, 3, 3, activation='relu', border_mode='same', name='block1_conv2')(x)
+
+-------------------------------------------------------------
+https://books.google.fr/books?id=2OjstnMpSBEC&pg=PA106&lpg=PA106&dq=repondre+%22je+suis+une+femme+mari%C3%A9e%22+roturi%C3%A8re&source=bl&ots=8foLtIwXoT&sig=ACfU3U0xBZRQmeHZuwo5RTUbG4Y_xhtruw&hl=fr&sa=X&ved=2ahUKEwiSgaXOp9nvAhXz8LsIHV4eBJAQ6AEwAHoECAIQAw#v=onepage&q=repondre%20%22je%20suis%20une%20femme%20mari%C3%A9e%22%20roturi%C3%A8re&f=false
+..\in\FOURNSECREC_duplicate@patrick.michel-ext.csv
+..\in\FOURNSECREC_97@mounir.hamdi2-ext.csv
+#######TF example:
+import tensorflow as tf
+
+input = tf.placeholder(tf.float32, [None, num_input])
+num_classes = 10 # MNIST total classes (0-9 digits)
+# Ajout de la première couche de convolution, suivie d'une couche ReLU
+wc1 = tf.Variable(tf.random_normal([3, 3, 64, 64]))		# 3x3 conv, 64 inputs, 64 outputs
+bc1 = tf.Variable(tf.random_normal([64]))				# 64 outputs
+conv = tf.nn.conv2d(tf.reshape(input, shape=[-1, 64, 64, 3]) , wc1, strides=[1, strides, strides, 1], padding='SAME')
+out = tf.nn.bias_add(conv, bc1)
+conv1  = tf.nn.relu(out)
+
+# Ajout de la deuxième couche de convolution, suivie  d'une couche ReLU
+wc2 = tf.Variable(tf.random_normal([3, 3, 64, 64]))		# 3x3 conv, 64 inputs, 64 outputs
+bc2 = tf.Variable(tf.random_normal([64]))				# 64 outputs
+conv = tf.nn.conv2d(conv1 , wc2, strides=[1, strides, strides, 1], padding='SAME')
+out = tf.nn.bias_add(conv, bc2)
+conv2  = tf.nn.relu(out)
+
+
+#######Keras:
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D
+
+# Création d'un réseau de neurones vide
+my_Network = Sequential()  
+# Ajout de la première couche de convolution, suivie d'une couche ReLU
+my_Network.add(Conv2D(64, (3, 3), input_shape=(224, 224, 3), padding='same', activation='relu')) 
+# Ajout de la deuxième couche de convolution, suivie  d'une couche ReLU
+my_Network.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
