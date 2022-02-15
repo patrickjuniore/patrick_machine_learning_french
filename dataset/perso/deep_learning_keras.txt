@@ -1,0 +1,168 @@
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf
+https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463
+Data			: (https://keras.io/datasets/)
+	from keras.datasets import boston_housing, mnist, cifar10, imdb
+	(x_train,y_train),(x_test,y_test) = mnist.load_data()					# 60,000 28x28 grayscale images of the 10 digits,along with a test set of 10,000 images.
+Preprocessing	: https://cdn-images-1.medium.com/max/800/1*2T5rbjOBGVFdSvtlhCqlNg.png
+	#convert each 28 x 28 image of the train and test set into a matrix of size 28 x 28 x 1
+	#convert its type to float32
+	#rescale the pixel values in range 0 - 1
+	#convert the class labels into a one-hot encoding vector.
+	#split the data into "training data/ validation data"
+Architecture	:
+	#I/model 		
+		from keras.models import Sequential #for MLP,CNN,RNN
+		model = Sequential()		
+	#II/layer		
+		from keras.layers import Dense #for MLP #CNN import Activation,Conv2D,MaxPooling2D,Flatten # RNN Embedding,LSTM		
+compile			:
+	#MLP: Binary Classification 
+	model.compile(optimizer='adam', 
+				  loss='binary_crossentropy',
+				  metrics=['accuracy'])	
+Training			:
+	model3.fit(x_train
+			  ,y_train
+			  ,batch_size=32
+			  ,epochs=15
+			  ,verbose=1
+			  ,validation_data=(x_test,y_test)
+			  ) 
+Prediction			:
+model3.predict(x_test, batch_size=32)
+model3.predict_classes(x_test,batch_size=32) 
+############################################################################################################
+import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense
+
+data = np.random.random((1000,100))
+labels = np.random.randint(2,size=(1000,1))
+
+model = Sequential()
+model.add(Dense(32,
+				activation='relu',
+				input_dim=100))
+model.add(Dense(1, activation='sigmoid'))
+model.compile(optimizer='rmsprop',
+			  loss='binary_crossentropy',
+			  metrics=['accuracy']
+			  )
+			  
+model.fit(data,labels,epochs=10,batch_size=32)
+predictions = model.predict(data)
+############################################################################################################
+Data			: (https://keras.io/datasets/)
+	from keras.datasets import boston_housing, mnist, cifar10, imdb
+	(x_train,y_train),(x_test,y_test) = mnist.load_data()					# 60,000 28x28 grayscale images of the 10 digits,along with a test set of 10,000 images.
+	(x_train2,y_train2),(x_test2,y_test2) = boston_housing.load_data()		# 13 attributes of houses at different locations around the Boston suburbs in the late 1970s
+	(x_train3,y_train3),(x_test3,y_test3) = cifar10.load_data()				# 50,000 32x32 color training images, labeled over 10 categories, and 10,000 test images.
+	(x_train4,y_train4),(x_test4,y_test4) = imdb.load_data(num_words=20000)	# 25,000 movies reviews from IMDB, labeled by sentiment
+	num_classes = 10
+	
+	from urllib.request import urlopen
+	data = np.loadtxt(urlopen("http://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data"),delimiter=",")
+Preprocessing	:
+	#convert each 28 x 28 image of the train and test set into a matrix of size 28 x 28 x 1
+	x_train = x_train.reshape(-1, 28,28, 1)
+	x_test = x_test.reshape(-1, 28,28, 1)
+	x_train.shape, x_test.shape
+	#convert its type to float32
+	x_train = x_train.astype('float32')
+	x_test = x_test.astype('float32')
+	#rescale the pixel values in range 0 - 1
+	x_train = x_train / 255.
+	x_test = x_test / 255.	
+	#convert the class labels into a one-hot encoding vector.
+	train_Y_one_hot = to_categorical(y_train)
+	#split the data into "training data/ validation data"
+	x_train,valid_X,train_label,valid_label = train_test_split(x_train, train_Y_one_hot, test_size=0.2, random_state=13)
+Architecture	:
+	#I/model 
+		#for MLP,CNN,RNN
+		from keras.models import Sequential 
+		model = Sequential()		
+	#II/layer
+		#for MLP
+		from keras.layers import Dense
+		#for CNN
+		from keras.layers import Activation,Conv2D,MaxPooling2D,Flatten
+		#for RNN
+		from keras.klayers import Embedding,LSTM		
+compile			:
+	#MLP +RNN: Binary Classification 
+	model.compile(optimizer='adam', 
+				  loss='binary_crossentropy',
+				  metrics=['accuracy'])	
+	#MLP: Multi-Class Classification 
+	model.compile(optimizer='adam', 
+				  loss='categorical_crossentropy'',
+				  metrics=['accuracy'])	
+	#MLP: Regression
+	model.compile(optimizer='adam', 
+				  loss='rmsprop',
+				  metrics=['accuracy'])
+Training			:
+	model.fit(x_train
+			  ,y_train
+			  ,batch_size=32
+			  ,epochs=15
+			  ,verbose=1
+			  ,validation_data=(x_test,y_test)
+			  ) 
+Prediction			:
+model.predict(x_test, batch_size=32)
+model.predict_classes(x_test,batch_size=32)
+############################################################################################################
+
+#CNN
+#from keras.layers import Activation,Conv2D,MaxPooling2D,Flatten
+
+model2.add(Conv2D(32,(3,3),padding='same',input_shape=x_train.shape[1:]))
+model2.add(Activation('relu'))
+
+model2.add(Conv2D(32,(3,3)))
+model2.add(Activation('relu'))
+
+model2.add(MaxPooling2D(pool_size=(2,2)))
+model2.add(Dropout(0.25))
+
+model2.add(Conv2D(64,(3,3), padding='same'))
+model2.add(Activation('relu'))
+
+model2.add(Conv2D(64,(3, 3)))
+model2.add(Activation('relu'))
+
+model2.add(MaxPooling2D(pool_size=(2,2)))
+model2.add(Dropout(0.25))
+
+model2.add(Flatten())
+
+model2.add(Dense(512))
+model2.add(Activation('relu'))
+model2.add(Dropout(0.5))
+
+model2.add(Dense(num_classes))
+model2.add(Activation('softmax'))
+
+#RNN
+#from keras.klayers import Embedding,LSTM
+model3.add(Embedding(20000,128))
+model3.add(LSTM(128,dropout=0.2,recurrent_dropout=0.2))
+model3.add(Dense(1,activation='sigmoid'))
+
+############################################################################################################
+https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf
+https://studylibfr.com/doc/4589435/deep-learning---votre-propre-cerveau-artificiel-avec-python
+
+http://datacamp-community.s3.amazonaws.com/fbc502d0-46b2-4e1b-b6b0-5402ff273251				 (Pandas)
+http://datacamp-community.s3.amazonaws.com/9f0f2ae1-8bd8-4302-a67b-e17f3059d9e8				 (Pandas)
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf											 (Pandas)
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf		 (Numpy)
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf (Scikit)
+
+http://wintics.com/quand-la-data-science-devient-creative-avec-les-gan/
+https://skymind.ai/wiki/generative-adversarial-network-gan
+https://becominghuman.ai/understanding-and-building-generative-adversarial-networks-gans-8de7c1dc0e25
+https://github.com/eriklindernoren/Keras-GAN/blob/master/gan/gan.py
