@@ -1,0 +1,31 @@
+https://machinelearningmastery.com/statistics_for_machine_learning/			1
+https://machinelearningmastery.com/linear_algebra_for_machine_learning/			2
+https://machinelearningmastery.com/probability-for-machine-learning/*
+https://machinelearningmastery.com/master-machine-learning-algorithms/*
+https://machinelearningmastery.com/machine-learning-algorithms-from-scratch/		5
+https://machinelearningmastery.com/machine-learning-mastery-weka/	*
+https://machinelearningmastery.com/machine-learning-with-r/				7
+https://machinelearningmastery.com/machine-learning-with-python/			8
+https://machinelearningmastery.com/data-preparation-for-machine-learning/		8
+https://machinelearningmastery.com/imbalanced-classification-with-python/*
+https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/ 11
+https://machinelearningmastery.com/deep-learning-with-python/				12
+https://machinelearningmastery.com/deep-learning-for-computer-vision/*
+https://machinelearningmastery.com/deep-learning-for-nlp/*
+https://machinelearningmastery.com/deep-learning-for-time-series-forecasting/		15
+https://machinelearningmastery.com/generative_adversarial_networks/			16
+https://machinelearningmastery.com/better-deep-learning/
+https://machinelearningmastery.com/lstms-with-python/					18
+https://machinelearningmastery.com/xgboost-with-python/					19
+
+-----------------------------------------------------------------------------------------------
+https://machinelearningmastery.com/probability-for-machine-learning/		3
+https://machinelearningmastery.com/master-machine-learning-algorithms/		4
+https://machinelearningmastery.com/machine-learning-mastery-weka/		6
+https://machinelearningmastery.com/machine-learning-with-r/			https://b-ok.cc/book/3105009/4fcc11*	
+https://machinelearningmastery.com/data-preparation-for-machine-learning/ 	https://b-ok.cc/book/5661618/9b954b*
+https://machinelearningmastery.com/imbalanced-classification-with-python/	10
+https://machinelearningmastery.com/deep-learning-for-computer-vision/		13
+https://machinelearningmastery.com/deep-learning-for-nlp/			14
+https://machinelearningmastery.com/better-deep-learning/			17
+https://machinelearningmastery.com/lstms-with-python/				https://b-ok.cc/book/5566238/0c36c8*
