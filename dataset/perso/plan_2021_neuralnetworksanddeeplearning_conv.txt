@@ -1,0 +1,139 @@
+http://neuralnetworksanddeeplearning.com/chap6.html
+
+---Convolutional neural networks in practice
+---The code for our convolutional networks
+
+import theano.tensor as T		
+#### Main class used to construct and train networks
+class Network(object):
+
+    def __init__(self, layers, mini_batch_size):
+        ...
+		self.params = [param for layer in self.layers for param in layer.params]
+        self.x = T.matrix("x")
+        self.y = T.ivector("y")
+		...
+
+    def SGD(self, training_data, epochs, mini_batch_size, eta,
+            validation_data, test_data, lmbda=0.0):
+        ....
+		#http://neuralnetworksanddeeplearning.com/chap6.html ..as well as the corresponding parameter updates. 		
+		# define the (regularized) cost function, symbolic gradients, and updates
+        l2_norm_squared = sum([(layer.w**2).sum() for layer in self.layers])
+        cost = self.layers[-1].cost(self)+\
+               0.5*lmbda*l2_norm_squared/num_training_batches
+        grads = T.grad(cost, self.params)
+        updates = [(param, param-eta*grad)
+                   for param, grad in zip(self.params, grads)]
+
+        # define functions to train a mini-batch, and to compute the
+        # accuracy in validation and test mini-batches.
+        i = T.lscalar() # mini-batch index
+		
+		#http://neuralnetworksanddeeplearning.com/chap6.html ...rain_mb is , a Theano symbolic function which uses the 'updates' to update the Network.
+        i = T.lscalar() # mini-batch index
+		train_mb = theano.function(
+            [i], cost, updates=updates,
+            givens={
+                self.x:
+                training_x[i*self.mini_batch_size: (i+1)*self.mini_batch_size],
+                self.y:
+                training_y[i*self.mini_batch_size: (i+1)*self.mini_batch_size]
+            })
+			
+        validate_mb_accuracy = theano.function(.....
+		test_mb_accuracy = theano.function(.....
+		self.test_mb_predictions = theano.function((.....
+		
+		# Do the actual training
+        best_validation_accuracy = 0.0
+        for epoch in xrange(epochs):
+            for minibatch_index in xrange(num_training_batches):
+                iteration = num_training_batches*epoch+minibatch_index
+                if iteration ....:
+                    print(....)
+                cost_ij = train_mb(minibatch_index)
+
+                if (iteration+1) ....:
+                    validation_accuracy = np.mean(
+                        [....validate_mb_accuracy...])
+                    print(...epoch, validation_accuracy...)
+                    if validation_accuracy >= best_validation_accuracy:
+                        print("This is the best validation accuracy to date.")
+                        best_validation_accuracy = validation_accuracy
+                        best_iteration = iteration
+                        if test_data:
+                            test_accuracy = np.mean(
+                                [...test_mb_accuracy...])
+                            print(....test_accuracy....)
+
+
+				   
+class ConvPoolLayer(object): #ConvPoolLayer/FullyConnectedLayer/SoftmaxLayerrain_mb function, a Theano symbolic function which uses the updates to update the Network
+	__init__
+	# Initialize weights and biases
+	self.w = theano.shared(.....
+	self.b = theano.shared(.....
+		#loading the weights and biases into what Theano calls shared variables.
+		#This ensures that these variables can be processed on the GPU, if one is available
+		#initialization is designed for the sigmoid activation 
+		#different for tanh and rectified linear function
+	self.params = [self.w, self.b]
+	
+    def set_inpt(self, ....):
+        #to SET the INPUT to the layer
+		self.inpt = inpt.reshape(...:  SET the INPUT to the layer
+		self.output = ....(			:  COMPUTE the corresponding OUTPUT.
+        self.output_dropout = ...	:  use dropout
+
+#http://www.marekrei.com/blog/theano-tutorial/
+import network3
+from network3 import Network
+from network3 import ConvPoolLayer, FullyConnectedLayer, SoftmaxLayer
+------------------------------------------------
+training_data, validation_data, test_data = network3.load_data_shared()
+mini_batch_size = 10
+net = Network([
+				FullyConnectedLayer(n_in=784, n_out=100)
+				,SoftmaxLayer(n_in=100, n_out=10)]
+				, mini_batch_size
+			)	  
+net.SGD(training_data, 60, mini_batch_size, 0.1,validation_data, test_data)
+------------------------------------------------	  
+net = Network([
+				ConvPoolLayer(image_shape=(mini_batch_size, 1, 28, 28)
+				,filter_shape=(20, 1, 5, 5)
+				,poolsize=(2, 2))
+				,FullyConnectedLayer(n_in=20*12*12, n_out=100)
+				,SoftmaxLayer(n_in=100, n_out=10)]
+				, mini_batch_size
+				)	  
+net.SGD(training_data, 60, mini_batch_size, 0.1,validation_data, test_data)   
+------------------------------------------------			
+net = Network([
+				ConvPoolLayer(image_shape=(mini_batch_size, 1, 28, 28)
+				,filter_shape=(20, 1, 5, 5)
+				,poolsize=(2, 2))
+				,ConvPoolLayer(image_shape=(mini_batch_size, 20, 12, 12)
+				,filter_shape=(40, 20, 5, 5)
+				,poolsize=(2, 2))
+				,FullyConnectedLayer(n_in=40*4*4, n_out=100)
+				,SoftmaxLayer(n_in=100, n_out=10)]
+				, mini_batch_size
+			)		
+net.SGD(training_data, 60, mini_batch_size, 0.1,validation_data, test_data)
+------------------------------------------------		
+from network3 import ReLU
+net = Network([
+				ConvPoolLayer(image_shape=(mini_batch_size, 1, 28, 28)
+				,filter_shape=(20, 1, 5, 5)
+				,poolsize=(2, 2)
+				,activation_fn=ReLU)
+				,ConvPoolLayer(image_shape=(mini_batch_size, 20, 12, 12)
+				,filter_shape=(40, 20, 5, 5)
+				,poolsize=(2, 2)
+				,activation_fn=ReLU)
+				,FullyConnectedLayer(n_in=40*4*4, n_out=100, activation_fn=ReLU)
+				,SoftmaxLayer(n_in=100, n_out=10)], mini_batch_size
+			)		
+net.SGD(training_data, 60, mini_batch_size, 0.03,validation_data, test_data, lmbda=0.1)
