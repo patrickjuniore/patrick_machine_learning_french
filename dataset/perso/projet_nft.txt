@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=7j6xAUtCFt4&t=4s --Cette IA dessine tout ce que vous lui demandez et c'est dingue. 
+
+https://openai.com/blog/dall-e/
+https://openai.com/dall-e-2/ 
+https://answerthepublic.com/
+https://www.youtube.com/watch?v=jpATtEX-Cig --La recette de l'argent infini (selon un abonné)
+https://www.udemy.com/course/learn-how-to-create-your-nft-marketing-strategy-from-zero/learn/lecture/30417136?start=375#overview
+
+NEW DALL-E 2 AI Alternatives that you can try right now! Better than Dall E Mini, Best Text to Image https://www.youtube.com/watch?v=cs-9UI3qh8s&t=0s 
+
+Open AI Dall-E 2 (very closed beta) https://openai.com/dall-e-2/ 
+Google Imagen (completely closed) https://imagen.research.google/
+Midjourney (somewhat closed beta, paid access) https://www.midjourney.com/
+Dall E Flow (Free to use) https://github.com/jina-ai/dalle-flow
+Latent Diffusion (Free to use) https://huggingface.co/spaces/multimo...
+Dall E Mini Google Collab: https://github.com/borisdayma/dalle-mini
+Dall E Mini (Free to use) https://huggingface.co/spaces/dalle-m...
+Laionide-v3 (Free to use) https://replicate.com/afiaka87/laioni...
+RuDalle (Free to use) https://huggingface.co/spaces/multimo...
+Night Cafe (Free & Paid) https://creator.nightcafe.studio/create
