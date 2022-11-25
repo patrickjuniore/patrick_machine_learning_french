@@ -1,0 +1,62 @@
+https://khuyentran1401.github.io/reproducible-data-science/README.html
+------------------------------------2. Structure Project------------------------------------
+	2.1.2. Cookiecutter	     : template									
+	2.1.3. Poetry			 : Dependency management 
+	2.1.4. Makefile
+	2.1.5. Pytest            : Manage Code and Tests
+	2.1.6. hydra  			 : Manage configuration files 		   (main.yaml)
+	2.1.7. DVC               : Data version control
+	2.1.8. DVC				 : Store Your Data Remotely
+	
+	2.1.9. pre-commit plugins: Automate code reviewing formatting (.pre-commit-config.yaml)
+		black     : FORMATS Python code
+		flake8    : checks the STYLE and QUALITY of your Python code
+		isort     : automatically SORTS imported libraries ALPHABETICALLY and SEPARATES THEM INTO SECTIONS AND TYPES.
+		mypy      : checks STATIC TYPE
+		nbstripout: strips output from Jupyter notebooks
+		
+	2.1.10. pdoc: Automatically create API documentation for your project
+
+------------------------------------3. Test CODE------------------------------------
+Pytest
+------------------------------------4. Test Data------------------------------------
+great_expectations : validate, document, and profile your data to make sure the data is as you expected.
+Pandera			   : Validate Your pandas DataFrame 
+schema			   :
+------------------------------------5. Build Pipelines------------------------------------
+Prefect			  : Orchestrate a Data Science Project in Python
+Hydra			  : manage complex configurations in Python
+Weight & Biases	  : rack, compare, and visualize ML experiments. It is also integrated with many popular libraries such as TensorFlow, PyTorch, Kera, Scikit, Hugging Face, and XGBoost.
+------------------------------------7. Version Control------------------------------------
+DVC               : Data version control
+------------------------------------8. Deploy Models------------------------------------
+BentoML: Create an ML Powered Prediction Service in Minutes
+
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------2. STRUCTURE Project------------------------------------
+pip install cookiecutter
+poetry install
+pip install hydra-core 
+pre-commit install
+------------------------------------3. Test CODE------------------------------------
+pip install -U pytest
+------------------------------------4. Test Data------------------------------------
+pip install great_expectations
+pip install pandera
+pip install schema
+------------------------------------5. Build Pipelines------------------------------------
+pip install prefect
+------------------------------------6. Experiment Tracking------------------------------------
+pip install hydra-core
+pip install wandb
+------------------------------------7. Version Control------------------------------------
+pip install dvc
+------------------------------------8. Deploy Models------------------------------------
+pip install bentoml==1.0.0a4
+
+https://ninjapromo.io/top-nft-influencers
+https://www.fastcompany.com/40542440/forget-schmoozing-heres-how-to-get-influential-peoples-attention
+https://www.fastcompany.com/40465285/three-insanely-simple-email-templates-for-networking-with-strangers
+https://makealivingwriting.com/get-celebrity-interviews-7-strategies/
