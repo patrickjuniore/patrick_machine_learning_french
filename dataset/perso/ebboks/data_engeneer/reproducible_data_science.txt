@@ -95,6 +95,9 @@ most common neural net mistakes:
 5) you didn't use bias=False for your Linear/Conv2d layer when using BatchNorm, or conversely forget to include it for the output layer .This one won't make you silently fail, but they are spurious parameters
 6) thinking view() and permute() are the same thing (& incorrectly using view)
 
+https://github.com/Chloejay/kafka_airflow_playground/tree/master/kafkatest
+https://github.com/zhujun98/data-engineering
+
 ------------------------------------NFT------------------------------------
 https://ninjapromo.io/top-nft-influencers
 https://www.fastcompany.com/40542440/forget-schmoozing-heres-how-to-get-influential-peoples-attention
