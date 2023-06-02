@@ -1,0 +1,185 @@
+https://www.codementor.io/@theabbie/a-guide-to-grinding-leetcode-1sezxvvwwh
+https://seanprashad.com/leetcode-patterns/
+https://leetcode.com/list/xi4ci4ig/
+
+Algo
+continuer
+ARRAY
+	kadane's algo
+BASIC
+	Huffman cding
+	compression alago
+	euclid's algo
+	union find alogo
+SEARCHING
+	Linear serach
+	binary serch
+	depth first search
+	breadth first search
+SORTING
+	insertion sort
+	heap sort
+	selection sort
+	merge sort
+	quick sort
+	counting sort
+GRAPHS
+	krusakal's algo
+	dijksra's algo
+	belman ford algo
+	Floyd warshall algo
+	topological sort algo
+	flood fill algo
+	lee ago
+
+---------------------------------
+---------------------------------
+ARRAY
+algorithme de Kadane
+BASIC
+codage de Huffman
+algorithme de compression
+algorithme d'Euclide
+algorithme de Union-Find
+SEARCHING
+recherche linéaire
+recherche binaire
+recherche en profondeur
+recherche en largeur
+SORTING
+tri par insertion
+tri par tas
+tri par sélection
+tri fusion
+tri rapide
+tri comptage
+GRAPHS
+algorithme de Kruskal
+algorithme de Dijkstra
+algorithme de Bellman-Ford
+algorithme de Floyd-Warshall
+algorithme de tri topologique
+Algorithme de remplissage par diffusion
+algorithme de Lee.
+
+expliquer en français et avec un exemple sans code l'algorithme de KADANE.
+qu'est ce que "le sous-tableau contigu d'un tableau qui a la somme maximale." et quand ça peut être utile?
+
+expliquer en français et avec un exemple sans code le codage de HUFFMAN.
+implementer le codage de HUFFMAN en python.
+
+expliquer en français et avec un exemple sans code l'algorithme de Union-Find.
+implementer l'algorithme de Union-Find en python.
+
+expliquer en français et avec un exemple sans code l'algorithme de recherche BINAIRE en PROFONDEUR.
+implementer l'algorithme de recherche BINAIRE en PROFONDEUR en python.
+dans notre exemple quel est le résultat final?
+
+expliquer en français et avec un exemple sans code l'algorithme de recherche BINAIRE en LARGEUR.
+implementer l'algorithme de recherche BINAIRE en LARGEUR en python.
+
+expliquer en français et avec un exemple sans code l'algorithme de KRUSKAL.
+implémenter l'algorithme de KRUSKAL. en python.
+expliquer en français et avec un exemple sans code l'algorithme de DIJKSTRA.
+implémenter l'algorithme de DIJKSTRA en python.
+expliquer en français et avec un exemple sans code l'algorithme de BELLMAN-FORD.
+implémenter l'algorithme de BELLMAN-FORD en python.
+expliquer en français et avec un exemple sans code l'algorithme de FLOYD-WARSHALL.
+implémenter l'algorithme de FLOYD-WARSHALL en python.
+expliquer en français et avec un exemple sans code l'algorithme de TRI TOPOLOGIQUE.
+implémenter l'algorithme de TRI TOPOLOGIQUE en python.
+expliquer en français et avec un exemple sans code l'algorithme de REMPLISSAGE PAR DIFFUSION	
+implémenter l'algorithme de REMPLISSAGE PAR DIFFUSION en python.
+expliquer en français et avec un exemple sans code l'algorithme de LEE.
+implémenter l'algorithme de LEE en python.
+---------------------------------
+---------------------------------
+Tuple Unpacking
+Using "else" in loops:
+Using "zip" and "enumerate": "
+"lambda" functions:
+
+Using "*args" and "**kwargs" in function definition:
+
+-----------------
+illustrer dans un cas très classique d'utilisation "Tuple Unpacking" (python) dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de "Tuple Unpacking" dans la vie quotidienne d'un data engeneer(cette fois sans code)
+-----------------
+illustrer dans un cas très classique d'utilisation de "zip" et "enumerate" (python) dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de "zip" et "enumerate" dans la vie quotidienne d'un data engeneer(cette fois sans code)
+-----------------
+illustrer dans un cas très classique d'utilisation de fonctions "lambda" (python) dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de fonctions "lambda"  dans la vie quotidienne d'un data engeneer(cette fois sans code)
+-----------------
+illustrer dans un cas très classique d'utilisation de Programmation asynchrone (python) dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de Programmation asynchrone  dans la vie quotidienne d'un data engeneer(cette fois sans code)
+---------------------------------
+---------------------------------
+scientist
+continuer
+
+illustre dans un cas très classique d'utilisation décorateur(python) dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de decorateurs dans la vie quotidienne d'un data scientist(cette fois sans code)
+5 autres exemples d'usage de generateurs dans la vie quotidienne d'un data scientist (cette fois sans code)
+5 autres exemples d'usage d'itérateurs dans la vie quotidienne d'un data scientist (cette fois sans code)
+5 autres exemples d'usage  de gestionnaires de contexte dans la vie quotidienne d'un data scientist (cette fois sans code)
+exemple  d'usage de Meta-programmation dans la vie quotidienne d'un data scientist(cette fois avec code)
+illustrer dans un cas très classique d'utilisation Meta-programmation (python) dans la vie quotidienne d'un data scientist.
+
+5 autres exemples d'usage de "Tuple Unpacking" (cette fois avec code)
+illustrer dans un cas très classique d'utilisation "Tuple Unpacking" (python) dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de "Tuple Unpacking" dans la vie quotidienne d'un data scientist(cette fois sans code)
+illustrer dans un cas très classique d'utilisation de "zip" et "enumerate" (python) dans la vie quotidienne d'un data scientist
+5 autres exemples d'usage de "zip" et "enumerate" dans la vie quotidienne d'un data scientist(cette fois sans code)
+illustrer dans un cas très classique d'utilisation de fonctions "lambda" (python) dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de fonctions "lambda"  dans la vie quotidienne d'un data scientist(cette fois sans code)
+illustrer dans un cas très classique d'utilisation de Programmation asynchrone (python) dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de Programmation asynchrone  dans la vie quotidienne d'un data scientist(cette fois sans code)
+
+---------------------------------
+---------------------------------
+
+ANY ALL
+ARGS KWARGS
+ternaires
+
+instrospection: help, module sys,dir, _doc_, fonction type,fonction id
+les sets
+
+illustrer dans un cas très classique d'utilisation ANY et  ALL(python) dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de ANY et  ALL (cette fois avec code)
+illustrer dans un cas très classique d'utilisation ARGS et KWARGS(python) dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de ARGS et KWARGS (cette fois avec code)
+illustrer dans un cas très classique d'utilisation des opérateurs ternaires dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage des des opérateurs ternaires (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de help dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de help (cette fois avec code)
+illustrer dans un cas très classique d'utilisation du module sys dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage du module sys (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de _doc_  dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de _doc_ (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de la fonction type dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de la fonction type dan (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de la fonction id dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage de la fonction id (cette fois avec code)
+illustrer dans un cas très classique d'utilisation des sets dans la vie quotidienne d'un data engeneer.
+5 autres exemples d'usage des sets (cette fois avec code)
+
+illustrer dans un cas très classique d'utilisation ANY et  ALL(python) dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de ANY et  ALL (cette fois avec code)
+illustrer dans un cas très classique d'utilisation ARGS et KWARGS(python) dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de ARGS et KWARGS (cette fois avec code)
+illustrer dans un cas très classique d'utilisation des opérateurs ternaires dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage des des opérateurs ternaires (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de help dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de help (cette fois avec code)
+illustrer dans un cas très classique d'utilisation du module sys dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage du module sys (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de _doc_  dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de _doc_ (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de la fonction type dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de la fonction type dan (cette fois avec code)
+illustrer dans un cas très classique d'utilisation de la fonction id dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage de la fonction id (cette fois avec code)
+illustrer dans un cas très classique d'utilisation des sets dans la vie quotidienne d'un data scientist.
+5 autres exemples d'usage des sets (cette fois avec code)

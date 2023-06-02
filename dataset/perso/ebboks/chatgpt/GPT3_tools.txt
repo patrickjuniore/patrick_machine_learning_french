@@ -1,0 +1,38 @@
+https://medium.com/geekculture/6-chatgpt-mind-blowing-extensions-to-use-it-anywhere-db6638640ec7
+https://frank-andrade.medium.com/3-chatgpt-extensions-to-automate-your-life-ae4f66100262
+https://medium.com/dare-to-be-better/7-companies-that-generated-millions-in-revenue-with-0-employees-793e7c85f164
+https://levelup.gitconnected.com/meet-a-programmer-who-turned-an-open-source-platform-into-a-7-500-000-000-company-645e14c53c8
+
+https://blog.devgenius.io/5-mindblowing-ai-tools-which-waiting-list-you-must-join-a994376a9939
+https://www.businessinsider.com/developer-sharif-shameem-openai-gpt-3-debuild-2020-9?r=US&IR=T
+
+
+https://nogood.io/2021/06/25/gpt-3-tools/
+
+Poetry
+Pytest
+hydra
+DVC	
+
+illustre dans un cas très classique d'utilisation de Poetry(python) dans la vie quotidienne d'un data engeneer. 
+illustre dans un cas très classique d'utilisation de Pytest(python) dans la vie quotidienne d'un data engeneer.    
+illustre dans un cas très classique d'utilisation de hydra(python) dans la vie quotidienne d'un data engeneer.
+montrer 5 exemples les plus courant d'usage de hydra(python) dans la vie quotidienne d'un data engeneer.
+illustre dans un cas très classique d'utilisation de DVC(python) dans la vie quotidienne d'un data engeneer.  
+
+scientist.  
+
+illustre dans un cas très classique d'utilisation de Poetry(python) dans la vie quotidienne d'un data scientist.
+illustre dans un cas très classique d'utilisation de Pytest(python) dans la vie quotidienne d'un data scientist.
+illustre dans un cas très classique d'utilisation de hydra(python) dans la vie quotidienne d'un data scientist.
+montrer 5 exemples les plus courant d'usage de hydra(python) dans la vie quotidienne d'un data scientist.
+illustre dans un cas très classique d'utilisation de DVC(python) dans la vie quotidienne d'un data scientist.
+
+
+https://en.wikipedia.org/wiki/Von_Neumann_cellular_automaton
+https://ia600507.us.archive.org/26/items/theoryofselfrepr00vonn_0/theoryofselfrepr00vonn_0.pdf
+
+https://www.linkedin.com/pulse/how-i-used-webflow-gpt-3-create-b2b-saas-landing-page-tom-schneider
+https://frontegg.com/lp/build-winning-saas-app
+https://www.benoiteveillard.com/blog/tuto-comment-connecter-gpt-3-a-webflow
+https://saasclub.io/no-code-saas-mvp/

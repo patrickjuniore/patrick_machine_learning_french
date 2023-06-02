@@ -1,0 +1,866 @@
+"The ribosome as a missing link in the evolution of life"
+https://www.sciencedirect.com/science/article/pii/S0022519314006778?via%3Dihub
+
+https://www.sciencedaily.com/releases/2015/01/150107101405.htm
+https://atlasofscience.org/a-selfish-ribosome-as-the-origin-of-cellular-life/
+
+"The Ribosome as a Missing Link in Prebiotic Evolution III: 
+Over-Representation of tRNA- and rRNA-Like Sequences and Plieofunctionality of Ribosome-Related Molecules Argues for the Evolution of Primitive Genomes from Ribosomal RNA Modules"
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6337102/
+
+----------------------------------------------------------------------
+https://forums.futura-sciences.com/biologie/807654-gene-chevauchant-ca-veux-dire-quoi.html
+https://fr.wikipedia.org/wiki/Acidocalcisomes (Acidocalcisome)
+https://link.springer.com/article/10.1007/s11084-021-09604-5
+----------------------------------------------------------------------
+Ce passage suggère que le ribosome, une structure présente dans les cellules qui joue un rôle clé dans la synthèse protéique
+,pourrait représenter un élément important qui manque dans notre compréhension de l'évolution de la vie cellulaire. 
+
+Selon l'auteur, il y a des preuves que les ARN ribosomiques (ARNr) de certaines bactéries contiendraient des informations pour coder tous les ARN transporteurs pour les 20 acides aminés
+, ainsi que des séquences qui pourraient coder pour:
+	-des fragments de protéines ribosomiques
+	-, des polymérases, des ligases
+	-, des synthétases 
+	-et des phosphatases. 
+En outre, l'auteur avance que chaque séquence de bases dans l'ARNr pourrait avoir plus d'une fonction en plus de sa fonction structurelle dans le ribosome. 
+
+Selon l'auteur, cela signifie que l'ARNr n'est pas simplement une structure support pour les protéines, mais qu'il pourrait être le vestige d'un génome primordial qui aurait codé pour 
+	une structure auto-organisée
+	,auto-répliquante 
+	et auto-catalytique 
+intermédiaire entre les macromolécules et la vie cellulaire.
+https://fr.wikipedia.org/wiki/EF-Tu#:~:text=La%20prot%C3%A9ine%20EF%2DTu%20est,du%20codon%20sur%20l'ARNm.
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+"The ribosome as a missing link in the evolution of life"
+https://www.sciencedirect.com/science/article/pii/S0022519314006778?via%3Dihub
+
+POINTS CLÉS
+
+• Nous faisons l'hypothèse que le ribosome était un intermédiaire auto-réplicatif entre:
+	l'univers compositional ou RNA-world et la vie cellulaire(ou "last universal common ancestor"). 
+• L'ARN ribosomial (rRNA) contient des informations génétiques qui codent pour les mécanismes d'auto-réplication : tous les 20 tRNAs et les sites actifs de protéines ribosomales clés.
+• Les analyses statistiques montrent que les encodages de l'rRNA sont très peu probables d'avoir été obtenus par hasard.
+• Cela contredit la vision de l'rRNA comme étant purement structurelle et suggère plutôt qu'il y a un ANCÊTRE COMMUN entre l'rRNA, l'ARN messager (mRNA) et le tRNA.
+• Cela suggère que l'ADN et les cellules ont évolué pour protéger et optimiser les fonctions du ribosome préexistant.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+RÉSUMÉ
+
+De nombreux aspects de l'évolution de la vie cellulaire sont encore mystérieux. 
+L'auteur avance que le ribosome pourrait représenter un ÉLÉMENT IMPORTANT manquant dans notre compréhension de cette évolution
+, en RELIANT les approches 
+	de la vie composée ("metabolism-first")
+	, de l'univers RNA ("RNA-world" ou "genes-first") 
+	et de la vie cellulaire ("last universal common ancestor"). 
+Selon l'auteur, il y a des preuves que les ARN ribosomiques (ARNr) de certaines bactéries contiendraient des informations pour coder tous les ARN TRANSPORTEURS pour les 20 acides aminés
+, ainsi que des séquences qui pourraient coder pour des fragments de PROTÉINES RIBOSOMIQUES, des POLYMÉRASES, des LIGASES, des SYNTHÉTASES et des PHOSPHATASES. 
+En outre, l'auteur avance que chaque séquence de bases dans l'ARNr pourrait avoir PLUS D'UNE FONCTION en PLUS de sa FONCTION STRUCTURELLE dans le ribosome. 
+Selon l'auteur, cela signifie que l'ARNr n'est PAS SIMPLEMENT UNE STRUCTURE SUPPORT pour les protéines
+, mais qu'il pourrait être le VESTIGE D'UN GÉNOME PRIMORDIAL qui aurait codé pour une structure 
+	auto-organisée
+	, auto-répliquante 
+	et auto-catalytique 
+intermédiaire entre les macromolécules et la vie cellulaire.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+RÉSUMÉ GRAPHIQUE
+
+Le résumé graphique présente une carte illustrant l'emplacement des ARN transporteurs (tRNAs) et des protéines 
+	dans les SIX CADRES de lecture possibles 
+	sur les ARN ribosomiques 23S, 16S et 5S 
+	de Escherichia coli K12. 
+La carte suggère que l'ARNr a une fois contenu une information génétique hautement redondante et condensée codant pour la réplication du ribosome de soi. 
+	"tRNA cut" signifie que les tRNAs peuvent être excisés de l'ARNr, tandis que 
+	"tRNA transcribed" signifie que la production de tRNA est obtenue en transcrit l'ARNr.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+1. INTRODUCTION
+
+Un défi dans l'explication de l'émergence de la vie, qui consiste à comprendre comment quelque chose de complexe comme une cellule vivante a pu évoluer. 
+Actuellement, plusieurs approches générales dominent la pensée évolutionniste. 
+
+En partant de la simplicité vers la complexité, les modèles de l'univers RNA ("RNA-world" ou "genetics-first") et de la réplication composée ("metabolism-first") fournissent des insights sur l'évolution prébiotique précoce
+, depuis les molécules simples jusqu'aux premiers polymères et aux agrégats de polymères. 
+
+Aucun de ces types de modèles n'explique complètement l'évolution des cellules. 
+
+Les modèles de l'univers RNA ne peuvent pas expliquer l'évolution du métabolisme et n'ont généralement pas en compte le fait que les acides aminés (et donc les peptides et les protéines) 
+ont presque certainement été synthétisés avec les polynucléotides dans des conditions prébiotiques, ce qui rend presque certain que ces classes de molécules ont co-évolué.
+Les modèles de réplication composée ("metabolism-first") peuvent expliquer une telle co-évolution, mais pas comment les schémas de réplication linéaires sont devenus dominants. 
+
+En outre, aucun de ces types de modèles ne tient compte de la manière dont les molécules de réplication simples ou les agrégats de molécules ont évolué en des cellules complexes 
+avec des compartiments et des structures organisées comme les ribosomes, les ACIDOCALCISOMES et les membranes fonctionnelles qui incorporaient des transporteurs et des récepteurs spécialisés. 
+
+Les modèles de l'ancêtre universel commun (LUCA) - la forme de vie cellulaire présomptive première - tentent de résoudre certains de ces problèmes en partant de la complexité vers la simplicité. 
+Les modèles LUCA fournissent des insights (avec beaucoup de désaccords) sur la complexité minimale requise pour la cellule
+, mais révèlent peu sur les étapes évolutives précédentes. Il y a un énorme vide entre les modèles de simplicité vers la complexité
+, qui peuvent suggérer comment la réplication simple de petits ensembles de polymères a pu émerger, et les modèles de complexité vers la simplicité
+, qui suggèrent un minimum de plusieurs centaines de gènes et de leurs produits réseautés dans des compartiments métaboliques spécialisés. 
+Quelles sortes d'entités évolutives pourraient combler cet écart?
+----------------------------------------------------------------------
+Ce passage suggère qu'il y avait probablement des ENTITÉS ÉVOLUTIVES situées entre les polymères auto-répliquants et les cellules pleinement fonctionnelles
+, qui possédaient de nombreuses (mais pas toutes) des fonctions d'une cellule
+, mais qui étaient significativement plus simples en composition et organisation. 
+
+Ces entités devaient être capables de s'auto-organiser et de se répliquer elles-mêmes
+, de stocker de l'information et de la répliquer
+, de traduire cette information en composants nécessaires à la production de leurs structures fonctionnelles
+, de capturer des composants MÉTABOLIQUES et de l'ÉNERGIE
+, et de transformer ces derniers en réseaux biochimiques utiles. 
+
+Norris et ses collègues ont appelé ces formes de fonctionnement intermédiaires entre les macromolécules et les cellules des "hyperstructures" (Norris et al., 2007). 
+De telles hyperstructures devaient être instanciées en tant qu'entités évolutives, ce qui signifie que leurs composants seraient soumis à variation, réplication et sélection naturelle. 
+Le plus important, ces entités hyperstructurales évolutives devraient exister sous une FORME VESTIGIALE dans les systèmes vivants d'aujourd'hui
+, car l'évolution tend à être PARSIMONIEUSE, utilisant les MODULES QUI ONT SURVÉCU à des tours de sélection précédents pour évoluer le prochain ensemble. 
+En effet, c'est cette PARSIMONIES qui produit une PALÉONTOLOGIE MOLÉCULAIRE permettant d'étudier l'évolution.
+
+Nous suggérons qu'une entité similaire au ribosome était l'un des intermédiaires clés entre l'évolution prébiotique et cellulaire.
+
+----------------------------------------------------------------------
+Les ribosomes sont indispensables à toute forme de vie cellulaire, conservés de manière ubiquitaire, avec des racines génétiques qui précèdent le LUCA
+, et donc des entités qui ont dû évoluer avant la vie cellulaire elle-même (Mushegian, 2008, Wang et al., 2009, Fox, 2010). 
+
+Bien que le ribosome puisse ne pas être capable de larges processus métaboliques qui caractérisent la vie cellulaire
+, il s'agit d'un COMPLEXE AUTO-ORGANISÉ composé À LA FOIS de POLYNUCLÉOTIDES et de PROTÉINES qui pourrait relier l'univers RNA aux concepts de réplication composée dans les origines de la vie. 
+De plus, les ribosomes effectuent certaines des RÉACTIONS CHIMIQUES les plus fondamentales caractéristiques des systèmes vivants
+, y compris une série coordonnée de réactions chimiques capables de traduire l'information génétique en protéines fonctionnelles. 
+Ce que les ribosomes ne sont PAS CENSÉS FAIRE, c'est TRANSPORTER de l'information génétique, en particulier l'INFORMATION GÉNÉTIQUE NÉCESSAIRE POUR CODER LEURS PROPRES STRUCTURES ET FONCTIONS. 
+
+Mais que se passerait-il si l'ARN ribosomique (ARNr), qui est généralement considéré comme simplement un composant structurel des ribosomes
+, représentait en réalité un GÉNOME PRIMITIF codant pour l'information génétique nécessaire pour diriger la RÉPLICATION ribosomique, la TRADUCTION et l'AUTO-ORGANISATION?
+
+----------------------------------------------------------------------
+Il est important de garder à l'esprit notre HYPOTHÈSE lors de l'évaluation des résultats ci-dessous
+, qui est que le RIBOSOME a évolué avant la vie cellulaire et AVAIT LA CAPACITÉ DE CODER GÉNÉTIQUEMENT SON PROPRE APPAREIL DE TRANSCRIPTION ET DE TRADUCTION. 
+
+L'ARNr devrait donc CODER pour les tRNAs et les PROTÉINES NÉCESSAIRES À LA FONCTION RIBOSOMIQUE. 
+(Cette déclaration doit bien sûr être modérée par le fait que les ribosomes ont existé à l'intérieur de cellules pendant des milliards d'années
+, de sorte que toute information qu'ils ont contenue à un moment donné sera devenue, à ce stade de l'histoire, d'une nature un peu altérée ou VESTIGIALE.) 
+
+Cette hypothèse doit être comparée à la vue moderne de l'ARN ribosomique, qui est qu'il est PUREMENT STRUCTURAL EN NATURE et NE CODE PAS POUR DE L'INFORMATION GÉNÉTIQUE. 
+Cette vue moderne peut être considérée comme l'HYPOTHÈSE "NULLE". 
+
+Une HYPOTHÈSE INTERMÉDIAIRE pourrait être que la QUANTITÉ D'INFORMATION GÉNÉTIQUE codée dans l'ARNr est PUREMENT ALÉATOIRE 
+et que le nombre de tRNAs et de protéines liées aux ribosomes codés par l'ARNr NE SERA PAS PLUS OU MOINS IMPORTANT que tout AUTRE ASSORTIMENT ALÉATOIRE DE TOUT AUTRE ENSEMBLE DE RNAS CHOISIS AU HASARD. 
+Les tests rapportés ci-dessous ont été choisis pour différencier entre ces TROIS HYPOTHÈSES.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+2. MÉTHODES
+
+Nous avons choisi ESCHERICHIA COLI K12 pour notre étude sur la possibilité que l'ARNr code pour d'autres molécules fonctionnelles 
+sur la base du fait qu'une telle étude devrait initialement être réalisée sur un organisme considéré comme PRIMITIF SUR LE PLAN ÉVOLUTIF, comme une bactérie. 
+De plus, le génome et les PROTÉINES d'E. coli K12 ont été TRÈS BIEN CARACTÉRISÉS.
+----------------------------
+2.2. TRNA HOMOLOGY SEARCH
+
+La possibilité que l'ARNr d'E. coli K12 code pour des tRNAs a été explorée à l'aide de LALIGN (Huang et Miller, 1991) sur www.expasy.ch. 
+La méthode d'alignement était une recherche "ADN" pour un alignement, "global sans pénalité de fin de gap". 
+Les paramètres pour les pénalités d'ouverture et de fin de gap ont été laissés à leurs valeurs par défaut. 
+
+Pour des raisons de consistance, la SÉQUENCE RIBOSOMIQUE a été mise dans la PREMIÈRE CASE en tant que "texte brut". 
+La SÉQUENCE de tRNA a été entrée dans la SECONDE CASE, également en tant que "texte brut".
+ 
+Les séquences de tRNA ont ensuite été recherchées de deux manières. 
+
+La PREMIÈRE MÉTHODE consistait à TRANSCRIRE les séquences ADN (c'est-à-dire les gènes codant pour les tRNAs) EN SÉQUENCES ARN à l'aide d'un programme de brin complémentaire 
+(http://clasher.myweb.uga.edu/testpages/seqconv.html ou http://bioinfx.net/).
+Cette première méthode fait CORRESPONDRE le tRNA produit par son gène à l'ARNr existant. 
+Une correspondance entre le tRNA et l'ARNr suggère que l'ARNr lui-même est la source directe des tRNAs, probablement par une fonction telle que la fragmentation. 
+
+La SECONDE MÉTHODE utilisée pour la correspondance consistait à SUBSTITUER chaque base THYMINE (T) dans le gène de tRNA par une base URACILE (U) en utilisant la fonction "Rechercher et remplacer" de Microsoft Word. 
+Cette forme de correspondance entre le tRNA et l'ARNr suppose que les tRNAs pourraient être codés dans une chaîne d'ARN complémentaire de l'ARNr. 
+En d'autres termes, peut-être dans un système précellulaire primitif, les tRNAs étaient transcrits à partir de l'ARNr plutôt que d'exister sous forme de fragments à l'intérieur de ceux-ci.
+----------------------------
+Nous soulignons que le choix du programme de recherche de similitude est essentiel pour les résultats rapportés ici. 
+Par exemple, si l'on utilise le programme BLAST GENBANK de NCBI pour rechercher des similitudes tRNA-ARNr, la recherche ne donnera "aucun résultat" même en mode "quelque peu similaire (blastn)". 
+Le PROBLÈME est que ce mode cherche des SÉQUENCES IDENTIQUES ayant le nombre d'identités prédéfinies dans les paramètres de l'algorithme. 
+
+Le préréglage sur "QUELQUE PEU SIMILAIRE" est de 11, ce qui signifie qu'il doit y avoir AU MOINS 11 CORRESPONDANCES de base identiques de suite ou rien n'est envoyé en sortie. 
+Changer le préréglage à 7 donne des "hits" lors de la comparaison des tRNAs d'E. coli aux ARNr d'E. coli, mais la sortie ne concerne que cette région spécifique d'identité. 
+Le programme ne montre pas à quel point le reste de la séquence correspond ni ne fournit d'informations sur les correspondances avec des gaps.
+
+En d'autres termes, le programme ne cherche pas, comme LALIGN, le meilleur accord global sur l'ensemble de la séquence d'entrée. 
+Nous mettons donc en garde les lecteurs à bien faire attention aux paramètres intégrés dans les programmes de recherche lorsqu'ils tentent de réaliser les types d'analyses rapportées ici. 
+Connaître le but et la manière dont chaque programme effectue sa recherche est un élément essentiel de telles enquêtes.
+----------------------------
+2.3. tRNA secondary structure computation
+
+Les structures secondaires les plus probables pour les similitudes de tRNA observées dans la recherche de similarité de tRNA ci-dessus ont été calculées à l'aide du site Web RNA Structure de l'Université de Rochester : 
+http://rna.urmc.rochester.edu/RNAstructureWeb/Servers/Predict1/Predict1.html. 
+DEUX FONCTIONNALITÉS du site ont été utilisées. 
+L'une était le calcul de chaque SIMILARITÉ de tRNA INDIVIDUELLEMENT ; l'autre était le calcul de la structure la PLUS PROBABLE COMMUNE PARTAGÉE par deux tRNA. 
+Ce dernier a été utilisé spécifiquement pour déterminer si une similarité de tRNA codée par l'ARNr conservait une identité suffisante avec un tRNA d'E. coli K12 moderne pour se plier dans le même patron secondaire.
+----------------------------
+2.4. Ribosomal protein homology search
+
+BLAST2.0 a été utilisé sur le site www.expasy.ch pour déterminer si l'ARN ribosomique de E. coli K12 code pour des protéines liées à la fonction ribosomique. 
+Les séquences d'ARN ribosomiques 5S, 16S et 23S ainsi que les ARNm de protéine fimbrielle, de protéine d'efflux de sucre et d'une région non codante (témoins) ont été traduits dans les SIX cadres de lecture possibles
+, de un à trois, les cadres de lecture standard directement encodés (5'-->3') et de quatre à SIX, les compléments inverses (3'-->5'). 
+Ces traductions ont été réalisées à l'aide de l'outil de traduction sur le site de l'Institut suisse de bioinformatique http://web.expasy.org/cgi-bin/translate/dna_aa. 
+Des recherches BLAST ont été effectuées sur le site de l'Institut suisse de bioinformatique (http://www.expasy.org) sur les SIX cadres de lecture pour chacune des trois séquences d'ARN ribosomiques.
+
+Deux types de recherches BLAST ont été utilisés. 
+
+Dans le premier, les séquences d'ARNr traduites ont été entrées au format RAW et comparées avec le proteome ECOLI Escherichia coli K12 de la liste "Select Microbial Proteome" en utilisant un programme blastp. 
+Les séquences de score, les meilleurs alignements à afficher et le seuil E ont tous été réglés sur "1000" et l'alignement "gapped" a été désactivé. 
+Nous soulignons que l'utilisation du seuil E n'avait pas pour but de produire des informations statistiques 
+- ni ne pouvait le faire car chaque recherche a été effectuée en utilisant le même seuil de valeur E et aurait donc essentiellement des probabilités statistiques identiques - 
+mais plutôt pour garantir que les ensembles de données produits par l'ARNr et l'ARNm de contrôle avaient la même qualité et la même valeur.
+On a effectué une analyse statistique des résultats en tant qu'étape indépendante après l'évaluation des jeux de données d'ARNr et d'ARNm de contrôle pour la présence de protéines associées au ribosome.
+Le but de cette méthode était de déterminer si l'ARNr était plus susceptible que des ensembles aléatoires d'ARNm de coder des protéines similaires au ribosome. 
+
+Dans le deuxième type de recherche BLAST
+, les SIX protéines d'ARNr pour chacun des trois ARNm ont à nouveau été entrées au format RAW dans le programme blastp
+, mais "Escherichia coli" a été choisi dans la section "Sélectionner une base de données" plutôt que dans la section "Sélectionner un protéome microbien". 
+Cette deuxième recherche était plus large que la première. 
+Les autres paramètres de cette deuxième recherche étaient les mêmes que dans la première recherche.
+----------------------------
+2.5. Statistics
+
+Alors que les recherches BLAST fournissent des statistiques intégrées telles que la valeur E
+, ces statistiques intégrées ont été ignorées dans l'étude actuelle et utilisées plutôt pour générer des ensembles de données ayant des valeurs probabilistes équivalentes
+, à partir desquelles commencer les tests des hypothèses présentées dans l'article. 
+
+Ces hypothèses prennent généralement la forme de propositions selon lesquelles l'ARNr est beaucoup plus susceptible que des ensembles aléatoires d'ARNm de coder des fonctions liées aux ribosomes
+, telles que les ARNt et les protéines ribosomales. 
+
+En utilisant les mêmes valeurs de sortie dans toutes les recherches BLAST pour les ARNr et les ARNm
+, il était possible de s'assurer que les ensembles de données générés étaient comparables lors de l'application de mesures statistiques supplémentaires visant directement les hypothèses.
+
+Des comparaisons statistiques entre les encodages d'ARNt trouvés dans les ARNr et les ARNm des séquences de contrôle ont été réalisées à l'aide d'un test de Kolmogorov-Smirnov. 
+Dans les essais initiaux, les résultats d'ARNt pour chaque ARNr ou ARNm étaient triés par l'acide aminé codé ou par le nombre total d'identités 
+; aucune différence n'a été constatée entre ces deux tris , donc le tri par acide aminé a été adopté.
+
+Pour réaliser les comparaisons statistiques entre les encodages de protéines des ARNr et les ARNm des séquences de contrôle
+, seules les similarités provenant de la recherche blastp décrite ci-dessus et ayant une valeur E inférieure à 100 ont été utilisées. 
+L'utilisation de cette valeur seuil a limité la quantité de données à comparer à des proportions gérables
+, car le nombre total de similarités protéiques pour les SIX cadres de lecture combinés à partir d'une séquence ARN donnée était inférieur à 160 pour E=100
+, tandis que l'utilisation de E=1000 donnait entre 50 et 300 par cadre de lecture. 
+Le test exact de Fisher a été obtenu à partir de http://graphpad.com/quickcalcs/contingency2/. Le test de Kolmogorov-Smirnov (K-S) a été réalisé avec la version 3.1.0 de R en utilisant la commande ks.test. 
+La correction de Bonferroni a été appliquée à toutes les analyses afin de contrôler le taux d'erreur global, en raison des tests multiples de chaque ensemble de données (Gould et Gould, 2002).
+
+Pour réaliser les comparaisons statistiques entre 
+	les sites actifs des protéines codées par l'ARNr et 
+	les protéines codées par l'ARNm de contrôle
+, toutes les protéines liées à la fonction ribosomale générées par la méthode décrite ci-dessus ont été saisies manuellement
+, une par une, dans le système de base de données UniProt via www.expasy.org. 
+
+Le nombre de séquences protéiques pour lesquelles il n'y avait pas d'informations structurelles a été accumulé, de même que le nombre de séquences pour lesquelles il y avait des informations structurelles. 
+Celles pour lesquelles des informations structurelles étaient disponibles ont été catégorisées comme appartenant 
+	soit à une région de la protéine n'ayant pas de fonction connue
+	, soit, si elle chevauchait ou englobait une région fonctionnelle, comme ayant une fonction connue. 
+	
+Le pourcentage de similarités protéiques codées par l'ARNr ayant une fonction connue a été calculé en divisant 
+	le nombre de protéines ayant une fonction connue par 
+	le nombre total de protéines ayant une fonction connue et inconnue (en ignorant les protéines pour lesquelles aucune fonctionnalité n'était disponible). 
+Le pourcentage de protéines actives codées par l'ARNr a ensuite été comparé à l'aide d'une analyse du chi-carré aux pourcentages de protéines actives codées par l'ARNr à partir des protéines codées par l'ARNm. 
+Étant donné que chaque pourcentage a été utilisé dans plusieurs tests, une correction de Bonferroni a été appliquée à l'ensemble des tests (Gould et Gould, 2002).
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+3. RESULTS
+
+Dans l'ensemble, nos résultats favorisent clairement l'hypothèse selon laquelle le ribosome pourrait avoir été une entité primordiale autoréplicative
+, par opposition aux hypothèses alternatives selon lesquelles l'ARNr ne contient aucune information génétique 
+ou qu'il contient une information génétique aléatoire telle que l'on pourrait trouver par hasard dans n'importe quelle séquence d'ARN.
+----------------------------
+3.1. tRNAs encoded in rRNAs
+
+Afin de déterminer si l'ARNr code des séquences similaires à l'ARNt
+, le programme de similarité LALIGN [16] du Swiss Institute of Bioinformatics (www.expasy.ch) a été utilisé pour comparer les séquences 5S, 16S et 23S de l'ARNr d'E. coli K12 avec les séquences d'ARNt d'E. coli K12 
+(voir la section 2 pour les sources des séquences) de manière pairwise en utilisant la fonction DNA. 
+
+Les résultats de LALIGN ont été obtenus de deux manières différentes. 
+
+L'UNE était une recherche GLOBALE SANS PÉNALITÉS d'espacement en fin de séquence
+, et l'AUTRE était une recherche LOCALE AVEC DES PÉNALITÉS d'espacement en fin de séquence aux paramètres par défaut. 
+
+Toutes les similarités rapportées entre l'ARNr et les ARNt présentaient au moins 50% d'identité sur l'ensemble de la séquence de l'ARNt, et pouvaient atteindre jusqu'à 70% d'identité. 
+Dans la plupart des cas, les similarités rapportées incluaient une identité au site anticodon pour l'ARNt spécifique de l'acide aminé en question. 
+Ces résultats ont été comparés aux similarités dérivées d'une recherche identique sur l'ARN d'une protéine fimbriale d'E. coli K12
+, d'un ARN de protéine d'efflux de sucre et d'une région non codante du génome pour les similarités avec les ARNt. 
+Les ARNm de contrôle présentaient significativement moins de similarités avec les ARNt pour un degré donné d'identité par rapport aux ARNr. 
+Les résultats de la recherche GLOBALE sont présentés dans le TABLEAU 1. 
+Dans les comparaisons globales, les séquences 16S et 23S ne diffèrent pas significativement l'une de l'autre quant à la présence de séquences d'ARNt dans leurs séquences (p = 0,818, test de Kolmogorov-Smirnov)
+, et les séquences de contrôle ne diffèrent pas significativement les unes des autres (voir Tableau 1). 
+Cependant, les séquences 16S et 23S diffèrent significativement des séquences de contrôle (toutes les combinaisons p < 0,017, test de Kolmogorov-Smirnov avec correction de Bonferroni pour 3 comparaisons (a = 0,017)). 
+
+Des différences très similaires ont été observées dans la recherche de similarité LOCALE (TABLEAU 2).
+
+TABLEAU 1. 
+Comparaison statistique des probabilités que les différences dans l'apparition des séquences d'ARNt dans les ARNr et les ARNm de contrôle soient dues au hasard. 
+Chaque ARNt codé dans E. coli K12 a été comparé 
+	à chaque ARNr (16S et 23S) d'E. coli K12 ainsi 
+	qu'aux ARNm 
+		de la protéine fimbriale d'E. coli K12
+		, de la protéine d'efflux de sucre et 
+		de la région non codante pour déterminer 
+	si cette séquence d'ARNt apparaissait dans l'ARNr ou l'ARNm. 
+Seules les séquences présentant AU MOINS 50% d'identité sur l'ensemble de la séquence d'ARNt ont été considérées comme une "correspondance". 
+Les similarités de séquences ARNt-ARN ont été déterminées à l'aide d'une recherche LALIGN globale sur l'ADN qui cherche la meilleure correspondance globale pour l'ensemble de la séquence recherchée (ARNt). 
+Le nombre de "correspondances" a été comparé. 
+Les premières statistiques de chaque correspondance sont les VALEURS P du test de KOLMOGOROV-SMIRNOV. 
+La correction de Bonferroni pour 3 comparaisons pour chaque ensemble de données signifie que la significativité au niveau p=0,05 est acceptée à p=0,017 (c'est-à-dire a=0,017). 
+Les VALEURS P restant SIGNIFICATIVES sont en GRAS. D donne la taille de l'effet. 
+16S est l'ARNr 16S ; 
+23S est l'ARNr 23S ; 
+FIMBRIAL est la protéine prédite de type fimbrial, b0135 ; 
+SUG EFFL est la protéine de système d'efflux de sucre à spécificité large, b00702 ; et 
+NON-CODE est une région non codante du génome, b0135. 
+Les résultats démontrent clairement que l'ARNr code les ARNt à un taux significativement plus élevé qu'un assortiment aléatoire d'ARNm, et certainement plus élevé que ce qui serait prédit par l'"hypothèse nulle".
+....
+----------------------------
+3.2. rRNA-encoded tRNAs fold properly
+
+Bien qu'il ne soit pas possible de dire avec certitude que l'un des ARNt CHEVAUCHANTS observés ici étaient fonctionnels dans un monde pré-cellulaire sans effectuer des tests expérimentaux appropriés (voir la Discussion)
+, il est notable que les séquences vestigiales conservées dans l'ARNr retiennent, au moins théoriquement, la capacité de se replier en structures semblables à l'ARNt. 
+Afin de démontrer la possibilité que les séquences semblables à l'ARNt codées par l'ARNr puissent avoir des fonctions réelles d'ARNt
+, les séquences homologues ont été saisies dans le RNA Structure Web de l'Université de Rochester et les structures secondaires les plus probables ont été calculées. 
+
+Une sélection de ces structures secondaires calculées est présentée dans la Figure 6, la Figure 7 et la Figure 8. 
+Les Figures 6A et B affichent les conformations secondaires à plus faible énergie des HOMOLOGUES RÉPLIQUÉS de l'ARNt Asp 16S et 23S. 
+Les Figures 7A et B affichent l'homologue à plus faible énergie de l'ARNt Asn 16S par rapport à la conformation secondaire à plus faible énergie de l'ARNt Asn normal d'E. coli K12. 
+Notamment, les quatre structures partagent des caractéristiques communes telles qu'une boucle formée près du résidu 20, une autre boucle près du résidu 40 et une troisième boucle située près du résidu 60. 
+Ainsi, certains aspects canoniques du motif de trèfle associés aux structures d'ARNt sont également présents dans ces séquences dérivées du ribosome.
+
+A
+B
+Fig. 6. (A) 16S rRNA Asp homologue (energy -17.2). (B) 23S Asp tRNA homologue (energy -20.0).
+A
+B
+Fig. 7. (A) 16S rRNA Asn homologue (energy -27.2). (B) E. coli k12 tRNA Asn (energy -27.4).
+A
+B
+Fig. 8. (A) E. coli K12 tRNA Ala (energy -29.0). (B) 23S rRNA homologue to tRNA Ala (energy -29.0).
+
+Un résultat inattendu (pour nous), mais largement répété, de notre étude structurale des ARNt est présenté dans la Figure 8A et B
+, où la structure secondaire de l'ARNt Ala normal d'E. coli K12 est comparée à la structure secondaire préférée de l'homologue transcrit de l'ARNt Ala 23S. 
+La conformation à plus faible énergie calculée par le programme n'était pas le motif typique en trèfle
+, mais une conformation encore plus favorisée énergétiquement (énergie pour l'ARNt Ala -29,0 contre -27,4 pour le motif en trèfle plus typique). 
+Cette conformation alternative possède toujours des boucles près des résidus 20, 40 et 60, mais avec une disposition générale plus linéaire. 
+Cette organisation linéaire a également été observée dans d'autres ARNt et homologues tels que ceux des homologues d'ARNt Gly 16S et 23S (données non montrées).
+
+De telles dispositions linéaires d'ARNt ont été observées expérimentalement. 
+Certains ARNt mitochondriaux ne possèdent également pas l'une des trois "feuilles" du motif typique en trèfle 
+(voir, par exemple, Belostotsky et al., 2011, Pereira and Baker, 2004, Ohtsuki and Watanabe, 2007, Watanabe et al., 2014). 
+Cette structure alternative pourrait donc représenter les VESTIGES D'UNE STRUCTURE d'ARNt plus PRIMITIVE qui a évolué de manière primordiale et qui fonctionnait comme une MOLÉCULE DE TRADUCTION SIMPLE 
+(Seligmann and Krishnan, 2006, Seligmann et al., 2006, Seligmann, 2008, Seligmann, 2010a, Seligmann and Labra, 2014). 
+De plus, ce résultat pourrait être lié à des preuves indiquant que les BRAS LATÉRAUX des ARNt ont également des FONCTIONS ANTICODONS (Seligmann, 2013a, Seligmann, 2013b, Seligmann, 2014)
+, ce qui est cohérent avec les observations expérimentales sur les ARNt "sans bras" (Juehling et al., 2012, Wende et al., 2014).
+----------------------------
+3.3. rRNAs encode ribosome-related protein modules
+
+Afin de déterminer si l'ARNr de E. coli K12 code également des protéines, une recherche BLAST2.0 a été effectuée en utilisant le site web ExPASy de l'Institut Suisse de Bioinformatique (www.expasy.ch). 
+Les ARNr 5S, 16S et 23S ainsi que les trois séquences de contrôle sélectionnées au hasard 
+(ARN de protéine fimbriale, ARN de protéine d'efflux de sucre et région non codante) de E. coli K12 ont été traduits dans chacun de leurs SIX CADRES de lecture possibles 
+(
+	un à travers
+	, trois de 5' à 3'
+	, et quatre à six, compléments inverses [de 3' à 5']
+). 
+Chaque séquence protéique résultante a été entrée dans le programme BLAST et comparée au protéome de E. coli K12 provenant de la section "Sélectionner le protéome microbien". 
+Les séquences ayant une valeur E inférieure à 1000 ont été extraites. 
+L'utilisation de la valeur E de 1000 ne visait pas à impliquer une évaluation statistique des résultats
+, mais était simplement utilisée comme une référence standard qui produirait des données de chaque recherche équivalentes en termes de qualité et de nombre de similarités générées. 
+L'objectif de cette partie de l'étude était de déterminer si l'ARNr est plus susceptible de coder des protéines liées aux ribosomes que les ARNm de n'importe quelle autre partie du génome de E. coli. 
+Par conséquent, les similarités résultantes ont été filtrées en fonction de leur pertinence directe pour la fonction des ribosomes
+, en se concentrant sur les synthétases de tARN et les transférases qui permettraient le chargement en acides aminés des tARN 
+; les ARN polymérases et ADN polymérases, les ligases, les protéines recombinantes de sites chauds, etc. qui pourraient favoriser la transcription des séquences polynucléotidiques 
+; les protéines spécifiquement identifiables comme protéines ribosomales 
+; et les phosphatases et les protéines de liaison et de transport du phosphate associées qui seraient nécessaires pour la synthèse d'ARN et d'ADN ainsi que pour fournir l'énergie nécessaire à la transcription et à la traduction. 
+Pour les ARNr 5S, 16S et 23S, ces quatre ensembles de protéines liées à la fonction ribosomale représentent jusqu'à 50% des correspondances totales générées par la recherche BLAST
+, tandis qu'une recherche BLAST identique n'a donné qu'environ 8% de protéines liées aux ribosomes lorsque les séquences d'ARN pour la protéine fimbriale
+, la protéine d'efflux de sucre et la région non codante de E. coli K12 ont été utilisées. 
+Ces résultats suggèrent qu'une sur quatre ou cinq des similarités protéiques trouvées lors de la recherche d'ARNr ont pu se produire par hasard. 
+Un test exact de Fisher avec correction de Bonferroni a révélé des différences très significatives entre les ARNr et l'ARN de la protéine fimbriale, l'ARN de la protéine d'efflux de sucre et la région non codante
+, avec tous les p < 0,017 (Tableau 3)
+, mais aucune différence significative n'a été trouvée dans le nombre de protéines liées aux ribosomes encodées par les ARNr 16S et 23S
+, ni aucune différence significative entre le nombre de telles protéines encodées par les différents ARN de contrôle.
+
+Table 3. 
+
+
+Comparaison statistique des probabilités que les différences dans l'apparition de protéines liées aux ribosomes dans les ARNr et les ARN de contrôle soient dues au hasard. 
+Chaque ARN a été traduit dans les six cadres de lecture possibles et les "protéines" résultantes ont été comparées au génome d'E. coli K12 à l'aide de BLAST 2.0. 
+Un test exact de Fisher a été utilisé ; il n'y a pas de statistique d'effet spécifique au test, donc aucune n'est rapportée. 
+La correction de Bonferroni pour 3 comparaisons pour chaque ensemble de données signifie que la signification au niveau p = 0,05 est acceptée à p = 0,017 (c'est-à-dire a = 0,017). 
+Les valeurs de p qui restent significatives sont en gras. Voir le Tableau 1 pour la clé des identités des ARN. 
+Comme dans le Tableau 1, Tableau 2, les résultats démontrent clairement que les ARNr codent les ARNt à un taux significativement plus élevé qu'un assortiment aléatoire d'ARNm
+, et certainement plus élevé que ce qui serait prédit par l'"hypothèse nulle".
+
+Les principaux résultats de similarité pour les protéines ribosomiques encodées dans les ARNr sont résumés dans les Figures 9, 10, 11 et 12. 
+Ces figures renforcent les résultats statistiques montrant que les séquences d'ARNr codent une proportion anormalement élevée de protéines liées aux ribosomes. 
+Bien que de nombreuses correspondances supplémentaires aient également été trouvées avec des protéines non ribosomiques, celles-ci ont été omises dans les figures afin de maintenir la longueur raisonnable de cet article. 
+Ces correspondances supplémentaires suggèrent la possibilité que des fragments de protéines encodées par les ribosomes aient été incorporés à de nombreuses autres protéines impliquées dans des fonctions telles que 
+	la réplication
+	, le métabolisme des sucres
+	, etc.
+, au cours de l'évolution cellulaire, une possibilité que nous explorerons dans un article ultérieur.
+
+Fig. 9. 
+tRNA SYNTHÉTASES et TRANSFÉRASES encodées dans l'ARNr d'E. coli K12. 
+Les séquences sont répertoriées en utilisant les abréviations d'acides aminés en une seule lettre. 
+Les rangées du milieu indiquent les acides aminés partagés par la séquence de protéine encodée par les ribosomes et celle de la protéine moderne d'E. coli K12. 
+Le signe "+" dans les rangées du milieu indique la substitution d'un acide aminé similaire. 
+Les cadres de lecture pour les séquences d'ARNr sont les suivants : 
+	cadre 1, avant (5'–3') commençant par la première paire de bases 
+	; cadre 2, avant commençant par la deuxième paire de bases 
+	; cadre 3, avant commençant par la troisième paire de bases 
+	; cadre 4, complément inverse (3'–5') commençant par la première paire de bases 
+	; cadre 5, complément inverse commençant par la deuxième paire de bases 
+	; cadre 6, complément inverse commençant par la troisième paire de bases.
+Fig. 10. 
+POLYMERASES, LIGASES et PEPTIDASES encodées dans l'ARNr d'E. coli K12. 
+Les séquences sont répertoriées en utilisant les abréviations d'acides aminés en une seule lettre. 
+Les rangées du milieu indiquent les acides aminés partagés par la séquence de protéine encodée par les ribosomes et celle de la protéine moderne d'E. coli K12. 
+Le signe "+" dans les rangées du milieu indique la substitution d'un acide aminé similaire. Les cadres de lecture pour les séquences d'ARNr sont les suivants : 
+	cadre 1, avant (5'–3') commençant par la première paire de bases 
+	; cadre 2, avant commençant par la deuxième paire de bases 
+	; cadre 3, avant commençant par la troisième paire de bases 
+	; cadre 4, complément inverse (3'–5') commençant par la première paire de bases 
+	; cadre 5, complément inverse commençant par la deuxième paire de bases 
+	; cadre 6, complément inverse commençant par la troisième paire de bases.
+Fig. 11. 
+SOUS-UNITÉS PROTÉIQUES RIBOSOMIQUES encodées dans l'ARNr d'E. coli K12. 
+Les séquences sont répertoriées en utilisant les abréviations d'acides aminés en une seule lettre. 
+Les rangées du milieu indiquent les acides aminés partagés par la séquence de protéine encodée par les ribosomes et celle de la protéine moderne d'E. coli K12. 
+Le signe "+" dans les rangées du milieu indique la substitution d'un acide aminé similaire. 
+Les cadres de lecture pour les séquences d'ARNr sont les suivants : 
+	cadre 1, avant (5'–3') commençant par la première paire de bases 
+	; cadre 2, avant commençant par la deuxième paire de bases 
+	; cadre 3, avant commençant par la troisième paire de bases 
+	; cadre 4, complément inverse (3'–5') commençant par la première paire de bases 
+	; cadre 5, complément inverse commençant par la deuxième paire de bases 
+	; cadre 6, complément inverse commençant par la troisième paire de bases.
+
+Fig. 12. 
+PHOSPHATASES et protéines APPARENTÉES. Seule une sélection de phosphatases a été retenue à partir des résultats de la recherche BLAST. 
+Environ trois fois plus de protéines satisfaisaient aux critères de recherche (voir section 2). 
+Les séquences sont répertoriées en utilisant les abréviations d'acides aminés en une seule lettre. 
+Les rangées du milieu indiquent les acides aminés partagés par la séquence de protéine encodée par les ribosomes et celle de la protéine moderne d'E. coli K12. 
+Le signe "+" dans les rangées du milieu indique la substitution d'un acide aminé similaire. 
+Les cadres de lecture pour les séquences d'ARNr sont les suivants : 
+	cadre 1, avant (5'–3') commençant par la première paire de bases 
+	; cadre 2, avant commençant par la deuxième paire de bases 
+	; cadre 3, avant commençant par la troisième paire de bases 
+	; cadre 4, complément inverse (3'–5') commençant par la première paire de bases 
+	; cadre 5, complément inverse commençant par la deuxième paire de bases 
+	; cadre 6, complément inverse commençant par la troisième paire de bases.
+
+Fig. 9. 
+résume les séquences de protéines des synthétases et des transférases d'ARN de transfert (tARN) qui sont encodées dans l'ARNr. 
+Les synthétases et les transférases sont des enzymes qui catalysent la liaison covalente d'acides aminés spécifiques à leurs tARN correspondants. 
+Ces séquences correspondent aux régions de haute similarité et sont souvent des fragments de séquences plus longues de moindre similarité. 
+Les séquences correspondant à des modules au sein des protéines nécessaires à la liaison de la plupart des 20 acides aminés standard à leurs tARN sont présentes dans la Figure 9.
+
+Fig. 10. 
+résume les séquences de protéines des ARN-polymérases et des ADN-polymérases qui sont encodées dans l'ARNr. 
+Les polymérases sont des enzymes qui catalysent la réplication et la transcription des polynucléotides. 
+Étant donné que les ARN-polymérases et les ADN-polymérases ont évolué à partir d'enzymes ancestrales communes contenant un seul peptide hautement conservé dans leur cœur catalytique
+, capable de polymériser les deux types de polynucléotides (Steitz, 1998, Cramer, 2002, Iyer et al., 2004)
+, il convient d'être prudent dans l'acceptation de l'identification moderne de ces protéines comme étant spécifiques à l'ARN ou à l'ADN. 
+Ce que l'on peut dire, c'est que l'ARNr code des fragments possibles de polymérases polyribonucléotidiques qui auraient potentiellement pu participer 
+	à la réplication de l'ARN, à la réplication de l'ADN
+	, à la transcription de l'ARN en ADN inverse ou 
+	à la transcription de l'ADN en ARN. 
+Il est également notable que les ARNr codent plusieurs modules de protéines recombinantes hautement conservées (recombinant hot spot proteins, rhs). 
+Les protéines Rhs régulent de nombreuses fonctions, notamment 
+	la transcription
+	, le traitement de l'ARN
+	, la biosynthèse et 
+	le métabolisme des nucléotides
+	, ainsi que l'expression des tARN (Aggarwal et Lee, 2011)
+	, ainsi que la recombinaison des polynucléotides.
+Fig. 11. 
+résume les séquences de protéines encodées dans l'ARNr qui sont similaires aux protéines ribosomales. 
+Les protéines ribosomales ont de nombreuses fonctions
+	, notamment des fonctions structurelles 
+	; la création de sites de liaison pour les ARNm, les ARNt et les chaînes peptidiques 
+	; l'orientation de ces molécules les unes par rapport aux autres 
+	; l'action en tant que sites catalytiques pour les réactions ribosomales 
+	; et des fonctions mécaniques telles que le déplacement de la chaîne peptidique en croissance au-delà de l'ARNm codant sa synthèse. 
+Des fragments de nombreuses protéines ribosomales clés des sous-unités ribosomales 50S et 30S sont présents dans cette liste et comprennent diverses synthétases, transférases et ligases.
+
+Fig. 12. 
+résume les séquences de protéines qui impliquent des réactions de phosphorylation
+	, y compris la synthèse de nucléosides d'ARN et de nucléotides d'ADN
+	, l'absorption et le transport du phosphate
+	, ainsi que les phosphatases. 
+	
+De telles protéines sont essentielles pour le stockage et la transduction de l'ÉNERGIE
+, et leur présence dans l'ARNr fournit des éléments de preuve selon lesquels des entités primitives semblables aux ribosomes 
+pourraient avoir encodé les éléments de base du système de métabolisme énergétique nécessaires au fonctionnement des ribosomes. 
+Parmi ces protéines se trouvent des épimérases et d'autres séquences liées à des enzymes impliquées dans la synthèse de ribonucléotides et de désoxyribonucléotides. 
+Notez que les séquences présentées dans la Figure 12 représentent une sélection des résultats qui ont été réduits pour des raisons d'espace.
+----------------------------
+3.4. Most rRNA-encoded protein Modules represent active sites
+
+Une question évidente est de savoir si les séquences de protéines liées au ribosome répertoriées dans la Figure 9, Figure 10, Figure 11, Figure 12 sont fonctionnelles. 
+
+Cette question ne peut être répondue définitivement que par des expériences
+, mais il est également possible d'évaluer si chaque similarité est située dans une région connue pour être fonctionnellement active dans la protéine moderne
+, en se référant aux annotations associées à la base de données des protéines UniProt (www.expasy.org). 
+
+Chaque séquence répertoriée dans la Figure 9, Figure 10, Figure 11, Figure 12
+, ainsi que chaque similarité de protéine de contrôle qui a été générée pour déterminer les statistiques rapportées dans le Tableau 3
+, a été évaluée pour déterminer si elle CHEVAUCHAIT ou incluait un site actif connu. 
+
+Environ un tiers des protéines analysées ne disposaient pas d'informations suffisantes pour permettre une telle détermination et ces données ont été exclues. 
+Les données ont ensuite été collectées et analysées par une analyse du chi-carré (Tableau 4) pour toutes les protéines pour lesquelles les sites actifs étaient connus ou 
+pour lesquelles des études de mutagenèse pouvaient identifier des régions clés de l'activité protéique. 
+
+Ces données sont résumées dans le Tableau 4
+, qui démontre clairement que le nombre de similarités liées aux sites actifs est beaucoup plus élevé (55%) dans les fragments de protéines codées par l'ARNr 
+que dans les fragments de protéines codées par les protéines de contrôle (en moyenne 19% de sites actifs). 
+
+Les différences de fréquence des protéines de l'ARNr liées aux sites actifs par rapport aux protéines de contrôle sont très fortement statistiquement significatives selon l'analyse du chi-carré après correction de Bonferroni
+, mais aucune différence significative n'a été trouvée entre les différentes protéines de contrôle. 
+Les données clés des sites actifs pour les séquences codées par l'ARNr suivent.
+----------------------------
+3.5. rRNAs contain massive amounts of genetic information in overlapping encodings
+
+La Figure 13 présente une carte illustrant les emplacements de tous les ARNt et des séquences de protéines sélectionnées décrites ci-dessus qui sont codées dans les ARNr 5S, 16S et 23S. 
+Dans la plupart des cas, les espaces vides dans les cadres de traduction des protéines codent en réalité des protéines également, mais pas celles sélectionnées ici pour leur pertinence pour la fonction ribosomale. 
+La carte démontre clairement que les trois ARNr codent une quantité massive d'informations liées à la fonction ribosomale. 
+Comme indiqué ci-dessus, les ARNr 16S et 23S peuvent être transcrits en un ensemble complet d'ARNt et l'ARNr 16S contient également de nombreux ARNt codés de manière à être produits par la fragmentation de l'ARNr lui-même. 
+De plus, les six cadres de lecture possibles de chacun des ARNr sont utilisés pour coder les protéines liées au ribosome. 
+Dans certains cas, en particulier dans l'ARNr 5S, mais dans une moindre mesure également dans les ARNr 16S et 23S
+, les protéines sont codées de manière CHEVAUCHANTE dans chaque cadre de lecture de sorte que la traduction d'une séquence à un acide aminé donne une protéine similaire à une phosphatase
+, tandis que le début de la traduction plusieurs acides aminés plus tard donne une protéine similaire à une ligase peptidique ou à une protéase, etc.
+
+
+Fig. 13. Carte illustrant l'emplacement des ARNt et des protéines dans différents cadres de lecture. Cette figure résume et intègre toutes les données des neuf figures précédentes. 
+"tRNA coupé" fait référence aux homologies directes entre les ARNt et les ARNr (impliquant que les ARNt pourraient être générés en découpant ou en éditant l'ARNr lui-même (Figure 3, Figure 5). 
+"tRNA transcrit" fait référence à la production de séquences similaires à l'ARNt à partir des ARNr par transcription de l'ARNr (Figure 1, Figure 2, Figure 4). "Synthétases" ou "Synth" fait référence aux séquences de la Figure 9. 
+"Polymérases" ou "Poly" fait référence aux séquences de la Figure 10. "Protéines ribosomales" ou "Prot ribo" fait référence aux séquences de la Figure 11. "Phosphatases" ou "Phosph" fait référence aux séquences de la Figure 12. 
+Notez que toutes les séquences d'ARNr 5S, 16S et 23S, dans un ou plusieurs cadres de lecture, codent soit une ou plusieurs protéines associées à la fonction ribosomale et/ou une ou plusieurs séquences d'ARNt. 
+Notez également qu'il existe une forte redondance dans le codage des classes de protéines et des ARNt.
+
+Un deuxième type de recherche de protéines avec BLAST a été effectué en sélectionnant "Escherichia coli" ou "toutes les protéines" dans la section "Base de données" du programme plutôt 
+que la section "Sélectionner le protéome microbien" (voir la Section 2). Ce deuxième type de recherche examinait les homologies possibles avec toutes les sous-espèces d'E. coli. 
+Cette recherche a généralement confirmé le premier type de recherche BLAST et a démontré que les mêmes types d'homologies que nous avons trouvés pour E. coli K12 
+se retrouvent dans l'ensemble des sous-espèces d'E. coli et dans de nombreuses autres espèces bactériennes également (données non présentées). 
+Étant donné la longueur de l'article actuel, une description plus détaillée de ces données démontrant la généralisabilité de nos résultats sera présentée ailleurs. 
+Le point critique ici est simplement que les résultats que nous rapportons ne sont pas propres à l'espèce de bactérie que nous avons analysée
+, mais se retrouvent dans un éventail beaucoup plus large de micro-organismes également
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+4. DISCUSSION
+
+L'interprétation de nos résultats doit être effectuée en fonction des TROIS HYPOTHÈSES que nous avons formulées pour les mettre à l'épreuve les unes par rapport aux autres : 
+
+(1) que le ribosome a évolué avant la vie cellulaire et avait la capacité de coder génétiquement son propre appareil de transcription et de traduction. 
+Par conséquent, l'ARNr devrait coder (au moins de manière vestigiale) les ARNt et les protéines nécessaires à la fonction ribosomale ; 
+
+(2) que l'ARN ribosomique est purement de nature structurelle, ne codant aucune information génétique liée aux ARNt ou aux protéines ribosomiques (l'"hypothèse nulle") ; et 
+
+(3) que la quantité d'informations génétiques codée dans l'ARNr est purement aléatoire et que par conséquent
+, le nombre d'ARNt et de protéines liées au ribosome que l'ARNr code ne sera ni plus ni moins que tout autre assortiment aléatoire d'autres ensembles d'ARN choisis au hasard.
+
+Nos résultats favorisent clairement l'hypothèse selon laquelle le ribosome aurait pu être une entité précellulaire auto-organisatrice et autoréplicative. 
+Pour résumer, notre étude démontre que l'ARNr d'E. coli K12 n'est pas seulement un composant structurel des ribosomes, mais code également
+, au moins de manière VESTIGIALE, des éléments essentiels de nombreux composants clés des mécanismes de TRANSCRIPTION et de TRADUCTION des cellules modernes. 
+
+Des séquences homologues à TOUS les ARNt nécessaires pour traduire l'ARNm en protéines sont présentes dans les ARNr 16S et 23S. 
+Ces ARNt sont codés de deux manières différentes. 
+
+Ils sont codés directement dans les ARNr de sorte que la FRAGMENTATION des ARNr peut donner les séquences d'ARNt. 
+Les ARNt sont également codés sous forme de séquences complémentaires, de sorte qu'ils peuvent être produits 
+	soit par la RÉPLICATION de courtes séquences de l'ARNr 
+	, soit par la FRAGMENTATION de la séquence entière d'un ARNr répliqué. 
+
+Des fragments de nombreuses SYNTHÉTASES nécessaires pour CHARGER les ARNt avec leurs ACIDES AMINÉS APPROPRIÉS sont codés dans les séquences d'ARNr. 
+Des fragments de nombreuses protéines constituant la STRUCTURE DES RIBOSOMES sont également codés dans les ARNr. 
+
+Et des fragments de synthases et de polymérases nécessaires pour 
+	la RÉTROTRANSCRIPTION de l'ARNr en ADN
+	, puis la TRANSCRIPTION de l'ADN en ARNr
+	, ou peut-être pour la RÉPLICATION directe de l'ARNr en ARN complémentaire
+	, sont également codés dans l'ARNr. 
+Enfin, des fragments de nombreuses protéines nécessaires pour transduire l'ÉNERGIE de l'ATP ou du NADH dans la synthèse de protéines et d'ARN sont également présents dans l'ARNr. 
+Les analyses statistiques indiquent que les informations liées au ribosome ne sont pas portées par une sélection aléatoire de séquences d'ARN autres que les ARNr.
+----------------------------
+4.1. tRNA–rRNA similarities as clues to ribosome evolution
+
+En examinant spécifiquement les similarités entre les ARNt et les ARNr
+, on pourrait se demander si de telles similarités se produisent simplement parce que les ARNt et les ARNr sont tous deux des polyribonucléotides à haute structure composés de plusieurs structures en tige-boucle. 
+C'est, bien sûr, une possibilité, mais il y a quatre arguments contre ce facteur expliquant les résultats que nous avons rapportés ici. 
+
+PREMIÈREMENT, bien que l'on puisse s'attendre à ce que les ARNt imitent PAR HASARD UNE OU DEUX régions d'un ARNr
+, il n'y a aucune raison de s'attendre à TROUVER LES VINGT ARNt codés par hasard à des endroits séparés dans l'ARNr. 
+
+DEUXIÈMEMENT, les structures en tige-boucle peuvent être formées par n'importe quelle séquence appropriée de bases, de sorte qu'un ensemble infini de séquences possibles existe. 
+L'hypothèse que nous testons ici est de savoir si des SÉQUENCES SPÉCIFIQUES d'ARNt se trouvent dans l'ARNr, ce qui est le cas à une FRÉQUENCE PLUS ÉLEVÉE QUE celle attendue par HASARD. 
+
+TROISIÈMEMENT, on ne s'attendrait pas, a priori, à ce que des fragments d'ARNr se replient en structures semblables à l'ARNt, comme nous l'avons rapporté ici
+, puisque ces séquences d'ARNr ont probablement été sélectionnées pour des fonctions ribosomales
+, et non pour des fonctions semblables à celles de l'ARNt. 
+Pourtant, de NOMBREUSES SÉQUENCES SEMBLABLES à l'ARNt présentes dans l'ARNr SE REPLIENT EFFECTIVEMENT EN STRUCTURES semblables à l'ARNt, avec des boucles aux endroits appropriés et dans l'ordre correct. 
+Une fois de plus, puisqu'il existe un nombre infini de permutations de structures en tige-boucle que les séquences d'ARN peuvent théoriquement prendre
+, il est a priori inattendu de les voir se replier en motifs en forme de trèfle typiques de l'ARNt. 
+
+QUATRIÈMEMENT, nous disposons de témoins internes qui suggèrent que l'incorporation des ARNt dans l'ARNr n'est pas simplement due au fait que l'ARNr et l'ARNt partagent tous deux la capacité de s'auto-organiser : 
+le CADRE DE LECTURE NORMAL de l'ARNr 23S contient SEULEMENT quelques régions SEMBLABLES à l'ARNt
+, ce qui contraste nettement avec les cadres de lecture transcrits de l'ARNr 23S et 16S. 
+Le simple fait d'avoir un degré élevé de structures en tige-boucle ne peut donc pas expliquer l'apparition des 20 ARNt en plusieurs copies et dans plusieurs cadres de lecture dans l'ARNr 16S
+, ni l'apparition des 20 ARNt dans le cadre de lecture transcrit de l'ARNr 23S. 
+
+Et enfin, même si l'on devait rejeter tous ces arguments et affirmer que nos résultats pourraient être dus au hasard
+, le hasard n'infirme pas l'observation selon laquelle les ARNt semblent être codés dans l'ARNr, que l'ARNr pourrait avoir été la source évolutive des ARNt ou que les ARNt ont, inversement, donné lieu à l'ARNr. 
+
+L'évolution fonctionne par hasard. 
+La question n'est pas de savoir si l'apparition des ARNt dans l'ARNr est due au hasard
+, mais plutôt de savoir s'il y a eu une SÉLECTION pour de tels événements fortuits qui a conduit à la CONSERVATION de ces HOMOLOGIES au cours de l'évolution
+, et nous affirmons qu'il y en a eu en raison des données supplémentaires que nous présentons 
+concernant le degré EXCEPTIONNELLEMENT élevé de MODULES PROTÉIQUES DE SITE ACTIF associés à la fonction ribosomale qui sont également codés dans l'ARNr.
+
+
+L'observation selon laquelle les ARNt sont encodés dans l'ARN ribosomique de manière CHEVAUCHANTE peut sembler très étrange pour de nombreux lecteurs
+, mais l'encodage CHEVAUCHANT des ARNt est très courant dans les MITOCHONDRIES d'un large éventail d'espèces (Seligmann, 2010a, Seligmann, 2010b, Seligmann, 2011a, Seligmann, 2011b, Seligmann, 2013b, Seligmann, 2014;)
+, y compris tous les MÉTAZOAIRES (Mörl and Marchfelder, 2001, Reichert and Mörl, 2000). 
+
+Certains de ces encodages d'ARNt CHEVAUCHANTS sont, comme ceux observés ici dans l'ARN ribosomique, présents sur le brin antisens du gène (Seligmann, 2006, Faure et al., 2011).
+ 
+Beaucoup de ces CHEVAUCHEMENTS sont connus pour être fonctionnels : 
+des CHEVAUCHEMENTS fonctionnels de gènes d'ARNt mitochondriaux existent dans les MITOCHONDRIES HUMAINES (Reichert et al., 1998) 
+et chez tous les MÉTAZOAIRES (par exemple, Mörl and Marchfelder, 2001, Reichert and Mörl, 2000, Hatzoglou et al., 1995)
+, mais apparemment pas chez des organismes tels que la levure ou Escherichia coli (Schuster et al., 2005). 
+
+Cependant, Schuster et al. (2005) ont introduit expérimentalement de tels CHEVAUCHEMENTS dans la levure
+, démontrant qu'elle peut encore traiter ces CHEVAUCHEMENTS de manière fonctionnelle. Schuster et al. (2005) interprètent leurs résultats comme suggérant que la levure est "en train d'évoluer vers l'édition d'ARNt"
+; nous suggérons plutôt que la levure conserve les mécanismes VESTIGIAUX pour cette édition et que les ARNt CHEVAUCHANTS étaient autrefois UNIVERSELS, provenant du RIBOSOME LUI-MÊME.
+
+L'observation selon laquelle les ARNt sont encodés de manière séquentielle et parfois de manière CHEVAUCHANTE est également très intéressante à la lumière des recherches de de Farias (2013)
+, de Farias et al. (2014) qui ont montré que les CŒURS DE TRADUCTION DES PROTÉINES (PTC) intégrés dans la sous-unité ARNr 23S du ribosome de Thermus thermophilus sont très similaires à une CONCATÉNATION d'ARNt SÉQUENTIELS. 
+
+"Dans cette étude, le contenu informationnel entre les CONCATAMÈRES d'ARNt ANCESTRAUX et les RÉGIONS CATALYTIQUES du PTC de différents organismes a également été comparé
+, et une corrélation positive entre toutes les molécules a été observée, démontrant que, malgré le long laps de temps évolutif, cette molécule conserve des VESTIGES de son origine précoce." 
+
+De manière similaire, Bloch et al., 1984, Bloch et al., 1989 ont proposé que les ARNr pourraient avoir évolué à partir de CONCATÉNATIONS de MODULES ARNt PRIMITIFS
+, ce qui est certainement cohérent avec les observations que nous avons faites ici. 
+Ainsi, le ribosome peut contenir en lui-même une "paléontologie moléculaire" révélant l'étape clé par laquelle il a évolué et les composants impliqués dans cette évolution (Root-Bernstein, 2012).
+----------------------------
+4.2. Overlapping protein encodings
+
+
+L'observation selon laquelle les ARNr codent des gènes CHEVAUCHANTS dans de multiples cadres de lecture est également attendue
+, car il a été démontré que des gènes CHEVAUCHANTS existent sous une forme fonctionnelle dans presque tous les organismes
+, des virus et des bactéries aux vertébrés 
+(par exemple, Firth, 2014, Fonseca et al., 2014, Fukuda et al., 2003, Huvet and Stumpf, 2014, Makalowska et al., 2005, Mir and Schober, 2014
+, Pallejà et al., 2008, Seligmann, 2012a, Seligmann, 2012b, Seligmann, 2012c, Seligmann, 2013a). 
+
+De tels CHEVAUCHEMENTS de gènes MINIMISENT la quantité de matériel génétique nécessaire pour CODER LE NOMBRE MAXIMAL DE PROTÉINES. 
+De tels CHEVAUCHEMENTS suggèrent également que des protéines APPAREMMENT NON LIÉES peuvent partager des informations génétiques COMMUNES et INÉVIDENTES en raison du décalage de cadre. 
+Ce qui est SURPRENANT avec les CHEVAUCHEMENTS multiples dans l'encodage des gènes et l'utilisation des six cadres de traduction possibles
+, c'est que de tels encodages CHEVAUCHANTS auraient nécessité que PLUSIEURS CRITÈRES DE SÉLECTION soient SIMULTANÉMENT à l'œuvre dans l'ÉVOLUTION de l'ARNr 
+pendant une période significative pour donner un génome d'ARNr aussi riche en informations. 
+Une TELLE SÉLECTION ne pourrait évoluer que par une INTERACTION TRÈS RIGOUREUSE entre les gènes et les produits géniques, comme on pourrait s'y attendre d'un complexe ARN-protéine auto-organisé tel qu'un ribosome.
+
+En résumé, deux conclusions sont inévitables. 
+PREMIÈREMENT
+, les informations liées au ribosome encodées dans l'ARNr sont extrêmement DENSES
+, au point qu'il est très probable qu'une sélection étendue sur une très LONGUE PÉRIODE GÉOLOGIQUE ait été à l'œuvre pour incorporer ses nombreux aspects.
+ L'ARNr semble avoir été utilisé de manière évolutive en tant que composants STRUCTURAUX des ribosomes eux-mêmes
+ , en tant qu'ARNt pour TRADUIRE les séquences, en tant que ARNm, utilisant tous les cadres de lecture possibles, pour CODER LES PROTÉINES ribosomales clés
+ , et il est également HAUTEMENT REDONDANT, codant certains éléments fonctionnels tels que les ARNt, les POLYMÉRASES et les LIGASES de multiples manières. 
+ 
+Une DEUXIÈME conclusion est que l'ARNr code spécifiquement des MOLÉCULES associées à des FONCTIONS qui auraient potentiellement PERMIS À UN RIBOSOME PRIMITIF DE SE REPRODUIRE. 
+Le fait que toutes ces informations résident dans les ribosomes des espèces actuelles d'E. coli (et d'autres bactéries) 
+doit être considéré à la lumière de plusieurs milliards d'années d'évolution qui se sont produites depuis l'incorporation des ribosomes dans les cellules. 
+Les HOMOLOGIES restantes sont presque certainement VESTIGIALES et représentent des fragments restants après la PERTE DE GÈNES ou leur TRANSFERT DANS LE GÉNOME CELLULAIRE. 
+Ainsi, le RIBOSOME PRIMORDIAL pourrait avoir été PLUS COMPLEXE ou COMPLET que celui représenté par notre stratégie de recherche.
+
+
+Une autre implication probable de nos résultats est que l'ARN a CO-ÉVOLUÉ avec les protéines pour donner naissance à une entité auto-organisatrice et autoréplicative. 
+Étant donné la haute densité d'informations trouvée dans le ribosome
+, la sélection aurait probablement favorisé les PEPTIDES CAPABLES DE SE LIER AUX SÉQUENCES d'ARN les codant 
+(c'est-à-dire une complémentarité moléculaire)
+, et les interactions résultantes entre l'ARN et les peptides auraient également été sélectionnées pour leurs FONCTIONS 
+(capacité à FORMER DES PLATEFORMES liant d'autres séquences d'ARN, PROMOTION de la formation de peptides, activité de POLYMÉRASE ou de LIGASE d'ARN ou d'ADN, STABILISATION de l'ARN et/ou des peptides CONTRE LA DÉGRADATION, etc.) 
+(Hunding et al., 2006, Root-Bernstein and Dillon, 1997). 
+Les ARN prébiotiques, par exemple
+, pourraient ne pas avoir été simplement des ARNt
+, mais aussi des ARNm codant des séquences peptidiques cruciales avec DIVERSES FONCTIONS ENZYMATIQUES OU STRUCTURALES qui étaient améliorées par la liaison à leurs propres séquences d'ARN
+, ou à d'autres séquences d'ARN. 
+La SPÉCIALISATION de l'ARN en types RIBOSOMIQUES, MESSAGERS et de TRANSFERT est probablement survenue ULTÉRIEUREMENT au cours de l'évolution.
+----------------------------
+4.3. Redundancy of encodings Ensures stability
+
+Il convient de souligner plusieurs aspects de la manière dont les ARNr codent des informations redondantes. 
+Il arrive que le même segment de protéine soit codé par plusieurs ARNr. 
+Par exemple, la même séquence de l'ADN polymérase III est imitée dans le cadre 5 de l'ARNr 16S et dans le cadre 1 de l'ARNr 5S (Fig. 10). 
+
+De même, une région partagée de la d-tagatose 1,6-bisphosphate aldolase est encodée à la fois dans les ARNr 23S (cadre 2) et 16S (cadre 2)
+, et une région partagée de la tagatose 6-phosphate aldolase est encodée à la fois dans les ARNr 23S (cadre 3) et 5S (cadre 1) (Fig. 12). 
+
+Ainsi, un aspect du processus de sélection qui a conduit aux ARNr a très probablement impliqué une SÉLECTION DE LA REDONDANCE dans les encodages. 
+Cette redondance est également visible dans la répétition des encodages des ARNt dans les ARNr 16S et 23S, ainsi que dans l'encodage de nombreux ARNt à la fois par transcription et par fragmentation des ARNr. 
+
+La REDONDANCE de l'information est également évidente dans l'UTILISATION DE MODULES RÉPÉTITIFS. 
+Par exemple, les protéines du domaine recombinant hotspot (rhsA, rhsB, rhsC et rhsD) partagent plusieurs séquences communes non seulement entre elles
+, mais aussi avec plusieurs segments d'ARNr (voir section sur rhs dans la Fig. 10). 
+
+Nous émettons l'HYPOTHÈSE que ces ÉLÉMENTS PARTAGÉS et codés de manière RÉPÉTÉE représentent des MODULES ACTIFS CLÉS à partir desquels des PROTÉINES PLUS GRANDES ont été ULTÉRIEUREMENT assemblées
+, fournissant ainsi des INDICES sur l'évolution de l'ACTIVITÉ MACROMOLÉCULAIRE. 
+Des expériences pourraient montrer, par exemple, que ces MODULES contiennent un FAIBLE NIVEAU DE L'ACTIVITÉ actuellement PRÉSENTE dans les PLUS GRANDES PROTÉINES dans lesquelles ils ont été INCORPORÉS.
+
+Il est également remarquable que les PROTÉINES ENCODÉES ne soient PAS PRÉSENTES DE MANIÈRE ALÉATOIRE dans les ARNr. 
+Environ 55 % des SIMILARITÉS obtenues par notre recherche BLAST sont constituées de protéines ayant des FONCTIONS DIRECTEMENT LIÉES AUX RIBOSOMES
+, ce qui suggère fortement que les ARNr ont ÉVOLUÉ pour CODER les informations nécessaires à l'accomplissement de LEURS PROPRES FONCTIONS. 
+
+D'autres preuves de non-aléatorité peuvent être trouvées au sein des ensembles de protéines encodées. 
+Par exemple, des modules comprenant TOUTES LES ENZYMES REQUISES pour catalyser la réaction ATP+D-tagatose 6-phosphate <-> ADP+D-tagatose 1,6-bisphosphate sont présents parmi les PHOSPHATASES répertoriées dans la Figure 12. 
+
+De même, des segments de protéines impliqués dans la liaison du glutamate à la cystéine et de la cystéine à la glycine sont présents parmi les LIGASES PEPTIDIQUES (Figure 9)
+, ce qui permet la SYNTHÈSE DE LA GLUTATHION, un peptide clé impliqué dans le recyclage de l'acide ascorbique et les fonctions antioxydantes, qui est synthétisé de manière enzymatique plutôt que traduit à partir d'un gène. 
+
+Ces observations suggèrent que l'évolution des informations encodées dans les ARNr a été dirigée par la sélection en faveur d'une fonctionnalité intégrée. 
+Une CARTOGRAPHIE plus approfondie des RELATIONS MÉTABOLIQUES des protéines identifiées dans les Figures présentées ici
+, ainsi qu'une investigation plus poussée des similarités protéiques non décrites dans cet article, pourraient révéler des INDICES INTÉRESSANTS sur l'encodage des autres VOIES MÉTABOLIQUES par les ARNr.
+----------------------------
+4.4. Tests of the hypothesis
+
+Plusieurs prédictions vérifiables découlent des implications énoncées précédemment. 
+
+Si le ribosome précède l'apparition de la vie cellulaire
+, alors les tARN encodés dans les ARNr seront présents dans TOUTES LES FORMES DE MICROBES et tous les microbes partageront des tARN similaires encodés dans des RÉGIONS SIMILAIRES DES ARNr. 
+
+Plus précisément, si l'on examinait une bactérie autre que E. coli K12, par exemple Bacillus subtilis
+, nous prédirions que les régions ARNr-tARN de B. subtilis seraient très similaires à celles partagées par les régions ARNr-tARN de E. coli. 
+
+Étant donné un rôle précoce pour un génome basé sur le ribosome
+, nous nous attendons également à trouver des régions communes ARNr E. coli - tARN B. subtilis correspondant à des régions ARNr B. subtilis - tARN E. coli également.
+
+De la même manière, si le ribosome précède l'apparition de la vie cellulaire
+, alors les modules protéiques encodés dans les ARNr de E. coli K12 devraient également apparaître dans les ARNr d'autres microbes et être encodés dans des régions similaires de leurs ARNr. 
+
+Ainsi, pour être plus précis
+, la liste des protéines liées au ribosome générée ici pour E. coli devrait être étroitement reflétée dans les ARNr de B. subtilis et devrait être encodée dans le même ordre et dans les mêmes sous-unités d'ARNr. 
+
+Ces prédictions sont bien sûr conditionnées par une très forte conservation des ARNr des différents organismes microbiens. 
+Bien que cela soit souvent le cas, ce n'est pas universel et les exceptions pourraient s'avérer des tests intéressants de notre théorie.
+
+Un autre test de l'hypothèse concerne la possible fonctionnalité des modules protéiques encodés par l'ARNr. 
+Étant donné que bon nombre de ces modules se chevauchent ou incluent des sites actifs connus de protéines modernes, il est possible que ces modules eux-mêmes présentent une activité biologique. 
+Une telle activité pourrait être établie relativement facilement en synthétisant les modules en question et en les testant pour vérifier l'activité présente dans leurs homologues modernes. 
+Bien qu'un résultat positif à de telles expériences renforcerait considérablement l'hypothèse proposée ici
+, un résultat négatif pourrait simplement indiquer que ces modules sont des vestiges vestigiaux d'un complexe ribosomial plus complexe qui a transféré bon nombre de ses fonctions vers d'autres gènes de l'organisme.
+
+De même, il est possible que certaines des tARN encodées dans les ARNr conservent leur fonctionnalité. 
+Une fois de plus, la synthèse de ces tARN permettrait de tester leur activité dans un système moderne afin de déterminer s'ils peuvent être amorcés avec les acides aminés appropriés et reconnaître les codons appropriés. 
+Et encore une fois, bien qu'un résultat positif ajouterait considérablement à la validité de l'hypothèse, ces tARN pourraient être vestigiaux et donner des résultats négatifs. 
+À cet égard, il serait intéressant de déterminer le nombre minimal de substitutions de bases nécessaires pour rendre ces tARN vestigiaux actifs.
+
+
+Une autre prédiction qui découle de nos données est que de nombreux gènes chez les microorganismes, en plus de ceux codant pour le ribosome lui-même, devraient avoir une origine ribosomique. 
+Cette prédiction découle directement du fait que les ARNr semblent coder de nombreux protéines ayant des fonctions liées au ribosome, telles que les synthétases, les ligases, les protéases et les phosphatases. 
+Ces classes de protéines sont tellement essentielles à la vie cellulaire que l'on pourrait s'attendre
+, si les cellules ont évolué en incorporant des ribosomes préexistants
+, à ce que les ARNr soient à la base de la classe de gènes codant pour les synthétases, les ligases, les protéases, les phosphatases, etc. pour la cellule dans son ensemble. 
+Ainsi, l'examen des génomes microbiens à la recherche de régions similaires aux ARNr devrait révéler des proportions significatives de ces génomes ayant pour origine des séquences d'ARNr.
+----------------------------
+4.5. New questions raised by the hypothesis
+
+Cette étude soulève de nombreuses questions et ouvre de nouvelles possibilités. 
+Des milliards d'années d'évolution se sont écoulées depuis l'incorporation des ribosomes dans toutes les cellules vivantes. 
+Les ARNr ribosomiques et les protéines constituant la structure fonctionnelle des ribosomes sont maintenant encodés dans un génome distinct basé sur l'ADN. 
+La séquence des ARNr pourrait donc être le vestige d'un monde basé sur l'ARN-protéine qui a été incorporé dans un système beaucoup plus diversifié et complexe. 
+Dans quelle mesure ce monde primitif subsiste-t-il dans la séquence des ARNr reste à découvrir. 
+
+Par exemple, des fragments de la plupart des synthétases nécessaires pour charger les ARN de transfert (ARNt) avec leurs acides aminés appropriés sont encodés dans les séquences d'ARNr. 
+Cependant, il reste à déterminer si ces fragments sont 
+	les séquences peptidiques clés et fonctionnelles à partir desquelles les synthétases protéiques modernes spécifiques et efficaces ont évolué
+	, ou s'il s'agit de fragments de "gènes" plus larges d'ARNr qui ont été transférés vers le génome d'ADN et qui existent maintenant uniquement sous forme de vestiges tronqués. 
+Nous supposons que les ribosomes actuels ont perdu certains de leurs gènes et protéines en raison de la symbiose avec les cellules et de l'incorporation des gènes ribosomiques dans le génome cellulaire.
+
+
+L'observation selon laquelle les ARNr codent des ARNt et des modules essentiels à la structure et aux fonctions des ribosomes 
+nous oblige également à reconsidérer l'évolution de la machinerie de traduction et des processus qui y sont associés. 
+
+La plupart des théories sur l'évolution des ribosomes semblent se concentrer sur l'origine du centre de traduction protéique (PTC)
+, car il semblerait logique que les structures ribosomiques nécessitant de grandes protéines en tant que composant ne puissent pas évoluer avant le PTC lui-même 
+(par exemple, Fox, 2010, Tamura, 2011, Hsiao et al., 2013, Mushegian, 2005). 
+
+Si les ARNr codent eux-mêmes des ARNt et des modules protéiques clés impliqués dans la formation de la machinerie de traduction
+, alors l'évolution de la traduction des protéines devient un problème de démarrage en boucle dans lequel les séquences d'ARN et de protéines 
+ont été mutuellement sélectionnées pour coder des fonctions intégrées de transcription et de traduction 
+ainsi que la propriété de pouvoir s'auto-agréger en plates-formes de traduction semi-stables. 
+
+Dans un monde prébiotique
+, la sélection aurait favorisé les ARN capables de fonctionner SIMULTANÉMENT 
+	en tant qu'ARNm codant des MODULES PROTÉIQUES FONCTIONNELS
+	, en tant qu'ARNr primitifs capables de STABILISER ces complexes protéiques ou peptidiques fonctionnels
+	, en tant qu'ARNt capables de TRADUIRE les séquences d'ARN en peptides
+	, et en tant que "gènes" capables de se RÉPLIQUER eux-mêmes. 
+L'évolution des fonctions spécialisées des ARN de transfert, des ARNr et des ARNm n'aurait eu lieu qu'APRÈS, et peut-être en conséquence, de l'incorporation du proto-ribosome dans les cellules. 
+Le PTC pourrait ne pas être l'origine de la traduction, mais le résultat de son évolution.
+
+
+
+Notre travail n'explique pas l'évolution de l'ADN, mais il fournit des indices significatifs sur la manière dont et pourquoi le stockage de l'information dans l'ADN a pu évoluer. 
+Notre hypothèse est que l'ADN était un SOUS-PRODUIT NATUREL de la réplication de l'ARN
+, car bon nombre des séquences de protéines encodées par l'ARN que nous avons identifiées (par exemple, les LIGASES et les POLYMÉRASES) ont des fonctions APPARENTÉES à l'ADN. 
+
+La synthèse de l'ADN en tant que sous-produit de la réplication de l'ARN aurait eu un effet non intentionnel mais évolutionnairement précieux : 
+en période de "difficultés", au cours desquelles les structures à base d'ARN deviendraient instables (peut-être en raison de la chaleur, de changements de salinité ou de dessiccation)
+, l'ADN aurait servi de matrice plus stable pour la survie des ribosomes. 
+En effet, cette conjecture gagne en crédibilité avec la découverte de TRANSPOVIRONS composés de courts segments d'ADN qui "infectent" les virus (Desnues et al., 2012, Yutin et al., 2013). 
+En d'autres termes, nous suggérons que les gènes ont évolué en réponse à la traduction des protéines et pour augmenter leur capacité de survie. 
+Les gènes pourraient donc être les produits de "ribosomes égoïstes" plutôt que leur origine.
+
+Cette étude présente évidemment certaines limites. Nous avons examiné en détail uniquement un seul rRNA bactérien. 
+Comme pour toute étude portant sur une seule espèce, il est possible que nos résultats soient atypiques. 
+
+Cependant, les méthodes et les matériaux utilisés dans cette étude sont facilement accessibles et faciles à appliquer aux génomes d'AUTRES BACTÉRIES, archées et protistes. 
+Notre propre bref aperçu de plusieurs de ces génomes suggère que nos résultats seront reproduits dans des études portant sur d'AUTRES rRNAs évolutionnairement PRIMITIFS
+, et que les PRINCIPES généraux révélés ici seront LARGEMENT APPLICABLES.
+
+L'évolution de ribosomes capables de se répliquer de manière indépendante suppose que les molécules précurseurs nécessaires (sucres, bases, nucléosides, nucléotides, acides aminés, etc.) 
+étaient 
+	soit FACILEMENT disponibles dans l'ENVIRONNEMENT grâce à des RÉACTIONS INORGANIQUES PRÉBIOTIQUES
+	, soit qu'elles étaient fournies par l'ÉVOLUTION simultanée d'AUTRES HYPERSTRUCTURES capables de catalyser ces RÉACTIONS PRÉBIOTIQUES 
+(Hunding et al., 2006, Norris et al., 2007, Norris et al., 2012, Root-Bernstein et Dillon, 1997). 
+
+Par exemple, les ACIDOCALCISOMES auraient pu COEXISTER séparément des RIBOSOMES mais dans le MÊME ENVIRONNEMENT
+, fournissant 
+	du polyphosphate
+	, de l'acide polybutyrique
+	, des ions calcium 
+	et d'autres cofacteurs 
+nécessaires au fonctionnement des ribosomes. 
+
+Les ACIDOCALCISOMES indépendants auraient également pu tamponner l'environnement local dans lequel les ribosomes ont évolué. 
+La co-localisation des ribosomes et des ACIDOCALCISOMES au sein d'une membrane commune aurait présenté des avantages évolutifs évidents en facilitant l'homéostasie et les fonctions métaboliques partagées. 
+Ces fonctions partagées auraient dû être intégrées en tant qu'ensemble cohérent dans les premières cellules, et la nature de cette intégration ne ressort pas de l'analyse actuelle.
+
+Nous pensons que nos résultats fournissent des indications intrigantes sur les processus d'évolution qui relient le monde de l'ARN et les approches compositionnelles aux origines de la vie aux approches de LUCA
+, en offrant un état intermédiaire d'organisation qui intègre l'autoréplication à la traduction des protéines. 
+
+Une entité ribosomale autoréplicante constituerait un intermédiaire logique entre 
+	les ARN autoréplicantes ou les agrégats moléculaires organisés de manière compositionnelle et 
+	les génomes hautement organisés encapsulés dans les cellules. 
+En somme, les ribosomes "égoïstes" fournissent un potentiel intermédiaire dans le processus d'évolution, de la formation des premières macromolécules aux hyperstructures, puis finalement aux cellules.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+ACIDOCALCISOMES
+https://fr.wikipedia.org/wiki/Acidocalcisome
+https://www.nature.com/articles/nrmicro1097
+
+Les acidocalcisomes sont des organites arrondis électron-denses, riches en calcium et en polyphosphate, et mesurant entre 100 et 200 nm de diamètre.
+
+Les acidocalcisomes ont été initialement découverts chez les trypanosomes (agents responsables de la maladie du sommeil et de la maladie de Chagas)
+, mais on les trouve également chez Toxoplasma gondii (responsable de la toxoplasmose)
+, Plasmodium (paludisme), Chlamydomonas reinhardtii (une algue verte)
+, Dictyostelium discoideum (un myxomycète) ainsi que chez les bactéries et les plaquettes humaines. 
+
+Leurs membranes ont une épaisseur de 6 nm et contiennent plusieurs pompes et échangeurs de protéines
+, y compris des aquaporines, des ATPases et des antiporteurs Ca2+/H+ et Na+/H+. 
+Ils peuvent être les SEULS ORGANITES CELLULAIRES qui ont été CONSERVÉS entre les organismes procaryotes et eucaryotes. 
+Ils se comportent différemment selon les organismes, ce qui permettrait éventuellement de concevoir des médicaments ciblant les acidocalcisomes des parasites sans affecter ceux de l'hôte.
+
+Les acidocalcisomes sont impliqués dans l'osmorégulation. 
+Ils ont été détectés à proximité de la vacuole contractile chez Trypanosoma cruzi et il a été démontré qu'ils fusionnaient avec la vacuole lorsque les cellules étaient exposées à un stress osmotique. 
+Apparemment, les acidocalcisomes libèrent leur contenu ionique dans la vacuole contractile, augmentant ainsi l'osmolarité de celle-ci. 
+Cela provoque alors l'entrée d'eau du cytoplasme dans la vacuole, jusqu'à ce que cette dernière accumule une certaine quantité d'eau et l'expulse hors de la cellule.
