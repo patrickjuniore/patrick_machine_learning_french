@@ -1,0 +1,125 @@
+https://www.math.mcgill.ca/darmon/pub/Articles/Surveys/2.Notices/Frenchpaper.pdf
+https://www.imo.universite-paris-saclay.fr/~christophe.breuil/PUBLICATIONS/Universalis.pdf
+https://www.math.uci.edu/~krubin/lectures/msri1.pdf
+file:///U:/actimize_project/perso/fermat/wileskoll.pdf	--p135
+http://www.math.polytechnique.fr/xups/xups09-05.pdf
+
+file:///U:/actimize_project/perso/fermat/wileskoll.pdf
+https://www.mn.uio.no/math/personer/vit/rognes/papers/wileskoll.pdf
+
+noyau de l'application de l'anneau de déformation R dans l'anneau O
+l'annulateur 
+
+patrick.datascientist@gmail.com
+https://chat.openai.com/c/fdce2a78-1cda-4898-b9cb-ee37abc8f197 --older
+https://chat.openai.com/c/febe0a17-9555-4027-9bfc-cc206e565b87 --selmer
+https://chat.openai.com/c/e2b792fa-c121-4561-bd2e-dc4e3477bda6 --fitting
+il me semble que la notion  de MODULE sur un ANNEAU d'entiers  est similaire à celle de d'ESPACE VECTORIEL sur un CORPS? est ce la cas?
+
+Oui, la notion de module sur un anneau d'entiers est une généralisation de la notion d'espace vectoriel sur un corps. 
+En effet, dans le cas particulier où l'anneau d'entiers est le corps de base, on retrouve la définition classique d'un espace vectoriel.
+pouvez donner un exemple de représentations galoisiennes dans un corps 3-adique.
+------------------------------------------------------------------
+si je comprends bien dans la Cohomologie de De Rham on étudie   formes différentielles via les obstruction dans la suite de différentiation extérieure? 
+Si oui en que pouvez me dire de la cohomologie galoisienne, existe t-il un principe similaire?
+------------------------------------------------------------------
+Plus précisément, un SYSTÈME D'EULER est un MODULE sur un ANNEAU D'ENTIERS, qui est associé à une représentation galoisienne de la courbe elliptique.
+
+Vous avez tout à fait raison, un SYSTÈME D'EULER n'est pas un module en soi, mais plutôt une FAMILLE DE MODULES qui dépendent d'un PARAMÈTRE.
+Plus précisément, pour chaque nombre premier p, on définit un module sur un ANNEAU D'IWASAWA en utilisant les coefficients d'Euler de la fonction zêta de Dedekind associée à K. 
+Cette famille de modules est alors appelée système d'Euler sur K.
+Donc, on pourrait plutôt dire qu'un SYSTÈME D'EULER est une FAMILLE DE MODULES INDEXÉE par les NOMBRES PREMIERS P, qui sont CONSTRUITS à partir des COEFFICIENTS D'EULER de la fonction ZÊTA DE DEDEKIND de K.
+------------------------------------------------------------------
+Un anneau d'Iwasawa est un anneau d'entiers associé à une EXTENSION INFINIE d'un CORPS DE NOMBRES K, qui permet d'étudier les propriétés arithmétiques de cette extension. 
+Plus précisément, un anneau d'Iwasawa est défini comme l'INTERSECTION de certaines tours d'EXTENSIONS FINIES de K, appelées tours d'Iwasawa.
+
+
+Plus précisément, pour chaque nombre premier p, on définit un groupe cyclotomique d'ordre une puissance de p comme l'ensemble des racines p-ièmes de l'unité qui sont congrues à 1 modulo p. 
+On peut alors considérer la tour d'EXTENSIONS FINIES de K donnée par l'AJOUT SUCCESSIF DES GROUPES CYCLOTOMIQUES d'ordre une puissance de P. 
+Cette tour d'extensions est appelée la TOUR D'IWASAWA pour l'EXTENSION CYCLOTOMIQUE DE K.
+
+L'anneau d'Iwasawa associé à cette tour d'Iwasawa est alors défini comme l'intersection de TOUTES LES EXTENSIONS FINIES de K qui sont contenues dans cette tour. 
+Dans le cas de l'extension cyclotomique de K, cet anneau est précisément l'anneau d'entiers de l'extension cyclotomique de K.
+
+------------------------------------------------------------------
+Les systèmes d'Euler ont ils toujours été  associés aux courbe elliptique? (avant kolyvagin; flach, wiles...) si oui comment se fait se fiat cette association? pouvez vous l'illustrer avec un exemple?
+En résumé, Flach a étendu et adapté la méthode de Kolyvagin pour les courbes elliptiques en y incorporant de nouvelles notions et de nouvelles techniques pour traiter des cas plus généraux et plus difficiles.
+La méthode de Kolyvagin, qui utilise les groupes de Selmer pour étudier la structure arithmétique des courbes elliptiques, est donc basée sur cette notion qui existait déjà depuis plusieurs décennies.
+------------------------------------------------------------------
+il me semble que ce qui mène aux systèmes d'Euler sont successivement ces notions: TOUR D'IWASAWA,anneau d'Iwasawa,FAMILLE DE MODULES (généralisation de la notion d'espace vectoriel aux corps de base qui ne sont pas des corps mais des anneaux) INDEXÉE par les NOMBRES PREMIERS P, SYSTÈME D'EULER.
+Si c'est bien le cas pouvez détailler en numérotant ces étapes pour que l'enchainement logique soit clair et fluide? sinon pouvez vous corriger en rajoutant ou supprimant des étapes si nécessaire?
+
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+Voici le texte complet avec les informations demandées :
+
+1.
+Une TOUR D'IWASAWA est une SUITE croissante d'EXTENSIONS GALOISIENNES de K, où le GROUPE DE GALOIs de chaque extension est un GROUPE PROFINI, c'est-à-dire la LIMITE INVERSE d'une suite de groupes finis. 
+Voici quelques exemples :
+	1.La suite croissante d'extensions galoisiennes obtenue en prenant toutes LES RACINES P-ÈMES DE L'UNITÉ pour tous les NOMBRES PREMIERS P.
+	2.La suite croissante d'extensions galoisiennes obtenue en prenant le groupe de P-TORSION D'UNE COURBE ELLIPTIQUE sur les corps de nombres pour tous les NOMBRES PREMIERS P.
+
+2.
+L'ANNEAU D'IWASAWA est défini comme l'INTERSECTION de certaines tours d'extensions finies de K, APPELÉES TOURS D'IWASAWA. 
+Voici quelques exemples :
+	1.Un exemple simple d'anneau d'Iwasawa est l'ANNEAU D'ENTIERS DE L'EXTENSION CYCLOTOMIQUE DE K, c'est-à-dire l'extension obtenue en ADJOIGNANT À K TOUTES LES RACINES DE L'UNITÉ.
+	2.Un autre exemple simple d'anneau d'Iwasawa est l'ANNEAU D'IWASAWA ASSOCIÉ AUX COURBES ELLIPTIQUES, qui est construit à partir des COEFFICIENTS D'EULER de la FONCTION ZÊTA DE DEDEKIND DE K.
+
+3.Un SYSTÈME D'EULER est une FAMILLE de MODULES INDEXÉE par les NOMBRES PREMIERS P, qui sont construits à partir des COEFFICIENTS D'EULER de la FONCTION ZÊTA DE DEDEKIND DE K. 
+Dans le détail :
+	1.Un MODULE sur un ANNEAU D'ENTIERS est une GÉNÉRALISATION de la notion d'ESPACE VECTORIEL sur un CORPS.
+	2.Les COEFFICIENTS D'EULER sont des NOMBRES qui apparaissent dans la DÉCOMPOSITION de la FONCTION ZÊTA DE DEDEKIND en FACTEURS LOCAUX.
+	3.La FONCTION ZÊTA DE DEDEKIND est une fonction mathématique qui permet d'étudier la DISTRIBUTION DES NOMBRES PREMIERS DANS LES EXTENSIONS DE K. Elle est liée aux COEFFICIENTS D'EULER.
+
+4.
+KOLYVAGIN a développé sa méthode de DESCENTE DE CASSELS-TATE dans les années 1990, en utilisant la THÉORIE DES HAUTEURS et les FONCTIONS L, 
+POUR PROUVER le théorème de Birch et SWINNERTON-DYER pour CERTAINES COURBES ELLIPTIQUES sur les corps de nombres. 
+Sa méthode a permis d'OBTENIR DES ÉLÉMENTS dans les GROUPES DE SELMER, qui sont des objets arithmétiques importants pour étudier la structure arithmétique des courbes elliptiques. 
+Dans le détail :
+
+	1.Les GROUPES DE SELMER sont des groupes finis qui MESURENT la NON-TRIVIALITÉ DES ÉLÉMENTS DE TORSION des courbes elliptiques sur les corps de nombres. 
+	Ils sont utilisés pour étudier la structure arithmétique des courbes elliptiques sur les corps de nombres.
+	2.La MÉTHODE DE DESCENTE DE CASSELS-TATE est une TECHNIQUE permettant de déterminer des INFORMATIONS sur les GROUPES DE SELMER à PARTIR de la connaissance de CERTAINES HAUTEURS DE POINTS sur la courbe elliptique.
+
+5.
+FLACH a adapté et étendu la méthode de DESCENTE DE CASSELS-TATE de KOLYVAGIN pour l'appliquer de manière PLUS GÉNÉRALE AUX COURBES ELLIPTIQUES en y incorporant de nouvelles notions et de nouvelles techniques.
+Il a notamment construit des familles de modules sur l'ANNEAU D'IWASAWA pour étudier les groupes de Selmer, en utilisant les SYSTÈMES D'EULER et les fonctions L.
+Son travail a permis de progresser dans la résolution du problème de Birch et Swinnerton-Dyer pour les courbes elliptiques.
+Dans le détail:
+
+	1.Flach a étendu la méthode de descente de CASSELS-TATE de KOLYVAGIN en incorporant des MODULES DE RANG SUPÉRIEUR dans sa construction. 
+	En effet, il a construit des familles de MODULES DE RANG SUPÉRIEUR SUR L'ANNEAU D'IWASAWA, qui permettent de CONTRÔLER LA NON-TRIVIALITÉ DES ÉLÉMENTS DE TORSION dans les GROUPES DE SELMEr.
+	2.L'apport de FLACH a permis de traiter les cas pLUS GÉNÉRAUX ET PLUS DIFFICILES de la conjecture de BIRCH ET SWINNERTON-DYER, pour lesquels les méthodes précédentes ne fonctionnaient pas. 
+	De plus, il a introduit de NOUVELLES TECHNIQUES ALGÉBRIQUES ET GÉOMÉTRIQUES pour mieux comprendre la structure des groupes de Selmer et de leurs sous-groupes.
+
+6.
+WILES a utilisé la méthode de Flach pour prouver le théorème de modularité pour les courbes elliptiques semistables en 1995, qui est une étape clé dans la preuve du dernier théorème de Fermat. 
+Sa contribution a été d'appliquer les idées de Flach à des situations plus complexes, 
+en utilisant des techniques de géométrie arithmétique pour étudier les propriétés des représentations galoisiennes associées aux courbes elliptiques. 
+Cela a permis de construire des formes modulaires, qui sont des fonctions mathématiques qui capturent les propriétés arithmétiques des courbes elliptiques, et de montrer leur lien avec les courbes elliptiques semistables. 
+Ce travail a conduit à la preuve complète du dernier théorème de Fermat en 1994.
+
+---------------
+RS est un anneau de déformation universel, qui décrit toutes les déformations possibles d'une représentation galoisienne donnée. 
+TS est un anneau de déformation modulaire universel, qui décrit toutes les déformations possibles d'une forme modulaire donnée.
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
+Si je comprns la cohomologie de de Rham est basé sur les  formes différentielles  et les différentielles extérieures.
+Quels sont les equivalents dans la cohomologie galoisienne?
+Dans les 2 cas on se base sur des coscycle et cobord , il me sembel dans ce cas à quoi les coscycle et les cobords correpondentt dans les 2 cohomologies?
+------------
+Corrigez moi  si je me trompe: 
+la cohomologie de de Rham est basée sur les formes différentielles et les différentielles extérieures.
+les  groupes de cohomologies H^0(R³), H^0(R³) et  H^2(R³) donnent notamment des informations sur les liens entre gradient, la divergence et le rotationnel.
+
+la cohomologie galoisienne quand est basée sur les représentations galoisiennes et les actions du groupe de Galois sur un module.
+les  groupes de cohomologies de galois sont notamment utilisés dans la démonstration de andrew wiles.
+
+Si ce que je viens de dire est correct, dans cette démonstration H^k(G, A) il me semble si G est une représentations galoisienne quels sont les modules A qui interviennent dans la démonstration? 
+et jusqu'à quel ordre va k dans cette démonstration?
+---------------
+est ce qu'il y a des groupes de cohomologie galoisienne de degré supérieur à 1 qui interviennent  dans la démonstration de Wiles?
+
+représente le nombre d'éléments dans le quotient de l'anneau IR par le sous-ensemble I²R.
+
+L'espace vectoriel IR/I²R est dual à un groupe de Selmer

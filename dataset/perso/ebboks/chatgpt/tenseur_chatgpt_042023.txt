@@ -1,0 +1,86 @@
+http://www-cosmosaf.iap.fr/Tenseurs-presentation.pdf --p17
+http://settheory.net/fr/relativite-generale
+https://chat.openai.com/c/477e1b12-7185-467f-bb7f-5ed4c861b191 KERR
+
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MIXTE( j indice haut, k indice bas)
+Un tenseur Tjk , noté de variance (j,k), 
+	j fois contravariant et 
+	k fois covariant 
+prend en ENTRÉE 
+	j vecteurs COVARIANTS et 
+	k vecteurs CONTRAVARIANTS et 
+génère un NOMBRE.Ce nombre en SORTIE est une fonction linéaire des entrées. 
+
+-------------------------------------------------------------
+Une autre manière est de dire qu'il 
+prend en ENTRÉE 
+	k vecteurs CONTRAVARIANTS et
+produit en SORTIE j vecteurs CONTRAVARIANTS
+
+, ce qui est équivalent car si on rajoute en
+ENTRÉE les 
+	j vecteurs COVARIANTS ils "mangent "les j vecteurs CONTRAVARIANTS pour
+produire un NOMBRE!!
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+https://chat.openai.com/c/7ca04732-9b23-400d-b6a6-615d7ec51c1c
+illustre ce que vous venez de dire avec la matrice ROTATION.
+
+MIXTE
+En ce qui concerne la MATRICE de ROTATION, elle peut être vue comme un exemple de tenseur 
+	MIXTE de  variance (1,1) 
+qui prend en ENTRÉE 
+	un vecteur CONTRAVARIANT v^i et 
+	un vecteur COVARIANT v_j, et 
+produit en SORTIE 
+	un nombre unique correspondant à la PROJECTION de v^i sur v_j (v_j=v^i après ROTATION).
+	
+-------------------------------------------------------------
+
+Maintenant, si nous considérons que v_j est en réalité une FONCTIONNELLE LINÉAIRE qui 
+
+prend en ENTRÉE v^i pour 
+produire un NOMBRE, 
+alors la matrice de rotation peut être vue comme un tenseur de type (1,1) qui 
+
+prend en entrée un vecteur CONTRAVARIANT v^i et 
+produit en sortie un autre vecteur CONTRAVARIANT v'^i.
+
+En effet, si nous utilisons la matrice de rotation pour 
+	transformer 
+		le vecteur v^i en v'^i, 
+	nous pouvons exprimer cela comme une 
+	opération linéaire de la forme 
+		v'^i = R^i_j v^j, où R^i_j est la matrice de rotation. 
+En d'autres termes, la matrice de rotation est une application linéaire qui transforme un vecteur contravariant en un autre vecteur contravariant.
+-----------------
+...dans le cas de la matrice de rotation R qui est une fois covariante, une fois contravariante c'est equivalent non?
+-----------------
+mais par dualité à une fonctionnelle linéaire correspond un vecteur non?
+-----------------
+En effet, si on interprète la matrice de rotation comme prenant un vecteur covariant et un vecteur contravariant en entrée et produisant un nombre en sortie, 
+ce nombre correspond à la projection du vecteur contravariant sur le vecteur covariant après la rotation. 
+Autrement dit, le nombre en sortie correspond à la composante du vecteur contravariant qui est alignée avec le vecteur covariant après la rotation.
+
+-----------
+est ce qu'on peut dire qu'il y a une correspondace entre le nombre 7.08 la fonctionnelle linéaire v' = (1, 3.54) qui a pris en entrée le v = (2, 3) pour obtenir ce nombre? 
+(ici du coup v' un "vecteur" ligne ou pour donner le terme qui convient un covecteur tandis que v est vecteur colonne, un "vrai vecteur" qui appartient à l'espace vectoriel tandis que v'  appartient à l'espace dual)
+------------
+vecteur contravariant v  =(2,3) 
+vecteur contravariant v' = (1,3.54)
+-----------
+pouvez répéter , re paraphrasé ce qu'on vient de dire pour les 2 interprétations de R avec v  =(2,3),  v' = (1,3.54) et  7.08.
+-----------
+il me semble qu'on peut exprimer les nombres qui interviennent ici comme  1,3.54 et 7.08. en terme de radicaux
+--------------
+rotation de 30 degrés dans le sens horaire.
+
+[ √3/2  -1/2 ]
+[ 1/2   √3/2 ] [ 1 ]
+
+[ cos(θ) -sin(θ)]
+[ sin(θ) cos(θ) ]
