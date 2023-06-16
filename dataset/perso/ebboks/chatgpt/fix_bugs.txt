@@ -15,6 +15,47 @@ BEGIN
 END;
 /
 
+DECLARE
+   TYPE ResultatType IS RECORD (
+      ordre_ul_id         VARCHAR2(100),
+      locktrade_ul_id     VARCHAR2(100),
+      instrumentid        VARCHAR2(100)
+   );
+   
+   TYPE ResultatTableType IS TABLE OF ResultatType;
+   ResultatTable ResultatTableType := ResultatTableType();
+
+   i INTEGER := 1;
+BEGIN
+   FOR rec IN (SELECT DISTINCT ord.ul_id, blktrd.ul_id AS locktrade_ul_id, blktrd.instrumentid
+               FROM tblorders ord
+               JOIN tbl_md_blocktrade blktrd ON blktrd.refs LIKE '%type="order" refid="' || ord.ul_id || '%'
+               WHERE ord.ul_id = 'RE1a44d5290000')
+   LOOP
+      ResultatTable.EXTEND;
+      ResultatTable(i).ordre_ul_id := rec.ul_id;
+      ResultatTable(i).locktrade_ul_id := rec.locktrade_ul_id;
+      ResultatTable(i).instrumentid := rec.instrumentid;
+      i := i + 1;
+   END LOOP;
+
+   -- Utilisation des résultats
+   FOR j IN 1 .. ResultatTable.COUNT LOOP
+      DBMS_OUTPUT.PUT_LINE('Le numéro de son ordre est ' || ResultatTable(j).ordre_ul_id);
+      DBMS_OUTPUT.PUT_LINE('ordre ul_id: ' || ResultatTable(j).ordre_ul_id || ', locktrade UL_ID:' || ResultatTable(j).locktrade_ul_id || ', INSTRUMENTID:' || ResultatTable(j).instrumentid);
+   END LOOP;
+   
+   -- Retourner les résultats
+   FOR k IN 1 .. ResultatTable.COUNT LOOP
+      -- Utilisez les valeurs de ResultatTable(k) pour traiter les résultats comme nécessaire
+      -- Par exemple, insérer les résultats dans une autre table, les utiliser dans une autre requête, etc.
+      -- Ici, nous utilisons DBMS_OUTPUT.PUT_LINE pour afficher les résultats à titre d'exemple
+      DBMS_OUTPUT.PUT_LINE('Le numéro de son ordre est ' || ResultatTable(k).ordre_ul_id);
+      DBMS_OUTPUT.PUT_LINE('ordre ul_id: ' || ResultatTable(k).ordre_ul_id || ', locktrade UL_ID:' || ResultatTable(k).locktrade_ul_id || ', INSTRUMENTID:' || ResultatTable(k).instrumentid);
+   END LOOP;
+END;
+/
+
 Unicode String could not be converted to a Single-Byte
 
 select PRD.PRODUCT_KEY,
