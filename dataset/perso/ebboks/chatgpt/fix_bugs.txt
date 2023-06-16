@@ -1,0 +1,42 @@
+DECLARE
+
+TYPE BLOK_TRADE IS TABLE OF tbl_md_blocktrade%ROWTYPE;
+l_BLOK_TRADE  BLOK_TRADE;
+V_BLOK_TRADE tbl_md_blocktrade%ROWTYPE;
+
+BEGIN
+
+FOR Cursor_orderRef IN (select distinct ord.ul_id from tblorders ord where ord.ul_id ='RE1a44d5290000')
+LOOP
+ DBMS_OUTPUT.PUT_LINE(' Le numéro de son odre est ' || Cursor_orderRef.ul_id);
+ --select blktrd.* BULK COLLECT into  l_BLOK_TRADE from tbl_md_blocktrade blktrd where blktrd.refs like'%type="order" refid="'||Cursor_orderRef.UL_ID||'%';
+ --select blktrd.* BULK COLLECT into  l_BLOK_TRADE from tbl_md_blocktrade blktrd where blktrd.refs like'%refid="'||Cursor_orderRef.UL_ID||'%';
+ --DBMS_OUTPUT.PUT_LINE('Les trades sont' || l_BLOK_TRADE);
+ /*FOR indx IN 1 .. l_BLOK_TRADE.COUNT
+ LOOP
+  select blktrd.* into  V_BLOK_TRADE from tbl_md_blocktrade blktrd where blktrd.refs like'%type="order" refid="'||l_BLOK_TRADE (indx).ul_id||'%';
+  DBMS_OUTPUT.PUT_LINE('ordre ul_id: ' || Cursor_orderRef.ul_id || ' ,locktrade UL_ID:' ||l_BLOK_TRADE (indx).ul_id|| ', INSTRUMENTID:' || l_BLOK_TRADE (indx).INSTRUMENTID);
+ END LOOP;*/
+
+END LOOP Cursor_orderRef;
+
+END;
+/
+Unicode String could not be converted to a Single-Byte
+
+select PRD.PRODUCT_KEY,
+    PRD.PRODUCT_NAME,CONVERT(PRD.PRODUCT_NAME,'UTF8','us7ascii'),
+    PRD.PRODUCT_TYPE_CD,
+    PRD.LAST_UPDATE_DATE,
+    PRODUCT_SUB_TYPE_CD 
+from SAM_PRF_ST_PRD PRD,  
+    SAM_PRF_LE_ACT_SEG SEG,
+    SAM_PRF_AGG_TRD_TMP2 TRD
+    WHERE SEG.SEGMENT = 1 
+    AND CONVERT(PRD.PRODUCT_NAME,'UTF8','us7ascii') <> PRD.PRODUCT_NAME
+    AND IS_FOR_DETECTION = '1'  
+    AND TRD.DAY_SK BETWEEN 8564 AND 8565 
+    AND TRD.PRODUCT_SK = PRD.PRODUCT_SK
+    AND SEG.ACCOUNT_KEY = TRD.ENTITY_KEY
+    AND 1=1
+    order by PRD.PRODUCT_KEY
