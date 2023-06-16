@@ -1,27 +1,20 @@
 DECLARE
-
-TYPE BLOK_TRADE IS TABLE OF tbl_md_blocktrade%ROWTYPE;
-l_BLOK_TRADE  BLOK_TRADE;
-V_BLOK_TRADE tbl_md_blocktrade%ROWTYPE;
-
+   TYPE BLOK_TRADE IS TABLE OF tbl_md_blocktrade%ROWTYPE;
+   l_BLOK_TRADE  BLOK_TRADE;
+   V_BLOK_TRADE tbl_md_blocktrade%ROWTYPE;
 BEGIN
+   FOR Cursor_orderRef IN (SELECT DISTINCT ord.ul_id FROM tblorders ord WHERE ord.ul_id = 'RE1a44d5290000') LOOP
+      DBMS_OUTPUT.PUT_LINE('Le numéro de son ordre est ' || Cursor_orderRef.ul_id);
+      SELECT * BULK COLLECT INTO l_BLOK_TRADE FROM tbl_md_blocktrade WHERE refs LIKE '%type="order" refid="' || Cursor_orderRef.ul_id || '%';
 
-FOR Cursor_orderRef IN (select distinct ord.ul_id from tblorders ord where ord.ul_id ='RE1a44d5290000')
-LOOP
- DBMS_OUTPUT.PUT_LINE(' Le numéro de son odre est ' || Cursor_orderRef.ul_id);
- --select blktrd.* BULK COLLECT into  l_BLOK_TRADE from tbl_md_blocktrade blktrd where blktrd.refs like'%type="order" refid="'||Cursor_orderRef.UL_ID||'%';
- --select blktrd.* BULK COLLECT into  l_BLOK_TRADE from tbl_md_blocktrade blktrd where blktrd.refs like'%refid="'||Cursor_orderRef.UL_ID||'%';
- --DBMS_OUTPUT.PUT_LINE('Les trades sont' || l_BLOK_TRADE);
- /*FOR indx IN 1 .. l_BLOK_TRADE.COUNT
- LOOP
-  select blktrd.* into  V_BLOK_TRADE from tbl_md_blocktrade blktrd where blktrd.refs like'%type="order" refid="'||l_BLOK_TRADE (indx).ul_id||'%';
-  DBMS_OUTPUT.PUT_LINE('ordre ul_id: ' || Cursor_orderRef.ul_id || ' ,locktrade UL_ID:' ||l_BLOK_TRADE (indx).ul_id|| ', INSTRUMENTID:' || l_BLOK_TRADE (indx).INSTRUMENTID);
- END LOOP;*/
-
-END LOOP Cursor_orderRef;
-
+      FOR indx IN 1 .. l_BLOK_TRADE.COUNT LOOP
+         V_BLOK_TRADE := l_BLOK_TRADE(indx);
+         DBMS_OUTPUT.PUT_LINE('ordre ul_id: ' || Cursor_orderRef.ul_id || ', locktrade UL_ID:' || V_BLOK_TRADE.ul_id || ', INSTRUMENTID:' || V_BLOK_TRADE.INSTRUMENTID);
+      END LOOP;
+   END LOOP;
 END;
 /
+
 Unicode String could not be converted to a Single-Byte
 
 select PRD.PRODUCT_KEY,
