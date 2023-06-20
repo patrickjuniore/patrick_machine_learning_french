@@ -74,3 +74,13 @@ from SAM_PRF_ST_PRD PRD,
     AND SEG.ACCOUNT_KEY = TRD.ENTITY_KEY
     AND 1=1
     order by PRD.PRODUCT_KEY
+
+" Hervé,
+
+Nus avosn eu récemment un probleme en preproduction et en production avec les produits."
+
+De ton coté, peux-tu voir dans la journée avec l’ETL, le problème d’encodage des product ; Je crains que l’on soit réalimenté wrongly aux prochains batchs…
+•	Savoir si ça va être récurrent ou si c’était juste 1 fois.
+•	Identifier la rootCause. Est-ce que ça vient de l’ETL ou est-ce que ça vient des fichiers CBG.
+
+
