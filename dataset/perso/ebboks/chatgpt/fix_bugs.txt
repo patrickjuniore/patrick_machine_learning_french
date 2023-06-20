@@ -83,4 +83,21 @@ De ton coté, peux-tu voir dans la journée avec l’ETL, le problème d’encod
 •	Savoir si ça va être récurrent ou si c’était juste 1 fois.
 •	Identifier la rootCause. Est-ce que ça vient de l’ETL ou est-ce que ça vient des fichiers CBG.
 
+Cher Hervé,
+
+J'espère que tu vas bien. Nous avons récemment rencontré un problème en préproduction et en production concernant les produits, et j'aimerais bénéficier de ton expertise en tant que membre de l'équipe ETL pour nous aider à résoudre cette situation.
+
+Il semblerait que nous ayons des problèmes d'encodage des produits lors de la réalimentation des prochains lots de données. Je suis préoccupé par la possibilité que cela se reproduise à l'avenir, et nous souhaiterions identifier la cause profonde de ce problème. Est-ce que cela provient de l'ETL ou est-ce que cela est lié aux fichiers CBG que nous utilisons ?
+
+Serait-il possible pour toi de prendre un moment aujourd'hui pour investiguer ce problème d'encodage des produits avec l'équipe ETL ? Je te serais reconnaissant de nous aider à répondre aux questions suivantes :
+
+Est-ce que ce problème d'encodage est susceptible de se reproduire de manière récurrente ou était-ce un incident isolé ?
+Peux-tu nous aider à identifier la cause racine de ce problème ? Est-ce que cela provient de l'ETL ou est-ce lié aux fichiers CBG ?
+Ton expertise et tes efforts pour résoudre cette situation sont grandement appréciés. N'hésite pas à me tenir au courant des résultats de tes investigations et à me contacter si tu as besoin de plus d'informations.
+
+Merci beaucoup pour ton aide et ta collaboration.
+
+Bien cordialement,
+[Votre nom]
+
 
