@@ -1,0 +1,67 @@
+Bruce Cameron Reed - The Physics of the Manhattan Project (2014, Springer) - libgen.lc.pdf
+https://stringfixer.com/fr/Timeline_of_the_Manhattan_Project
+https://en.wikipedia.org/wiki/RaLa_Experiment
+https://www.okieboat.com/How%20nuclear%20weapons%20work.html
+https://www.atomicheritage.org/history/electronics-and-detonators
+https://fr.wikipedia.org/wiki/Allumage_%C3%A0_d%C3%A9charge_capacitive
+https://www.utb-chalon.fr/media/files/Documents_conferenciers/Fournier/Manhattan/projet%20Manhattan%20rev0.pdf
+https://www.utb-chalon.fr/media/files/Documents_conferenciers/Fournier/Manhattan/Projet%20Manhattan%20industriels%20et%20consultants.pdf
+https://www.utb-chalon.fr/media/files/Documents_conferenciers/Fournier/Manhattan/THE_DECISION_TO_USE_THE_ATOMIC_BOMB_STIMSON_avec_traduction.pdf
+https://fr.wikipedia.org/wiki/Allumage_%C3%A0_d%C3%A9charge_capacitive
+https://fr.wikipedia.org/wiki/D%C3%A9tonateur_%C3%A0_fil_explosant
+https://fr.wikipedia.org/wiki/Explosif#Booster_explosif
+http://evelyne.bouquet.free.fr/WebAlain/particules/580_manhattan6.htm
+https://www.rferl.org/a/tsar-bomba/31530341.html
+http://nuclearweaponarchive.org/Nwfaq/Nfaq4-4.html
+While the rates of energy generation and emission are linear with density, the scale of the whole system varies inversely with the cube root of density just as it does in fission cores.
+
+The Manhattan Project 1942-1945 (11)
+------------------------------------------------------------------------------------------------
+URANIUM enrichment (Oak Ridge, Tennessee)
+3.4 Electromagnetic Separation of Isotopes . . . . . . . . . . . . . . . . . . . 107 (125)
+3.5 Gaseous (Barrier) Diffusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 113 (131)
+
+PLUTONIUM production (Hanford, Washington)
+3.1 Reactor Criticality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97 (115)
+3.2 Neutron Thermalization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101 (119)
+3.3 Plutonium Production . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104 (122)
+
+5.3 A Model for Trace Isotope Production in a Reactor . . . . . . . . . . 151 (168)
+------------------------------------------------------------------------------------------------
+Complications in BOMB DESIGN
+4 Complicating Factors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121 (139)
+4.1 Boron CONTAMINATION in Graphite . . . . . . . . . . . . . . . . . . . . . . . 121
+4.2 SPONTANEOUS FISSION of 240Pu, PREDETONATION, and IMPLOSION . . . . 124
+4.2.1 Little Boy PREDETONATION Probability . . . . . . . . . . . . . . . 128
+4.2.2 Fat Man PREDETONATION Probability . . . . . . . . . . . . . . . . 129
+4.3 Predetonation Yield . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+4.4 Tolerable Limits for Light-Element IMPURITIES . . . . . . . . . . . . . . 139
+
+------------------------------------------------------------------------------------------------
+CRITICALITY: amount of fissile material needed to make a working nuclear weapon
+EFFICIENCY:  one might expect for a fission bomb (should be more efficcient than conventional bombs)
+CRITICALITY and EFFICIENCY physics(Los Alamos, Nouveau-Mexique) 
+2 Critical Mass and Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49 (67)
+2.1 Neutron Mean Free Path . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+2.2 Critical Mass: Diffusion Theory . . . . . . . . . . . . . . . . . . . . . . . . 55
+2.3 Effect of Tamper . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+2.4 Estimating Bomb Efficiency: Analytic . . . . . . . . . . . . . . . . . . . . 69
+2.5 Estimating Bomb Efficiency: Numerical . . . . . . . . . . . . . . . . . . 81
+2.5.1 A Simulation of the Hiroshima Little Boy Bomb . . . . . . 83
+2.6 Another Look at Untamped Criticality: Just One Number . . . . . . 86
+2.7 Critical Mass of a Cylindrical Core (Optional) . . . . . . . . . . . . . . 89
+
+CRITICALITY: amount of fissile material needed to make a working nuclear weapon
+EFFICIENCY:  one might expect for a fission bomb (should be more efficcient than conventional bombs)
+
+Graphite purifié 		    (sans bore)
+Fission spontanées trop importantes (Segrè)
+
+https://www.utb-chalon.fr/media/files/Groupes_de_travail/Ethique_et_societe/Mondialisation/Le_Choc_des_civilisations.pdf
+
+https://www.visualcapitalist.com/cost-and-composition-of-americas-nuclear-weapons-arsenal/
+https://www.visualcapitalist.com/cp/nuclear-warheads-by-country-1945-2022/
+https://www.visualcapitalist.com/which-countries-have-the-most-nuclear-weapons/
+
+https://www.visualcapitalist.com/map-explainer-ukraine/
+https://www.visualcapitalist.com/4-historical-maps-that-explain-the-ussr/
