@@ -1,0 +1,82 @@
+https://www.normalesup.org/~glafon/maths/courbes_elliptiques.pdf
+
+-------------Courbes elliptiques complexes
+Une courbe elliptique est, en gros, une courbe 
+(enfin, quelque chose de dimension 1, donc ca ressemble plutôt à une surface dans le cas complexe,en fait),
+ munie d’une loi de groupe. 
+
+Pas n’importe quelle LOI DE GROUPE, évidemment, sinon ce serait facile mais ça n’aurait aucun intérêt, 
+mais une loi telle que les COOORDONNÉES DE LA SOMME s’exprime “gentiment” en FONCTION DE CELLES DES POINTS DE DÉPART, 
+par exemple de FAÇON POLYNÔMIALE 
+(pour employer des termes plus savants, l’idée est de munir la courbe d’une STRUCTURE DE SCHÉMA EN GROUPES).
+
+Par exemple, le CERCLE RÉEL {(x, y) ∈ R²| x² + y² = 1} est muni d’une loi de groupe naturelle 
+(pour laquelle il est ISOMORPHE à R/2πZ) VIA sa PARAMÉTRISATION par l’ANGLE : 
+(cos θ,sin θ) + (cos θ′,sin θ′) = (cos(θ + θ′),sin(θ + θ′)
+)
+
+On peut d’ailleurs faire pareil avec le CERCLE COMPLEXE et VIA les RELATIONS TRIGONOMÉTRIQUES, on a bien une loi polynômiale : 
+(x1, y1) + (x2, y2) = (x1x2 −y1y2, x1y2 + x2y1).
+Dans le cadre complexe, comme souvent, tout est simple. 
+En fait, les courbes elliptiques y ont le bon goût d’être de simples tores (à isomorphisme près pour une bonne notion d’isomorphisme, bien entendu). 
+
+C’est d’ailleurs la définition provisoire que j’en donnerai ; pour rompre avec la tradition consistant à en donner une équation tout de suite, 
+nous allons étudier les tores et,en extrayant les propriétés intéressantes de cette étude, proposer une généralisation du concept.
+
+-------------
+(cos θ,sin θ) + (cos θ′,sin θ′) = (cos(θ + θ′),sin(θ + θ′)
+
+cos(θ + θ′) = cosθcosθ′ - sinθsinθ′
+sin(θ + θ′) = cosθsinθ′ + cosθ′sinθ
+
+f1(θ + θ′) = f1(θ)f1(θ′) -  f2(θ) f2(θ′)
+f2(θ + θ′) = f1(θ)f2(θ′) +  f1(θ′)f2(θ)
+
+(x1, y1) + (x2, y2) = (x1x2 −y1y2, x1y2 + x2y1).
+
+x1 = cos θ = f1(θ) , y1 = sin θ  = f2(θ)  
+x2 = cos θ′= f1(θ′), y2 = sin θ′ = f2(θ′) 
+
+
+(f1(θ),f1(θ′)) + (f2(θ),f2(θ′)) = (f1(θ + θ′),f2(θ + θ′)
+f1 et f2 --> fonctions à 1 paramètre. (angle)
+
+-------------------------------------------------------------------
+http://www.math.polytechnique.fr/xups/xups09-01.pdf
+http://www.math.polytechnique.fr/xups/xups09-02.pdf
+http://www.math.polytechnique.fr/xups/xups09-03.pdf
+http://www.math.polytechnique.fr/xups/xups09-04.pdf
+http://www.math.polytechnique.fr/xups/xups09-05.pdf --p8 (Ribet)
+
+Théorème (K. Ribet). 
+	Soit r un nombre premier. 
+	Soit f = Somme n>1 An*q^n une FORME PARABOLIQUE de POIDS 2 pour Γ0(N) qui est 
+	NOUVELLE, PROPRE et NORMALISÉE. 
+	
+	Soit M l’entier obtenu en enlevant de N tous les nombres premiers tels que Ef ait mauvaise réduction multiplicative en p 
+	et que vp(discriminant(Ef )) soit multiple de r.
+	
+	Alors il existe une forme g = Somme n>1 Bn*q^n  parabolique de poids 2 pour Γ0(M), 
+	telle que pour p premier ne divisant pas Nr on ait bp ≡ ap mod r.
+	
+Appliquant cela à la forme modulaire fab associée à la courbe elliptique Eab
+, on a Nab = Produit p|abc p et discriminant(Eab) = 2^−8 Produit p|abc p^2r. 
+On trouve alors M = 2. 
+Mais S2(2) = 0 donne la contradiction voulue !
+
+Pour ne pas rester dans le domaine de l’absurde, voici un exemple de congruence donnée par le résultat de Ribet. 
+On considère les 
+courbes ELLIPTIQUES E1:
+ d’équation Y^2 = X^3 − X2 − 77X + 330,
+ de discriminant ∆1 = 2^4· 3^10· 11 
+ et de conducteur N1 = 22· 3 · 11
+ 
+, et la courbe ELLIPTIQUE E2, 
+	d’équation Y2 = X^33 + X^32 + 3X − 1
+	,de conducteur N2 = 2^2· 11.
+Si l’on applique le résultat de Ribet à fE1, pour r = 5, on trouve M = 2^2· 11 et en fait on peut prendre g = fE2. 
+
+Voici un petit tableau illustratif:
+
+
+
