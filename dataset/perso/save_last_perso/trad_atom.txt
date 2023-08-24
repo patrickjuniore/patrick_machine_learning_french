@@ -1,0 +1,265 @@
+http://nuclearweaponarchive.org/Nwfaq/Nfaq4-4.html
+RADIATION CHANNEL
+https://nuclearweaponarchive.org/Nwfaq/Tellerulam.gif
+
+https://fr.wikipedia.org/wiki/Bombe_H
+https://www.britannica.com/technology/thermonuclear-bomb
+https://cdn.britannica.com/06/114406-050-5EBE8467/blast-fission-component-fusion-explosion-bomb-warhead.jpg
+https://newint.org/sites/default/files/features/2008/06/01/412-08-thermonuclear-weapon.jpg
+
+http://zarco-macross.wikidot.com/wiki:nuclear-weapons
+
+https://minutemanmissile.com/nuclearwarheads.html
+https://www.quora.com/What-is-procedure-when-a-submarine-receives-the-order-to-launch-a-nuclear-missile-at-another-country
+
+The original concept for creating a thermonuclear explosion was to create a thermonuclear combustion wave in a mass of liquid deuterium. 
+The idea was to heat a portion of the mass to ignition conditions with an atomic bomb. 
+The energy released by the burning region would be sufficient to heat an adjacent region to the point of ignition, allowing the region of burning to spread throughout the mass.
+
+This process has been described as "thermonuclear detonation" but "thermonuclear combustion" is more accurate. 
+Unlike a high explosive, the fusion reaction will not go to completion in a narrow zone behind the ignition front, instead the fuel would continue to burn until quenched by the expansion of the fuel mass. 
+Since a large mass takes longer to expand than a small one, it seemed clear that such a bomb must be fairly large for he combustion to be reasonably efficient 
+(one cubic meter of deuterium yielding 10 megatons was the nominal figure used).
+
+Developing this approach (originally called the Super, later the Classical Super) actually required solving two different ignition problems: 
+establishing the initial ignition conditions, and determining whether the combustion wave would be self-supporting once established.
+
+Despite the enormous temperatures and energy densities in a fission bomb, the first problem was not straightforward. 
+Some 80% of the energy in an exploding bomb core is in the form of soft x-rays, but ionized hydrogen at normal densities is virtually transparent to this high temperature radiation 
+(the mean free path is measured in hundreds of meters). 
+The thermal radiation escaping from the bomb core thus cannot heat a localized region of deuterium to ignition.
+ Most the remaining energy is present in the form of kinetic energy of ions and electrons. 
+This energy, transferred as a shock wave by the expanding bomb core, was a possibility. 
+However the primary means to heat the fuel that was chosen seems to have been the neutron flux from the core, which carried a mere 1% or so of the explosion energy. 
+The reason was that the neutrons travel very rapidly and quickly deposit their energy in a manageably small region (roughly 8 cm thick) through moderation by the hydrogen. 
+Very large explosions were required for sufficient heating to occur (hundreds of kilotons).
+------------------------------------------------------------------------------------------------------------------------------
+Le concept original pour créer une explosion thermonucléaire était de créer une onde de combustion thermonucléaire dans une masse de deutérium liquide. 
+L'idée était de chauffer une partie de la masse aux conditions d'allumage avec une bombe atomique. 
+L'énergie libérée par la région en combustion serait suffisante pour chauffer une région adjacente jusqu'au point d'inflammation, permettant à la région en combustion de se propager dans toute la masse.
+
+Ce processus a été décrit comme une "détonation thermonucléaire", mais la "combustion thermonucléaire" est plus précise. 
+Contrairement à un explosif puissant, la réaction de fusion ne s'achèvera pas dans une zone étroite derrière le front d'allumage, 
+mais le carburant continuera à brûler jusqu'à ce qu'il soit éteint par l'expansion de la masse de carburant. 
+Puisqu'une grande masse prend plus de temps à se dilater qu'une petite, il semblait clair qu'une telle bombe devait être assez grosse pour que sa combustion soit raisonnablement efficace 
+(un mètre cube de deutérium produisant 10 mégatonnes était le chiffre nominal utilisé).
+
+Le développement de cette approche (appelée à l'origine le Super, plus tard le Super classique) nécessitait en fait de résoudre deux problèmes d'allumage différents : 
+	1/établir les conditions d'ALLUMAGE initiales et 
+	2/déterminer si l'onde de combustion serait AUTO-ENTRETENUE une fois établie.
+
+Malgré les énormes températures et densités d'énergie dans une bombe à fission, le premier problème n'était pas simple. 
+Environ 
+	80 % de l'énergie dans le cœur d'une bombe qui explose se présente sous la forme de RAYONS X MOUS, 
+		mais l'HYDROGÈNE IONISÉ à des densités normales est pratiquement TRANSPARENT à ce rayonnement à haute température (le libre parcours moyen est mesuré en centaines de mètres). 
+	Le RAYONNEMENT THERMIQUE s'échappant du noyau de la bombe NE PEUT DONC PAS CHAUFFER une région localisée de deutérium JUSQU'À L'INFLAMMATION. 
+	La plupart de l'énergie restante est présente sous forme d'énergie CINÉTIQUE D'IONS ET D'ÉLECTRONS. 
+		Cette énergie, transférée sous forme d'ONDE DE CHOC par le noyau de la bombe en expansion, était une possibilité. 
+	Cependant, le principal moyen de chauffer le combustible qui a été choisi semble avoir été le FLUX DE NEUTRONS du cœur, qui transportait à peine 1 % environ de l'énergie de l'explosion. 
+		La raison en était que les neutrons se déplacent très rapidement et déposent RAPIDEMENT LEUR ÉNERGIE dans une RÉGION GÉRABLEMENT PETITE (environ 8 cm d'épaisseur) grâce à la modération par l'hydrogène. 
+De très grandes explosions ont été nécessaires pour qu'un échauffement suffisant se produise (des centaines de kilotonnes)
+
+
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+
+Here the matter rested until January 1951. No viable technical approach for exploding deuterium was available. At this time Stanislaw Ulam was considering ways of improving fission bombs. 
+Since these weapons generally rely on compression, he contemplated whether the energy of a small fission bomb could be used to compress a larger amount of fissile material. 
+Since the energy of fissile material exceeds that of a conventional explosive by six orders of magnitude, if this energy could be harnessed to drive an implosion much more rapid compression and much higher densities could be achieved.
+
+Very quickly he realized that this idea could be extended to compressing deuterium, to make a fusion explosion possible. This is the origin of the key ideas of separation and staging: 
+separating fuels into physically discrete units, and using the explosion of one stage to drive the second stage.
+
+It is not immediately evident from a cursory examination of the physics of thermonuclear detonation waves that this is really of any help. 
+At a constant temperature, the reaction rate in a fusion fuel mass increases linearly with compression, but so does the emission rate of thermal energy through bremsstrahlung. 
+The balance of energy production to energy loss remains the same. For this reason Teller had long regarded compression as being futile for enhancing the classical Super.
+
+However not all physical factors scale similarly. 
+While the rates of energy generation and emission are linear with density, the scale of the whole system varies inversely with the cube root of density just as it does in fission cores. 
+Compressing the fuel by a factor of 1000 (for example), reduces the dimensions by a factor of 10. This has several important consequences. First, the fuel has greater opportunity to burn before disassembly. 
+Second, the MFPs for neutrons decrease by a factor of 1000, and for photons by a factor of a million. 
+Neutron heating thus occurs in a narrower zone, assisting the propagation of the burn region, while photon absorption becomes an important heating mechanism - effectively eliminating bremsstrahlung loss.
+
+The net result is that compression does indeed make a big difference in the feasibility of propagating a thermonuclear combustion wave.
+
+------------------------------------------------------------------------------------------------------------------------------
+Ici, l'affaire resta jusqu'en janvier 1951. Aucune approche technique viable pour faire exploser le deutérium n'était disponible. 
+À cette époque, Stanislaw Ulam envisageait des moyens d'améliorer les bombes à fission. 
+
+Étant donné que ces armes reposent généralement sur la compression, il s'est demandé si l'ÉNERGIE D'UNE PETITE BOMBE À FISSION pourrait être UTILISÉE pour COMPRIMER une PLUS GRANDE QUANTITÉ DE MATIÈRE FISSILE. 
+Étant donné que l'énergie de la matière fissile dépasse celle d'un explosif conventionnel de six ordres de grandeur
+, si cette énergie pouvait être exploitée pour provoquer une implosion
+, une COMPRESSION BEAUCOUP PLUS RAPIDE et des DENSITÉS BEAUCOUP PLUS ÉLEVÉES pourraient être obtenues.
+
+Très vite, il se rendit compte que cette IDÉE pouvait être ÉTENDUE à la COMPRESSION DU DEUTÉRIUM, pour rendre possible une EXPLOSION PAR FUSION. 
+C'est l'ORIGINE des idées clés de SÉPARATION ET D'ÉTAGEMENT : séparer les carburants en unités physiquement discrètes et utiliser l'explosion d'un étage pour entraîner le deuxième étage.
+
+Il n'est pas immédiatement évident, à partir d'un examen superficiel de la physique des ondes de détonation thermonucléaire, que cela soit vraiment d'une quelconque utilité. 
+À température constante
+	, la VITESSE DE RÉACTION dans une masse de combustible de fusion augmente LINÉAIREMENT avec la COMPRESSION
+	, mais il en va de même pour le taux d'ÉMISSION D'ÉNERGIE thermique par BREMSSTRAHLUNG. 
+L'ÉQUILIBRE entre 
+	la production d'énergie et 
+	la perte d'énergie reste le même. 
+Pour cette raison, Teller a longtemps considéré la COMPRESSION comme INUTILE pour améliorer le Super classique.
+
+Cependant, TOUS LES FACTEURS PHYSIQUES n'ÉVOLUENT PAS de la MÊME MANIÈRE. 
+Alors que 
+	les TAUX DE GÉNÉRATION et d'émission d'énergie sont LINÉAIRES AVEC LA DENSITÉ
+	, l'ÉCHELLE DE L'ENSEMBLE du système varie INVERSEMENT AVEC LA RACINE CUBIQUE DE LA DENSITÉ, tout comme dans les noyaux de fission. 
+		COMPRIMER le carburant d'un FACTEUR 1000 (par exemple), RÉDUIT les dimensions d'un FACTEUR 10. 
+
+Cela a plusieurs CONSÉQUENCES IMPORTANTES.
+	Premièrement, le carburant a une PLUS GRANDE POSSIBILITÉ DE BRÛLER avant le démontage.
+	Deuxièmement, les MFP 
+		des NEUTRONS DIMINUENT D'UN FACTEUR 1000 et celles 
+		des PHOTONS d'un facteur d'un MILLION. 
+
+Le chauffage des neutrons se produit donc dans une ZONE PLUS ÉTROITE, aidant la PROPAGATION de la région de BRÛLURE, 
+tandis que l'ABSORPTION DES PHOTONS devient un MÉCANISME DE CHAUFFAGE IMPORTANT - ÉLIMINANT efficacement la perte de BREMSSTRAHLUNG.
+
+Le résultat net est que la compression fait en effet une grande différence dans la possibilité de propager une onde de combustion thermonucléaire.
+------------------------------------------------------------------------------------------------------------------------------
+Ulam was the key figure involved with the detailed computations that killed the Classical Super concept, he was thus well positioned to realize the benefits of compression. 
+The fact that he did not propose compression as a solution earlier can be explained by the fact that chemical explosives are too weak to be helpful. Much higher compressions are needed. 
+Once he thought of nuclear driven implosion, the idea of harnessing it to fusion was immediate. He quickly persuaded Teller of the fundamental soundness of the idea.
+
+The next problem was determining how the second stage implosion should actually be carried out. Ulam's concept did not specify how an implosion could be successfully produced using the nuclear explosion energy. 
+His initial idea was to use the kinetic energy in the shock wave of expanding fission trigger debris. 
+Reflecting and concentrating this shock wave on the second stage is possible in principle, but likely to be exceedingly difficult in practice.
+
+Teller soon conceived of a better idea. He had been studying radiation transport in fission explosions and was well acquainted with the physics involved. 
+He knew that most of the energy is in the form of thermal radiation, not kinetic energy, and furthermore that the shock front rapidly emits this energy into the bomb casing. 
+He also recognized that this thermal energy could be harnessed to perform work on the second stage much more easily and efficiently than the kinetic shock.
+
+The idea Teller developed is now known as radiation implosion. 
+The THERMAL RADIATION escaping from the primary stage (also called simply the "primary" or "trigger") flows along a gap between the fusion fuel and the opaque bomb casing (known as the RADIATION CHANNEL) 
+until the interior of the casing is heated to a uniform temperature. 
+The blackbody radiation emission from the casing evaporates material from an opaque pusher/tamper around the fusion fuel. 
+The expansion of this heated material acts like a rocket engine turned inside out - the inward directed reaction force drives the fuel capsule inward, imploding it.
+
+Once the idea of separation and staging have been developed, the idea of radiation implosion is actually rather difficult to avoid. 
+The thermal radiation arrives well ahead of the shock, and must be dealt with in some way. 
+It is very unfavorable to allow it to heat the fusion fuel prior to compression, since entropic heating makes compression much less effective. 
+If an opaque radiation shield is placed around the fuel to protect it from heating, the evaporation of the shield and a resulting implosion is inevitable.
+
+A final additional question remains to making this scheme work. How to heat the compressed fuel to ignition temperature? 
+One possibility is achieving sufficient heating from the compression process itself, reminiscent of a diesel engine. Adiabatic compression raises the temperature, but even with extreme compression not by a large enough factor. 
+The extremely rapid implosion necessarily generates an intense convergent shock wave in the fuel. 
+When this shock converges at the center, the extreme heating can be sufficient to ignite the fuel (this approach is used in the radiation imploded fuel capsules used in inertial confinement fusion experiments).
+------------------------------------------------------------------------------------------------------------------------------
+Ulam était le personnage clé impliqué dans les calculs détaillés qui ont tué le concept Classical Super, il était donc bien placé pour réaliser les avantages de la compression.
+Le fait qu'il n'ait pas proposé la compression comme solution plus tôt peut s'expliquer par le fait que les explosifs chimiques sont trop faibles pour être utiles. 
+Des compressions beaucoup plus élevées sont nécessaires.
+Une fois qu'il a pensé à l'implosion nucléaire, l'idée de l'exploiter pour la fusion était immédiate. 
+Il a rapidement persuadé Teller de la justesse fondamentale de l'idée.
+
+Le problème suivant consistait à déterminer comment l'implosion de la deuxième étape devait effectivement être effectuée. 
+Le concept d'Ulam ne précisait pas comment une implosion pouvait être produite avec succès en utilisant l'énergie de l'explosion nucléaire.
+Son idée initiale était d'utiliser l'énergie cinétique de l'onde de choc des débris déclencheurs de fission en expansion.
+Réfléchir et concentrer cette onde de choc sur le deuxième étage est possible en principe, mais susceptible d'être extrêmement difficile en pratique.
+
+Teller conçut bientôt une meilleure idée. Il avait étudié le transport des rayonnements dans les explosions de fission et connaissait bien la physique impliquée.
+Il savait que la majeure partie de l'énergie est sous forme de rayonnement thermique, et non d'énergie cinétique, et de plus que le front de choc émet rapidement cette énergie dans le boîtier de la bombe.
+Il a également reconnu que cette énergie thermique pouvait être exploitée pour effectuer des travaux sur le deuxième étage beaucoup plus facilement et efficacement que le choc cinétique.
+
+L'idée développée par Teller est maintenant connue sous le nom d'implosion par rayonnement.
+Le rayonnement thermique s'échappant de l'étage primaire (également appelé simplement le "primaire" ou "déclencheur") s'écoule le long d'un espace entre le combustible de fusion 
+et le boîtier opaque de la bombe (appelé canal de rayonnement)
+jusqu'à ce que l'intérieur du boîtier soit chauffé à une température uniforme.
+L'émission de rayonnement du corps noir du boîtier évapore le matériau d'un poussoir / saboteur opaque autour du combustible de fusion.
+L'expansion de ce matériau chauffé agit comme un moteur de fusée retourné - la force de réaction dirigée vers l'intérieur entraîne la capsule de carburant vers l'intérieur, la faisant imploser.
+
+Une fois l'idée de séparation et d'étagement développée, l'idée d'implosion radiative est en fait assez difficile à éviter.
+Le rayonnement thermique arrive bien avant le choc et doit être traité d'une manière ou d'une autre.
+Il est très défavorable de lui permettre de chauffer le combustible de fusion avant la compression, car le chauffage entropique rend la compression beaucoup moins efficace.
+Si un écran anti-rayonnement opaque est placé autour du combustible pour le protéger de l'échauffement, l'évaporation de l'écran et l'implosion qui en résulte sont inévitables.
+
+Une dernière question supplémentaire reste à faire fonctionner ce schéma. Comment chauffer le carburant comprimé à la température d'allumage ?
+Une possibilité consiste à obtenir un chauffage suffisant à partir du processus de compression lui-même, rappelant celui d'un moteur diesel. 
+La compression adiabatique augmente la température, mais même avec une compression extrême, pas d'un facteur suffisamment important.
+L'implosion extrêmement rapide génère nécessairement une onde de choc convergente intense dans le carburant.
+Lorsque ce choc converge au centre, le chauffage extrême peut être suffisant pour enflammer le combustible 
+(cette approche est utilisée dans les capsules de combustible implosées par rayonnement utilisées dans les expériences de fusion par confinement inertiel).
+------------------------------------------------------------------------------------------------------------------------------
+Teller thought of an additional element to the design to accomplish ignition. He proposed placing a sub-critical fissile mass (called the "spark plug") at the center of the fusion fuel. 
+The implosion process would compress this mass to a high level of criticality, causing an extremely rapid fission reaction. This would directly heat the highly compressed fuel, initiating a thermonuclear burn.
+
+As J. Carson Mark points out, the spark plug idea is a fairly obvious addition. 
+After all, it was the idea of compressing fissile material that set Ulam upon this path in the first place, and heating fusion fuel in direct contact with a fission explosion is the same approach as the original Super concept.
+
+Taken together these ideas form the basis of the "Teller-Ulam" design, more technically described as "staged radiation implosion". 
+So far as is known all high yield nuclear weapons today (>50 kt or so) use this design. 
+It is striking that once Ulam's initial insight regarding the use of a nuclear explosion to compress the fuel was made
+, the other parts of the concept seem to develop almost inevitably from the effort to translate the concept to practice (which partly explains its reinvention by the Soviets, British, French, and Chinese).
+
+Although the prospect of making possible a self-supporting thermonuclear detonation wave appears to have been the initial attraction to both Ulam and Teller
+, it turns out that once the final Teller-Ulam concept was developed the character of the ignition problem was so completely changed that this issue ceased to be of major importance.
+
+To permit radiation implosion, and prevent premature heating of the fusion fuel, an opaque tamper is placed around the fuel mass to keep thermal radiation out. 
+By the same token it acts as a radiation container to keep thermal radiation in. Because of this, the issue of balancing energy production and radiation loss is no longer important. 
+The energy produced by the fusion reactions remains trapped inside the tamper, allowing the temperature and reaction rate to rise continuously. This is in fact essential in making the fissile spark plug viable. 
+The very high Z fissile material radiates thermal energy at an extraordinary rate (over seven hundred thousand times faster than hydrogen), and would quench the fusion reaction if the energy could escape.
+
+The ignition problem for the radiation implosion approach now resembles the efficiency problem in fission bombs. 
+The efficiency of the fusion burn is determined by the fusion rate, integrated over the duration of confinement. 
+The fusion process is usually shut down when the fuel capsule undergoes explosive disassembly in a manner similar to that of a fission core. 
+If the reaction is highly efficient it may burn up so of the much fuel that the rate drops off to a negligible value despite the increasing temperature before disassembly occurs.
+
+Unlike the fission bomb though, convenient efficiency equations cannot be analytically derived. The energy release in a fission reaction is governed by a simple exponential function of time. 
+In contrast fusion reactions are not chain reactions, and the way reaction rate varies with temperature is not simple. 
+Further the energy release in deuterium is due to three different reactions, each with a different rate, and the composition of the fuel continuously changes. 
+An adequate treatment of efficiency necessarily relies on numerical simulations.
+
+The fully developed Teller-Ulam design was dubbed the "equilibrium thermonuclear" or "equilibrium super". The meaning of this term is open to question. 
+Some writers (Rhodes in _Dark Sun_ for example) have interpreted it to mean that a dynamical equilibrium is established between the exploding spark plug and the collapsing fuel mass
+, bringing the fusion fuel to its highest state of compression. 
+This is possible, but I believe the term most likely simply refers to the fact that the burning fusion fuel remains in equilibrium with thermal energy, unlike the Classical Super.
+
+This short overview provides an understanding of the components of thermonuclear weapon designs, and an understanding of the role of each component. 
+It scarcely does justice to the physical processes involved. 
+This requires a more detailed look at each part of the system.
+------------------------------------------------------------------------------------------------------------------------------
+
+Teller a pensé à un élément supplémentaire à la conception pour réaliser l'allumage. Il a proposé de placer une masse fissile sous-critique (appelée la "bougie d'allumage") au centre du combustible de fusion.
+Le processus d'implosion comprimerait cette masse à un niveau de criticité élevé, provoquant une réaction de fission extrêmement rapide. 
+Cela chaufferait directement le carburant hautement comprimé, déclenchant une combustion thermonucléaire.
+
+Comme le souligne J. Carson Mark, l'idée de la bougie d'allumage est un ajout assez évident.
+Après tout, c'est l'idée de comprimer la matière fissile qui a mis Ulam sur cette voie en premier lieu
+, et le chauffage du combustible de fusion en contact direct avec une explosion de fission est la même approche que le concept Super original.
+
+Prises ensemble, ces idées forment la base de la conception "Teller-Ulam", plus techniquement décrite comme une "implosion de rayonnement par étapes".
+Pour autant que l'on sache, toutes les armes nucléaires à haut rendement aujourd'hui (> 50 kt environ) utilisent cette conception.
+Il est frappant de constater qu'une fois l'idée initiale d'Ulam concernant l'utilisation d'une explosion nucléaire pour comprimer le combustible
+, les autres parties du concept semblent se développer presque inévitablement à partir de l'effort de traduire le concept en pratique 
+(ce qui explique en partie sa réinvention par les Soviétiques, les Britanniques, les Français et les Chinois).
+
+Bien que la perspective de rendre possible une onde de détonation thermonucléaire autonome semble avoir été l'attraction initiale pour Ulam et Teller
+, il s'avère qu'une fois que le concept final Teller-Ulam a été développé, le caractère du problème d'allumage a été si complètement changé que ce problème a cessé d'être d'une importance majeure.
+
+Pour permettre l'implosion par rayonnement et empêcher un échauffement prématuré du combustible de fusion, un tampon opaque est placé autour de la masse de combustible pour empêcher le rayonnement thermique d'entrer.
+De la même manière, il agit comme un conteneur de rayonnement pour retenir le rayonnement thermique. 
+De ce fait, la question de l'équilibre entre la production d'énergie et la perte de rayonnement n'est plus importante.
+L'énergie produite par les réactions de fusion reste piégée à l'intérieur du pilon, permettant à la température et à la vitesse de réaction d'augmenter en continu. Ceci est en effet essentiel pour rendre viable la bougie fissile.
+La matière fissile à Z très élevé rayonne de l'énergie thermique à une vitesse extraordinaire (plus de sept cent mille fois plus rapide que l'hydrogène) et éteindrait la réaction de fusion si l'énergie pouvait s'échapper.
+
+Le problème d'allumage pour l'approche de l'implosion par rayonnement ressemble maintenant au problème d'efficacité des bombes à fission.
+L'efficacité de la combustion par fusion est déterminée par le taux de fusion, intégré sur la durée du confinement.
+Le processus de fusion est généralement arrêté lorsque la capsule de combustible subit un désassemblage explosif d'une manière similaire à celle d'un cœur de fission.
+Si la réaction est très efficace, elle peut brûler tellement de carburant que le taux chute à une valeur négligeable malgré l'augmentation de la température avant le démontage.
+
+Contrairement à la bombe à fission, les équations d'efficacité pratiques ne peuvent pas être dérivées analytiquement. 
+La libération d'énergie dans une réaction de fission est régie par une simple fonction exponentielle du temps.
+En revanche, les réactions de fusion ne sont pas des réactions en chaîne et la façon dont la vitesse de réaction varie avec la température n'est pas simple.
+De plus, la libération d'énergie dans le deutérium est due à trois réactions différentes, chacune avec une vitesse différente, et la composition du combustible change continuellement.
+Un traitement adéquat de l'efficacité repose nécessairement sur des simulations numériques.
+
+La conception Teller-Ulam entièrement développée a été surnommée "l'équilibre thermonucléaire" ou "l'équilibre super". La signification de ce terme est sujette à caution.
+Certains auteurs (Rhodes dans _Dark Sun_ par exemple) l'ont interprété comme signifiant qu'un équilibre dynamique est établi entre la bougie qui explose et la masse de carburant qui s'effondre
+, amenant le combustible de fusion à son état de compression le plus élevé.
+C'est possible, mais je crois que le terme se réfère très probablement simplement au fait que le combustible de fusion brûlant reste en équilibre avec l'énergie thermique, contrairement au Classical Super.
+
+Ce bref aperçu permet de comprendre les composants des conceptions d'armes thermonucléaires et de comprendre le rôle de chaque composant.
+Il rend à peine justice aux processus physiques impliqués.
+Cela nécessite un examen plus détaillé de chaque partie du système.

@@ -1,0 +1,42 @@
+https://github.com/mrdbourke/tensorflow-deep-learning
+
+https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/00_tensorflow_fundamentals.ipynb
+BKG-05001486840 
+
+'''
+Here is an example of how you might use Python to load data into Google Cloud Platform (GCP):
+'''
+
+#Copy code
+# Import the necessary libraries
+import os
+from google.cloud import storage
+
+# Set the environment variable for the GCP project
+os.environ["GOOGLE_CLOUD_PROJECT"] = "my-gcp-project"
+
+# Create a client for the GCP Storage API
+storage_client = storage.Client()
+
+# Define the bucket where the data should be stored
+bucket = storage_client.bucket("my-gcp-bucket")
+
+# Define the file where the data is stored
+file = "./data.csv"
+
+# Upload the file to the bucket
+blob = bucket.blob("data.csv")
+blob.upload_from_filename(file)
+
+'''
+In this example, we import the necessary libraries and set the environment variable for the GCP project. 
+We then create a client for the GCP Storage API, and define the bucket where the data should be stored. 
+We also define the file where the data is stored, and use the upload_from_filename method to upload the file to the bucket.
+This is just a simple example to illustrate how you can use Python to load data into GCP. 
+In a real-world application, you would likely have more complex logic for managing the data and the storage process.
+'''
+
+
+
+
+

@@ -1,0 +1,21 @@
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/math_cours.html
+"permutation tensor" "hodge"
+"levi-civita tensor"  "hodge"
+Maxwell’s Equations "levi-civita" "hodge"
+http://www.cpt.univ-mrs.fr/~coque/book/source.html#x1-2220004.5.6
+https://inis.iaea.org/collection/NCLCollectionStore/_Public/39/110/39110808.pdf
+https://homepage.univie.ac.at/thomas.mieling/pdf/EM_Duality.pdf
+"hodge dual" "permutation" "maxwell"
+https://blogs.ncl.ac.uk/mlgutierrezabed2/files/2020/04/Maxwell.pdf
+https://klimas.paginas.ufsc.br/files/2020/04/chapter-2.pdf
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/chap_FormeDif.pdf
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/chap_DifOperateur.pdf
+https://www.imo.universite-paris-saclay.fr/explique_moi/files/de_rham.pdf
+
+Determinant versus Permanent
+https://mathcination.wordpress.com/2015/09/16/permanent-determinant/
+https://www.cs.toronto.edu/~toni/Courses/PvsNP/Lectures/lecture8.pdf
+https://math.berkeley.edu/~bernd/ban275.pdf
+https://interstices.info/p-np-un-probleme-a-un-million-de-dollars/
+https://www.lirmm.fr/~grenet/publis/talk_ejc11.pdf
+https://france2.wiki/wiki/%E2%99%AFP-completeness_of_01-permanent

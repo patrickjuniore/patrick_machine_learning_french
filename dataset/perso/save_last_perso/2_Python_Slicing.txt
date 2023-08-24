@@ -1,0 +1,180 @@
+I recommend solving at least one or two code puzzles every day, e.g., as you drink your morning coffee. 
+Then you spend the rest of your learning time on real projects that matter to you. 
+	The puzzles guarantee that your skills improve over time.
+	The real project brings you results.
+
+------------------------------------------------------------------------------------------	
+If you want to test your Python skills, use the following simple method:
+1/
+Track your individual Elo rating as you read the book and solve the code puzzles. 
+Simply write your CURRENT ELO rating into the book. 
+Start with an initial rating of 1000 if you are a beginner, 1500 if you are an intermediate, and 2000 if you are an advanced Python programmer. 
+Of course, if you already have an online rating on finxter.com, starting with this rating would be the most precise option.
+Figure 3.4 shows five different examples of how your Elo will change while working through the book. 
+Two factors impact the fnal rating: how you select your initial rating and how good you perform (the latter being more important).
+
+2/
+If your solution is CORRECT, ADD the Elo points according to the table given with the puzzle. 
+OTHERWISE, SUBTRACT the given Elo points from your current Elo number.
+
+------------------------------------------------------------------------------------------
+Use the following training plan to develop a strong learning habit with puzzle-based learning:
+
+1/
+Select a daily TRIGGER after which you solve code puzzles for 10 minutes. 
+For example, decide on your coffee Break Python, or even solve code puzzles as you brush your teeth or sit on the train to work,university, or school
+
+2/Scan over the puzzle in a First quick pass and ask yourself: WHAT IS THE UNIQUE IDEA OF THIS PUZZLE?
+
+
+3/
+Dive deeply into the code. Try to understand the purpose of each symbol, even if it seems trivial at frist. 
+Avoid being shallow and lazy. Instead, solve each puzzle thoroughly and take your time. 
+It's counterintuitive: To learn faster in less time, you must stay calm and take your time and allow yourself to dig deep. 
+There is no shortcut.
+
+4/
+Make sure you carry a pen with you and write your solution into the book. 
+This ensures that you stay objective -we all have the tendency to fake ourselves.
+Active learning is a central idea of this book.
+
+5/Look up the solution and read the explanation with care. 
+Do you understand every aspect of the code? 
+Write open questions down and look them up later,or send them to me (info@finxter.com). 
+I will do everything I can to come up with a good explanation.
+
+6/
+Only if your solution was 100% correct -including whitespaces, data types, and formatting of the output-you get Elo points for this puzzle. 
+Otherwise you should count it as a wrong solution and swallow the negative Elo points. 
+The reason for this strict rule is that this is the best way to train yourself to solve the puzzles thoroughly.
+--------------------------------------------------------------------------------------------p 5
+Overview:Keywords (18),Basic Data Types(24),Complex Data Types(32) p18 
+Slicing :Puzzle 1 												   p 38
+The Step Size in Slicing :Puzzle 2 								   p 40
+Overshooting Indices in Slicing	:Puzzle 3						   p 41
+Summary Basic Python Slicing:Puzzle 4	                           p 42
+FAQ:Puzzle 5-13 												   p 45
+Code Puzzles Slicing 14-13										   p 65
+--------------------------------------------------------------------------------------------
+x = 'universe'				## Puzzle 1 ## Level: Easy ## Elo +10 / -10 p 38
+print(x[2:4])
+
+x = 'universe'				## Puzzle 2 ## Level: Easy ## Elo +10 / -10 p 40
+print(x[2::2])
+
+word = "galaxy"				## Puzzle 3 ## Level: Easy ## Elo +10 / -10 p 41
+print(word[4:50])			
+
+####################FAQ (p45)####################
+s = 'sunshine'
+print(s[1:5:2] + s[1:5:1])  ## Puzzle 4 ## Level: Easy ## XP +10 /- 10 p 42
+
+word = "galaxy"				## Puzzle 5 ## Level: Easy ## Elo +10 /- 10 p 45
+print(word[:-2] + word[4:])
+print(word[:])
+
+
+word = "O brother where art thou?"	## Puzzle 6 ## Level: Easy ## Elo +10 /- 10 46
+print(word[::])
+print(word[::1])
+print(word[:])
+
+word = "O brother where art thou?"	## Puzzle 7 ## Level: Intermediate ## Elo +40 /- 10 p 48
+print(word[9:1:-1][::-1])
+
+## Puzzle 8 ## Level: Hard ## XP +10 /- 10 p 52
+word = "you shall not pass!"
+print(word[len(word):0:-1] == word[::-1])
+print(word[len(word)-1:-len(word)-1:-1] == word[::-1])
+
+## Puzzle 9 ## Level: Easy ## Elo +10 / -10 p 53
+l = [1, 2, 3, 4]
+print(l[2:])
+print(l[::-2])
+
+## Puzzle 10 ## Level: Easy ## Elo +10 / -10 p 56
+customer_name = 'Hubert'
+k = 3 # maximal size of database entry
+x = 1 # offset
+db_name = customer_name[x:x+k]
+print(db_name)
+
+## Puzzle 11 ## Level: Intermediate ## Elo +20 / -10 p 58
+presidents = ['Obama',
+'Trump',
+'Washington']
+p2 = presidents[:2]
+p2.remove('Trump')
+print(presidents)
+
+## Puzzle 12 ## Level: Intermediate ## Elo +20 / -10 p 61
+l = [1, 2, 3, 4, 5]
+l[:3] = [42, 41]
+print(l)
+
+## Puzzle 13 ## Level: Intermediate ## Elo +20 / -10 p 63
+l = [1, 2, 3, 4, 5]
+l[::2] = [42, 41]
+print(l)
+
+####################Code Puzzles Slicing (p65)####################
+
+## Puzzle 14 ## Level: Intermediate ## Elo +20 / -10 p 66
+# Shakespeare:
+s = "All that glitters is not gold"
+print(s[9:-9])
+print(s[::10])
+print(s[:-4:-1])
+
+## Puzzle 15 ## Level: Easy ## Elo +10 / -10 p 67
+x = list('universe')
+print(x)
+print(x[2:4])
+
+## Puzzle 16 ## Level: Easy ## Elo +10 / -10 p 68
+l = ['u', 'n', 'i', 'v', 'e', 'r', 's', 'e']
+print(l[2::2])
+
+## Puzzle 17 ## Level: Easy ## Elo +10 / -10 p 69
+word = list("galaxy")
+print(word[4:50])
+
+## Puzzle 18 ## Level: Easy ## Elo +10 / -10 p 70
+lst = list(range(10))
+print(lst[1:5:2] + lst[1:5:1])
+
+## Puzzle 19 ## Level: Easy ## Elo +10 / -10 p 71
+lst = [2, 4, 6, 8, 10, 12]
+print(lst[:-2] + lst[4:])
+print(lst[:])
+
+## Puzzle 20 ## Level: Easy ## Elo +10 / -10 p 72
+lst = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+print(lst[::])
+print(lst[::1])
+print(lst[:])
+
+## Puzzle 21 ## Level: Intermediate ## Elo +10 / -10 p 72
+word = list(range(10))
+print(word[9:1:-1][::-1])
+
+## Puzzle 22 ## Level: Hard ## Elo +40 / -10 p 74
+word = [0, 3, 7, 10, 13]
+print(word[len(word):0:-1] == word[::-1])
+print(word[len(word)-1:-len(word)-1:-1] == word[::-1])
+
+## Puzzle 23 ## Level: Easy ## Elo +10 / -10 p 75
+lst = [1, 2, 3, 4, 5]
+k = 3
+x = 1
+print(lst[x:x+k])
+
+## Puzzle 24 ## Level: Intermediate ## Elo +20 / -10 p 76
+l = [1, 2, 3, 4, 5]
+l[2:3] = [42, 41]
+print(l)
+
+
+
+
+

@@ -1,0 +1,134 @@
+use cases bread first search algorithm.
+
+Breadth-first search (BFS) has many applications in computer science, including:
+
+I/
+Finding the shortest path in a graph: As shown in the example above, BFS can be used to find the shortest path from the start node to the goal node in a graph. 
+This is because BFS always explores the nodes at the current depth before going deeper, so it is guaranteed to find the shortest path.
+
+II/
+Topological sorting: BFS can be used to perform a topological sort on a directed acyclic graph (DAG). 
+This is a way of ordering the nodes in the graph such that if there is a path from node A to node B, then node A appears before node B in the ordering. 
+This can be useful for scheduling tasks or for finding dependencies between items.
+
+III/
+Network traversal: BFS can be used to traverse the nodes in a network, such as a computer network or a social network. 
+This can be used to find the shortest path between two nodes in the network, or to analyze the structure of the network.
+
+IV/
+Finding connected components: In a graph, a connected component is a group of nodes that are all reachable from each other. 
+BFS can be used to find all the connected components in a graph by starting at an arbitrary node and exploring all the nodes reachable from that node, and then repeating this process for each remaining node in the graph.
+
+V/
+Web crawling: In the field of search engine optimization, BFS can be used to crawl the web by starting at a seed page and exploring all the pages reachable from that page. 
+This can be used to build a search engine index or to analyze the structure of the web.
+
+------------------------------------------------------------------------------------------------------------------------------
+The pseudo code for a basic breadth-first search algorithm can be written as follows:
+
+Copy code
+function BFS(Graph, source):
+    
+    // Create an empty queue and enqueue the source vertex
+    let queue := [source]
+    
+    // Create a set to keep track of visited vertices
+    let visited := new Set()
+    
+    // Mark the source vertex as visited
+    visited.add(source)
+    
+    // While the queue is not empty
+    while queue is not empty:
+        // Dequeue the first vertex from the queue
+        let vertex := queue.pop()
+        
+        // Visit the vertex
+        visit(vertex)
+        
+        // Get the list of neighbors of the vertex
+        let neighbors := Graph.getNeighbors(vertex)
+        
+        // For each neighbor of the vertex
+        for each neighbor in neighbors:
+            // If the neighbor has not been visited
+            if neighbor is not in visited:
+                // Mark it as visited
+                visited.add(neighbor)
+                
+                // Add it to the queue
+                queue.add(neighbor)
+				
+This is a high-level pseudo code and can be implemented in many different ways in different programming languages. 
+The basic idea behind the algorithm is to explore the graph by traversing it level by level, starting from the source vertex. 
+It does this by using a queue to keep track of the vertices that are currently being explored, and adding their neighbors to the queue to be explored in the next step. 
+The algorithm terminates when all vertices have been visited, or when a certain condition is met (such as finding a target vertex).
+------------------------------------------------------------------------------------------------------------------------------
+Breadth-first search (BFS) is a method for traversing a tree or graph data structure. 
+It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key') and explores the neighbor nodes first, before moving to the next level neighbors.
+
+Here is an example of how BFS can be implemented in Python:
+
+Copy code
+from collections import deque
+
+def breadth_first_search(graph, root):
+    visited = []
+    queue = deque([root])
+
+    while queue:
+        node = queue.popleft()
+        if node not in visited:
+            visited.append(node)
+            queue.extend(graph[node] - visited)
+
+    return visited
+	
+In this implementation, graph is a dictionary that represents the connections between the nodes in the form of a adjacency list. 
+The root parameter is the node from which the BFS should start.
+
+The visited list is used to keep track of which nodes have already been visited
+, and the queue deque (double-ended queue) is used to store the nodes that need to be visited.
+
+The algorithm works as follows:
+
+1/Start by adding the root node to the queue and marking it as visited.
+2/Remove the first node from the queue and add its neighbors to the queue, unless they have already been visited.
+3/Repeat step 2 until the queue is empty.
+
+This implementation will return a list of all the nodes that were visited during the BFS, starting from the root node.
+------------------------------------------------------------------------------------------------------------------------------
+recursive function in python to perform Breadth-first search 
+
+Here is an example of a recursive function in Python that performs a breadth-first search on a graph:
+
+Copy code
+def breadth_first_search(graph, start):
+  visited = []
+  queue = [start]
+
+  while queue:
+    node = queue.pop(0)
+    if node not in visited:
+      visited.append(node)
+      neighbors = graph[node]
+
+      for neighbor in neighbors:
+        queue.append(neighbor)
+
+  return visited
+  
+This function takes in a graph as a dictionary, where the keys are the nodes and the values are a list of the node's neighbors. The start parameter is the starting node for the search.
+
+The function maintains two lists: visited and queue. 
+The visited list keeps track of which nodes have been visited, 
+and the queue list is used to implement the breadth-first search algorithm by keeping track of which nodes to visit next.
+
+The function first adds the starting node to the queue. 
+Then, it enters a while loop that continues until the queue is empty. 
+Inside the while loop, the function pops the first node off of the queue and checks if it has been visited. 
+If the node has not been visited, the function marks it as visited and adds its neighbors to the queue. 
+This process continues until all nodes in the graph have been visited.
+
+Note that this is just one way to implement a breadth-first search in Python. 
+There are many other ways to do it, and the specific implementation may vary depending on the details of the problem you are trying to solve.

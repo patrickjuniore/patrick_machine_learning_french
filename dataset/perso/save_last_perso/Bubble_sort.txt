@@ -1,0 +1,52 @@
+Bubble sort: 
+	A simple sorting algorithm that repeatedly compares pairs of adjacent elements and swaps them if they are in the wrong order. 
+	This continues until the list is fully sorted.
+	
+pseudo code Bubble sort
+
+Here is an example of pseudo code for a bubble sort algorithm:
+
+Copy code
+procedure bubbleSort(A: list of sortable items)
+    n = length(A)
+    repeat
+        swapped = false
+        for i = 1 to n-1 inclusive do
+            /* if this pair is out of order */
+            if A[i-1] > A[i] then
+                /* swap them and remember something changed */
+                swap(A[i-1], A[i])
+                swapped = true
+            end if
+        end for
+    until not swapped
+end procedure
+
+This algorithm repeatedly loops through the list of items, compares adjacent elements, and swaps them if they are in the wrong order. 
+It continues looping until no swaps are needed, indicating that the list is sorted.
+
+Note that this is just an example of one way to implement a bubble sort, and there may be other ways to write this algorithm in pseudo code.
+
+------------------------------------------------------------------------------------------------------------------------------
+bubble sort in python
+Bubble sort is a simple sorting algorithm that repeatedly iterates through a list of items, compares adjacent items, and swaps them if they are in the wrong order. This continues until the list is fully sorted.
+
+Here is an example of how to implement bubble sort in Python:
+
+Copy code
+def bubble_sort(items):
+    # Iterate over the entire list of items
+    for i in range(len(items)):
+        # For each item, iterate over the rest of the list and compare
+        # adjacent items. If the items are out of order, swap them.
+        for j in range(i+1, len(items)):
+            if items[j] < items[i]:
+                items[i], items[j] = items[j], items[i]
+    return items
+To use this implementation, you can simply call bubble_sort() on the list of items you want to sort. For example:
+
+Copy code
+items = [5, 3, 2, 4, 1]
+sorted_items = bubble_sort(items)
+print(sorted_items)  # [1, 2, 3, 4, 5]
+Note that bubble sort is not the most efficient sorting algorithm, especially for large lists of items. For better performance, you may want to use a faster sorting algorithm such as quicksort or merge sort.

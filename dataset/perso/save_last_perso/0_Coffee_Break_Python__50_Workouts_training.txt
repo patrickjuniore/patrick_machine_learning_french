@@ -1,0 +1,122 @@
+I recommend solving at least one or two code puzzles every day, e.g., as you drink your morning coffee. 
+Then you spend the rest of your learning time on real projects that matter to you. 
+	The puzzles guarantee that your skills improve over time.
+	The real project brings you results.
+
+-----------------------------test your Python skills----------------------------------------------------------	
+If you want to test your Python skills, use the following simple method:
+1/ INITIAL RATING
+Track your individual Elo rating as you read the book and solve the code puzzles. 
+Simply write your CURRENT ELO rating into the book. 
+Start with an initial rating of:
+ 1000 if you are a beginner, 
+ 1500 if you are an intermediate, and 
+ 2000 if you are an advanced Python programmer. 
+Of course, if you already have an online rating on finxter.com, starting with this rating would be the most precise option.
+Figure 3.4 shows five different examples of how your Elo will change while working through the book. 
+Two factors impact the FINAL RATING: 
+	how you select your INITIAL RATING and 
+	how good you perform (the latter being more important).
+
+2/ ELO POINTS
+If your solution is :
+	CORRECT,   ADD the Elo points according to the table given with the puzzle. 
+	OTHERWISE, SUBTRACT the given Elo points from your current Elo number.
+
+-------------------------------training plan -----------------------------------------------------------
+Use the following training plan to develop a strong learning habit with puzzle-based learning:
+
+1/ TRIGGER
+Select a daily TRIGGER after which you solve code puzzles for 10 minutes. 
+For example, 
+	decide on your COFFEE BREAK Python, 
+	or even solve code puzzles as you BRUSH YOUR TEETH or 
+	SIT on the TRAIN to WORK,UNIVERSITY, or SCHOOL
+
+2/SCAN over the puzzle in a First quick pass and ask yourself: WHAT IS THE UNIQUE IDEA OF THIS PUZZLE?
+
+
+3/ DIVE DEEPLY into the code. 
+
+Try to understand the purpose of EACH symbol, EVEN IF IT SEEMS TRIVIAL at frist. 
+AVOID being SHALLOW and lazy. 
+INSTEAD, solve each puzzle THOROUGHLY and take your time. 
+It's counterintuitive: 
+	To learn faster in less time, 
+	you must stay calm and TAKE YOUR TIME and allow yourself to DIG DEEP. 
+There is no shortcut.
+
+4/ WRITE your SOLUTION
+Make sure you carry a PEN with you and WRITE your SOLUTION into the book. 
+This ensures that you STAY OBJECTIVE -we all have the tendency to fake ourselves.
+Active learning is a central idea of this book.
+
+5/Look up the solution and read the explanation with care. 
+Do you UNDERSTAND EVERY ASPECT of the code? 
+Write open questions down and look them up later,or send them to me (info@finxter.com). 
+I will do everything I can to come up with a good explanation.
+
+6/ ELO POINTS
+Only if your solution was 100% CORRECT -including 
+	WHITESPACES, 
+	DATA TYPES, and 
+	FORMATTING of the output 
+get Elo points for this puzzle. 
+Otherwise you should count it as a wrong solution and SWALLOW the NEGATIVE ELO POINTS. 
+The reason for this strict rule is that this is the BEST WAY to train yourself to SOLVE THE PUZZLES THOROUGHLY.
+--------------------------5:Fifty Code Puzzles (summury) p5 ----------------------------------------------------------------
+5.1 Hello World . . . . . . . . . . . . . . . . . 55 (63)
+5.2 Variables and Float Division . . . . . . . . 57
+5.3 Basic Arithmetic Operations . . . . . . . . 59
+5.4 Comments and Strings . . . . . . . . . . . 61
+5.5 Index and Concatenate Strings . . . . . . 64
+5.6 List Indexing . . . . . . . . . . . . . . . . 67
+5.7 Slicing in Strings . . . . . . . . . . . . . . 69
+5.8 Integer Division . . . . . . . . . . . . . . . 72
+5.9 String Manipulation Operators . . . . . . 74
+5.10 Implicit String Concatenation . . . . . . . 76
+5.11 Sum and Range Functions . . . . . . . . . 78
+5.12 Append Function for Lists . . . . . . . . . 80
+--------------------------5:Overshoot Slicing (summury) p6 ----------------------------------------------------------------
+5.13 Overshoot Slicing . . . . . . . . . . . . . . 82
+iv CONTENTS
+5.14 Modulo Operator . . . . . . . . . . . . . . 84
+5.15 Branching Statements . . . . . . . . . . . 87
+5.16 Negative Indices . . . . . . . . . . . . . . . 90
+5.17 The For Loop . . . . . . . . . . . . . . . . 92
+5.18 Functions and Naming . . . . . . . . . . . 95
+5.19 Concatenating Slices . . . . . . . . . . . . 98
+5.20 Arbitrary Arguments . . . . . . . . . . . . 100
+5.21 Indirect Recursion . . . . . . . . . . . . . 102
+5.22 String Slicing . . . . . . . . . . . . . . . . 105
+5.23 Slice Assignment . . . . . . . . . . . . . . 107
+5.24 Default Arguments . . . . . . . . . . . . . 109
+5.25 Slicing and the len() Function . . . . . . 112
+5.26 Nested Lists . . . . . . . . . . . . . . . . . 114
+5.27 Clearing Sublists . . . . . . . . . . . . . . 116
+5.28 The Fibonacci Series . . . . . . . . . . . . 118
+5.29 The continue Statement and the Modulo
+Operator . . . . . . . . . . . . . . . . . . . 121
+5.30 Indexing Revisited and The Range Sequence123
+5.31 Searching in Sorted Matrix . . . . . . . . . 127
+5.32 Maximum Profit Algorithm . . . . . . . . 131
+5.33 Bubble Sort Algorithm . . . . . . . . . . . 134
+5.34 Joining Strings . . . . . . . . . . . . . . . 137
+5.35 Arithmetic Calculations . . . . . . . . . . 139
+5.36 Binary Search . . . . . . . . . . . . . . . . 141
+5.37 Modifying Lists in Loops . . . . . . . . . . 144
+5.38 The Lambda Function . . . . . . . . . . . 147
+5.39 Multi-line Strings and the New-line Character . . . . . . . . . . . . . . . . . . . . . 150
+
+--------------------------5:Escaping (summury) p7 ----------------------------------------------------------------
+5.40 Escaping . . . . . . . . . . . . . . . . . . . 152
+5.41 Fibonacci Arithmetic . . . . . . . . . . . . 155
+5.42 Quicksort . . . . . . . . . . . . . . . . . . 158
+5.43 Unpacking Keyword Arguments with Dictionaries . . . . . . . . . . . . . . . . . . . 161
+5.44 Infinity . . . . . . . . . . . . . . . . . . . . 164
+5.45 Graph Traversal . . . . . . . . . . . . . . . 167
+5.46 Lexicographical Sorting . . . . . . . . . . . 171
+5.47 Chaining of Set Operations . . . . . . . . . 174
+5.48 Basic Set Operations . . . . . . . . . . . . 177
+5.49 Simple Unicode Encryption . . . . . . . . 180
+5.50 The Guess and Check Framework . . . . . 183

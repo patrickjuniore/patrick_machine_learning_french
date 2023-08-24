@@ -1,0 +1,97 @@
+sommaire 129
+
+---------Première partie: ALGÈBRE tensorielle/ algebre EXTERIEURE 8
+notions de PRODUIT TENSORIEL 8
+tenseurs AFFINES 24
+algebre EXTERIEURES 41
+tenseurs EUCLIDIEN et proprement euclidien 68
+
+---------Deuxième partie: Notions d'ANALYSE tesorielle 86
+CHAMP de tenseurs en espace EUCLIDIEN réel 86
+CHAMP de tenseurs en espace RIEMANNIEN réel 103
+
+---------bibilographie 128
+
+	https://fr.wikipedia.org/wiki/Liste_des_titres_Que_sais-je_%3F_(1-2500)
+	B1 Calcul matriciel 				Bouteloup 927
+	B2 L'algèbre linéaire 				Bouteloup 1251
+	B3 L'algèbre moderne 				André Delachet 661 (aussi Michel Queysanne)
+
+	B6 Le calcul vectoriel  			André Delachet 418
+
+	B8 La géométrie analytique 			André Delachet 466
+
+	B10 Calcul différentiel et intégral	André Delachet 1047
+	B11 La géométrie différentielle		André Delachet 1104 
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------PREMIÈRE partie: algèbre tensorielle/ algebre exterieure 8
+notions de produit tensoriel 8
+	1.PRODUIT TENSORIEL de deux espaces vectoriels 8
+	2.propriété CARACTÉRISTIQUE du PRODUIT TENSORIEL de deux espaces vectoriels 11
+	3.produit tensoriel de PLUSIEURS espaces vectoriels 15
+	4.convention d'EINSTEIN 17
+tenseurs AFFINES 24
+	5.DÉFINITIONS des tenseur AFFINES attachés à un espace vectoriel 24
+	6.premier CRITÈRE de tensorialité 25
+	7.autres CRITÈRES de tensorialité 30
+	8.OPÉRATION sur les tenseurs 33
+	9.tenseur SYMÉTRIQUE et ANTISYMÉTRIQUE 39
+algebre EXTERIEURES 41
+	10.algebre exterieures d'ordre 2 41
+	11.produit exterieur de deux vecteurs 42
+	12.bivecteurs et système  de bivecteurs 43
+	13.changement de base pour les composantes strictes dun élement de E^(2) 45
+	14.Formes exterieures d'ordre 2 46
+	...
+tenseurs EUCLIDIEN et PROPREMENT EUCLIDIEN 68
+	23. DÉFINITIONS des tenseurs EUCLIDIENS 68
+	24. tenseurs euclidiens SYMÉTRIQUE-ANTISYMÉTRIQUE; tenseur FONDAMENTAL 73
+	25. OPERATION sur les tenseurs euclidiens 75
+	26. structure euclidienne de l'espace vectoriel 77
+	27. les tenseurs PROPREMENT EUCLIDIENS 78
+	28. ALGEBRES EXTERIEURES definies sur un espace euclidien 80
+
+---------DEUXIÈME partie: Notions d'analyse tesorielle 86
+CHAMP de tenseurs en espace EUCLIDIEN réel 86
+	29. LIMITES de tenseurs et notions conjointes 86
+	30. notions TOPOLOGIQUES et COORDONNÉES CURVILIGNES pour un espace ponctuel euclidien 87
+	31. REPÈRE NATUREL associé à un système de coordonnées curvilignes 88
+	32. la METRIQUE FONDAMENTALE de l'espace 90
+	33. le PROBLÈME fondamentale de l'analyse tensorielle 92
+	34. différentielle absolue et derivée covariante 96
+	35. determination des DROITES  de E* en COORDONNÉES CURVILIGNES 99
+	36. OPÉRATEURS DIFFÉRENTIELS en coordonnées curvilignes 100
+CHAMP de tenseurs en espace RIEMANNIEN réel 103
+	37. DEFINITIONS des espace RIEMANN 103
+	38. images tangentes en un point   104
+	39. métriques euclidiennes osculatrice en un point 108
+	40. champ de tensur V;différentielle absolue 109
+	41. géodésique d'un espace riemannien 111
+	42. développement d'une courbe d'un espace riemannien sur l'espace euclidien 113
+	43. metrique euclidienne de raccordement le long d'une courbe 114
+	44. le tenseur de riemann christoffel 117
+	45. composantes covariantes du tenseur de courbure; coordonnées normales 123
+	46. contraction du tenseur de courbure 125
+	47. identités de bianchi 126
+
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+https://fr.wikipedia.org/wiki/Espace_affine
+Le fait pour un tenseur d'être symétrique ou antisymétrique ne dépends pas de la base choisie.
+
+http://mms2.ensmp.fr/mmc_st_etienne_fort/calcul_tensoriel/polycop/tenseurs_poly.pdf
+
+http://dournac.free.fr/sciences/tensor_calculus/tensor.html
+http://dournac.free.fr/sciences/tensor_calculus/node6.html#SECTION00245000000000000000
+Un espace vectoriel sur lequel on a défini un produit scalaire est appelé un espace vectoriel PRÉ-EUCLIDIEN.
+Un espace vectoriel PRÉ-EUCLIDIEN est dit EUCLIDIEN si sa SIGNATURE ne comporte QUE DES SIGNES +.
+
+En particulier, les espaces produits tensoriels deviennent PRÉ-EUCLIDIENS lorsqu'on les munit d'un PRODUIT SCALAIRE ainsi qu'on va le faire maintenant.
+
+http://freeit.free.fr/M%E9canique%20des%20milieux%20continus%20(Jean%20Salen%E7on)/Part3_Tome1.pdf
+
+De la même façon que l’on identifie une forme linéaire sur E, élément de E*, à son vecteur associé, élément de E, 
+par l’isomorphisme canonique, introduisant ainsi la notion de vecteur euclidien, 
+on identifiera les 2n tenseurs d’ordre n qui se correspondent par l’isomorphisme à celui d’entre eux qui est élément du produit tensoriel d’ordre n de E par lui-même : 
+c’est le tenseur euclidien correspondant. L

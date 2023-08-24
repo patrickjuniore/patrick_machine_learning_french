@@ -1,0 +1,68 @@
+Insertion sort: 
+	A simple sorting algorithm that builds up the final sorted list one element at a time. 
+	At each step, the algorithm takes the next element in the unsorted list and inserts it into the correct position in the sorted list.
+	
+pseudo code Insertion sort
+
+Here is an example of pseudo code for an insertion sort algorithm:
+
+Copy code
+procedure insertionSort(A: list of sortable items)
+    n = length(A)
+    for i = 1 to n-1 inclusive do
+        /* store the current value because it will be overwritten */
+        value = A[i]
+        /* keep a reference to the index of the previous element */
+        j = i - 1
+        /* move elements that are greater than value, up one position */
+        while j >= 0 and A[j] > value do
+            A[j + 1] = A[j]
+            j = j - 1
+        end while
+        /* insert the value once we've reached the location where it's greater than the previous element */
+        A[j + 1] = value
+    end for
+end procedure
+
+This algorithm works by looping through the list of items
+, and for each element it picks it up and inserts it into its correct position in the list
+, by shifting the other elements as necessary. 
+The algorithm continues until all the elements have been inserted into their correct positions.
+
+As with the bubble sort example, this is just one way to write an insertion sort algorithm in pseudo code, and there may be other variations.
+------------------------------------------------------------------------------------------------------------------------------
+
+insertion sort in python
+Insertion sort is a simple sorting algorithm that works by iterating over a list of items and placing each item in its correct position in a new, sorted list. The algorithm repeats this process until all of the items have been sorted.
+
+Here is an example of how to implement insertion sort in Python:
+
+Copy code
+def insertion_sort(items):
+    # Initialize the sorted list
+    sorted_list = []
+
+    # Iterate over the original list of items
+    for item in items:
+        # Find the correct position for the current item in the sorted list
+        # and insert it at that position
+        inserted = False
+        for i in range(len(sorted_list)):
+            if item < sorted_list[i]:
+                sorted_list.insert(i, item)
+                inserted = True
+                break
+
+        # If the item was not inserted, it belongs at the end of the sorted list
+        if not inserted:
+            sorted_list.append(item)
+
+    return sorted_list
+To use this implementation, you can simply call insertion_sort() on the list of items you want to sort. For example:
+
+Copy code
+items = [5, 3, 2, 4, 1]
+sorted_items = insertion_sort(items)
+print(sorted_items)  # [1, 2, 3, 4, 5]
+Note that this implementation of insertion sort is not the most efficient, as it inserts items into the sorted list one at a time using the insert() method. 
+For better performance, you can implement insertion sort using a different approach, such as sorting the items in-place and shifting them to the correct position as needed.

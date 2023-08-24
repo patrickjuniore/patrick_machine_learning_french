@@ -1,0 +1,105 @@
+https://khuyentran1401.github.io/reproducible-data-science/README.html
+https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html
+------------------------------------2. Structure Project------------------------------------
+	2.1.2. Cookiecutter	     : template									
+	2.1.3. Poetry			 : Dependency management 
+	2.1.4. Makefile			 : short and readable commands for a series of tasks --> automate tasks
+	2.1.5. Pytest            : Manage Code and Tests
+	2.1.6. hydra  			 : Manage configuration files 		   (main.yaml)
+	2.1.7. DVC               : Data version control				   (dvc.yaml)
+	2.1.8. DVC				 : Store Your Data Remotely
+	
+	2.1.9. pre-commit plugins: Automate code reviewing formatting (.pre-commit-config.yaml)
+		black     : FORMATS Python code
+		flake8    : checks the STYLE and QUALITY of your Python code
+		isort     : automatically SORTS imported libraries ALPHABETICALLY and SEPARATES THEM INTO SECTIONS AND TYPES.
+		mypy      : checks STATIC TYPE
+		nbstripout: strips output from Jupyter notebooks
+		
+	2.1.10. pdoc: Automatically create API documentation for your project
+
+------------------------------------3. Test CODE------------------------------------
+Pytest
+------------------------------------4. Test Data------------------------------------
+great_expectations : validate, document, and profile your data to make sure the data is as you expected.
+Pandera			   : Validate Your pandas DataFrame 
+schema			   :
+------------------------------------5. Build Pipelines------------------------------------
+Prefect			  : Orchestrate a Data Science Project in Python
+Hydra			  : manage complex configurations in Python
+Weight & Biases	  : rack, compare, and visualize ML experiments. It is also integrated with many popular libraries such as TensorFlow, PyTorch, Kera, Scikit, Hugging Face, and XGBoost.
+------------------------------------7. Version Control------------------------------------
+DVC               : Data version control
+------------------------------------8. Deploy Models------------------------------------
+BentoML: Create an ML Powered Prediction Service in Minutes
+
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------2. STRUCTURE Project------------------------------------
+pip install cookiecutter
+poetry install
+pip install hydra-core 
+pre-commit install  --> pre-commit installed at .git/hooks/pre-commit (.pre-commit-config.yaml)
+	$ git commit -m 'add pre-commit examples'
+	$ git commit -m 'add pre-commit examples' --no-verify
+------------------------------------3. Test CODE------------------------------------
+pip install -U pytest
+------------------------------------4. Test Data------------------------------------
+pip install great_expectations
+pip install pandera
+pip install schema
+------------------------------------5. Build Pipelines------------------------------------
+pip install prefect
+------------------------------------6. Experiment Tracking------------------------------------
+pip install hydra-core https://khuyentran1401.github.io/reproducible-data-science/experiment_tracking/hydra.html
+pip install wandb
+------------------------------------7. Version Control------------------------------------
+pip install dvc
+------------------------------------8. Deploy Models------------------------------------
+pip install bentoml==1.0.0a4
+------------------------------------Python tricks------------------------------------
+https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/Chapter1/itertools.html
+https://towardsdatascience.com/7-useful-examples-of-pythons-itertools-e561dc9f15ca
+https://towardsdatascience.com/a-guide-to-python-itertools-like-no-other-454da1ddd5b8
+------------------------------------DeeepLearning------------------------------------
+https://www.sscardapane.it/teaching/reproducibledl/#an-example
+
+https://docs.google.com/presentation/d/1Ws0s_clblBEglgClN0l2-XZqPQwYXiu3o525cDrFrf4/edit#slide=id.gbd509e17c2_0_807 --introduction
+	https://fullstackdeeplearning.com/spring2021/lecture-6/ p17
+	http://karpathy.github.io/2019/04/25/recipe/			p17
+https://github.com/sscardapane/reprodl2021/blob/main/Initial%20Notebook.ipynb
+
+https://docs.google.com/presentation/d/1_AYIcCyVI59QiiXqU4Sn7VzwtVyfqv-lG36EPFzeSdY/edit#slide=id.gbd509e17c2_0_807 --code versionning
+https://github.com/sscardapane/reprodl2021/tree/exercise1_git
+https://github.com/sscardapane/reprodl2021/blob/exercise1_git_completed/train.py
+
+https://github.com/sscardapane/reprodl2021/tree/exercise2_hydra
+https://github.com/sscardapane/reprodl2021/blob/exercise2_hydra_completed/configs/default.yaml
+https://github.com/sscardapane/reprodl2021/blob/exercise2_hydra_completed/train.py
+
+https://docs.google.com/presentation/d/1jUFz212lZvwqDibiCRoOcm-40ANPXI1dKlF8t7PD1Is/edit#slide=id.gbd509e17c2_0_807 --data versionning
+https://github.com/sscardapane/reprodl2021/tree/exercise3_dvc
+https://docs.google.com/presentation/d/1r7SbbajL-UnYHOeY9fQ9YtoJdu9Q70U5M_11E68K1Rg/edit#slide=id.gbd509e17c2_0_807 --dockerisation
+https://github.com/sscardapane/reprodl2021/tree/exercise4_docker
+https://github.com/sscardapane/reprodl2021/tree/exercise5_wandb
+https://github.com/sscardapane/reprodl2021/tree/exercise6_hooks
+https://docs.google.com/document/d/1Z0uc4LKPRIRPs8HyP52Mq0bl2V0EDzQQG0vA1cfL-yc/edit 								--Reproducible Deep Learning - Exam
+
+------------------------------------most common neural net mistakes
+1) you didn't try to overfit a single batch first. 
+2) you forgot to toggle train/eval mode for the net. 
+3) you forgot to .zero_grad() (in pytorch) before .backward(). 
+4) you passed softmaxed outputs to a loss that expects raw logits. ; others? :)
+5) you didn't use bias=False for your Linear/Conv2d layer when using BatchNorm, or conversely forget to include it for the output layer .This one won't make you silently fail, but they are spurious parameters
+6) thinking view() and permute() are the same thing (& incorrectly using view)
+
+------------------------------------certification
+https://hackr.io/blog/python-certification
+https://pythoninstitute.org/pcpp1
+------------------------------------NFT------------------------------------
+https://ninjapromo.io/top-nft-influencers
+https://www.fastcompany.com/40542440/forget-schmoozing-heres-how-to-get-influential-peoples-attention
+https://www.fastcompany.com/40465285/three-insanely-simple-email-templates-for-networking-with-strangers
+https://makealivingwriting.com/get-celebrity-interviews-7-strategies/
+

@@ -1,0 +1,119 @@
+Merge sort: 
+	A divide-and-conquer sorting algorithm that recursively breaks the input list down into smaller lists
+	, sorts those smaller lists, and then merges the sorted lists back together to form the final sorted list.
+	
+pseudo code Merge  sort
+
+Here is an example of pseudo code for a merge sort algorithm:
+
+Copy code
+procedure mergeSort(A: list of sortable items)
+    if length(A) > 1 then
+        /* divide the list into two equal-sized sublists */
+        middle = length(A) / 2
+        left = A[0..middle]
+        right = A[middle..length(A)-1]
+        /* recursively sort the two sublists */
+        mergeSort(left)
+        mergeSort(right)
+        /* merge the now-sorted sublists */
+        merge(left, right, A)
+    end if
+end procedure
+
+procedure merge(left, right, A)
+    /* create three index variables to keep track of the current position in the sublists */
+    i = 0
+    j = 0
+    k = 0
+    while i < length(left) and j < length(right) do
+        if left[i] <= right[j] then
+            A[k] = left[i]
+            i = i + 1
+        else
+            A[k] = right[j]
+            j = j + 1
+        end if
+        k = k + 1
+    end while
+    /* copy any remaining elements of left */
+    while i < length(left) do
+        A[k] = left[i]
+        i = i + 1
+        k = k + 1
+    end while
+    /* copy any remaining elements of right */
+    while j < length(right) do
+        A[k] = right[j]
+        j = j + 1
+        k = k + 1
+    end while
+end procedure
+
+This algorithm works by recursively dividing the input list into smaller and smaller sublists until each sublist has only one element, which is inherently sorted. 
+It then merges the sublists together in a way that preserves their sorted order to produce the final, sorted list.
+
+As with the other examples, this is just one way to write a merge sort algorithm in pseudo code, and there may be other variations.
+------------------------------------------------------------------------------------------------------------------------------
+Merge  sort in python
+Merge sort is a sorting algorithm that uses a divide-and-conquer approach to sort a list of items. The algorithm works by dividing the list of items into two smaller sub-lists, sorting each sub-list, and then merging the two sub-lists back together to form a single, sorted list.
+
+Here is an example of how to implement merge sort in Python:
+
+Copy code
+def merge_sort(items):
+    # Base case: if the list is empty or has only one item, it is already sorted
+    if len(items) <= 1:
+        return items
+
+    # Split the list into two equal-sized sub-lists
+    mid = len(items) // 2
+    left = items[:mid]
+    right = items[mid:]
+
+    # Recursively sort the sub-lists
+    left = merge_sort(left)
+    right = merge_sort(right)
+
+    # Merge the sorted sub-lists back into a single list
+    return merge(left, right)
+
+def merge(left, right):
+    # Initialize the resulting list
+    result = []
+
+    # Initialize the indices of the left and right sub-lists
+    left_idx = 0
+    right_idx = 0
+
+    # Loop until one of the sub-lists is empty
+    while left_idx < len(left) and right_idx < len(right):
+        # If the current item in the left sub-list is smaller than the current
+        # item in the right sub-list, append it to the result and increment
+        # the left index. Otherwise, do the same for the right sub-list.
+        if left[left_idx] <= right[right_idx]:
+            result.append(left[left_idx])
+            left_idx += 1
+        else:
+            result.append(right[right_idx])
+            right_idx += 1
+
+    # Append any remaining items in the left sub-list to the result
+    while left_idx < len(left):
+        result.append(left[left_idx])
+        left_idx += 1
+
+    # Append any remaining items in the right sub-list to the result
+    while right_idx < len(right):
+        result.append(right[right_idx])
+        right_idx += 1
+
+    # Return the resulting list
+    return result
+To use this implementation, you can simply call merge_sort() on the list of items you want to sort. For example:
+
+Copy code
+items = [5, 3, 2, 4, 1]
+sorted_items = merge_sort(items)
+print(sorted_items)  # [1, 2, 3, 4, 5]
+Note that this implementation uses the // operator to perform integer division, which means that it will only work in Python 3. In Python 2, you should use the / operator instead.

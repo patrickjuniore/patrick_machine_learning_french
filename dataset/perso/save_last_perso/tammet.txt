@@ -1,0 +1,73 @@
+Embrasser_le_ciel_immense
+
+p121 Comment je calcule
+--------p 125 système syntaxique
+--------vocabumaire classique /vocabumaire numérique (pas au delà de 10 000)
+girafe : « cou »,« immense », « tache »
+23     : 529 (23²), 989 (dernier nombre divisible par 23 avant 1 000)
+
+--------p 126 résoudre des calculs dont les résultats au delà 10 000 (vocabulaire numérique )
+
+produit « massif »    : agedness
+tranches plus légères : agedness= aged + -ness
+
+p 127
+produit     « massif »: 37 x 469 (=17 353 > 10 000)
+tranches plus légères :[37 x 169] + [37 x 300]  (2 tranches <10 000)
+[37 x 169]=[6253]      				(6253< 10 000)
+[37 x 300]=[111 x 100] 				(111 < 10 000)
+car 469 = 169 + 300 et 300-->3 et on ajoute deux zéros
+---> 37 x 469 =[6253]+[111 x 100] =17 353
+
++ factorisation et la reconnaissance des nombres premiers (cf plus bas)
+---> 37 x 469 =[37 x 13²]+[(37 x3) x 100] =17 353 
+
+--------p 127 factorisation et la reconnaissance des nombres premiers
+incroyablement=in + croire + able + ment.
+6253 = 37 x 13² | 111=37 x 3
+
+-------------p 128 premier au délà de 10 000:
+--84 187 premier?
+84 187=84187= 841|87
+	841 =29 x 29
+	87  =03 x 29
+84 187= [29 x 29]|[29 x 03]  --> 29|03 = 2903
+
+-------------p 127 et 128 premier jusqu’à 10 000:
+
+--2903 premier?
+[2900...2911] 
+à part 2911=41 x 71 tous les autres sont:
+ - divisibles par 2, 3 ou 5: 2900,2901,2905,2906,2907,2908 (pas intéressants)
+ - ou premiers			   : 2903 et 2909
+
+-------------p 128 intuition:règles intuitives,
+S’il contient plus d’un chiffre et se termine par 2 ou par 5, alors ce n’est pas un nombre premier. 
+Il sera divisible par au moins 2 et/ou 5.
+
+Si un nombre se compose de QUATRE chiffres, et 
+	que le PREMIER et le DERNIER chiffre sont IMPAIRS (sauf 5) et IDENTIQUES
+	+si la PAIRE des chiffres CENTRAUX est DIVISIBLE PAR 7, 11 OU 13, 
+	=alors ce n’est pas un nombre premier (il sera forcément divisible par 7, 11 ou 13). 
+Exemples : 1141(divisible par 7) et 9529 (divisible par 13).
+|1 14 1|(1 qui est le PREMIER et le DERNIER est impair + 14 divisible par 7) et |9 52 9| (9 qui est le PREMIER et le DERNIER est impair impairs + 52 divisible par 13).
+
+
+-------------p 128 intuition:nombres premiers composés de plusieurs chiffres
+323    =  17 x 19
+323323 = 323 x 1001
+1001   =   7 x 11 x 13
+1 n’est divisible par aucun des facteurs trouvés ci-dessus (17, 19, 7, 11 et 13)
+3233231  probablement premier.
+
+-------------p 129 intuition fausse
+« ouche » – « zeugme » – « obvers » – « aunilaire » – « nandou »:seul « aunilaire » n' est pas français.
+10 511= 23 x 457 : n'est pas premier.
+
+https://www.bibmath.net/dico/index.php?action=affiche&quoi=./n/newton_meth.html#:~:text=Elle%20permet%20le%20calcul%20de,point%20la%20convergence%20est%20rapide!
+https://www.solumaths.com/fr/calculatrice-en-ligne/calculer/deriver/x%5E2;x
+deriver(x^2-2;x)
+
+https://www.irem.univ-mrs.fr/IMG/pdf/methode_de_newton.pdf
+https://www.apmep.fr/IMG/pdf/APMEP_article_BV_7_C_A.pdf p18
+https://boxall.users.lmno.cnrs.fr/AGM.pdf

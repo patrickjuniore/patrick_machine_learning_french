@@ -1,0 +1,14 @@
+https://www.kaggle.com/c/g2net-gravitational-wave-detection/discussion/275507
+
+https://github.com/denisbsu/g2net-generation
+
+https://towardsdatascience.com/what-is-npy-files-and-why-you-should-use-them-603373c78883
+ch0_psd_adjusted.npy
+ch1_psd_adjusted.npy
+ch2_psd_adjusted.npy
+
+
+https://www.kaggle.com/c/g2net-gravitational-wave-detection/discussion/275341
+https://github.com/analokmaus/kaggle-g2net-public
+
+https://www.kaggle.com/titericz/simulated-gw/notebook

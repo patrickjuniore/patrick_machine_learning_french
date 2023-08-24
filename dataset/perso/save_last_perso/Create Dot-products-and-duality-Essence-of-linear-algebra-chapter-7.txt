@@ -1,0 +1,288 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+since I-HAT and U-HAT are both UNIT VECTORS,
+projecting I-HAT ONTO THE LINE PASSING THROUGH U-HAT
+looks totally symmetric to PROJECTING U-HAT ONTO THE X-AXIS.
+
+WHAT NUMBER DOES I-HAT LAND on WHEN it gets PROJECTED = WHAT NUMBER DOES U-HAT LANDS on when its projected ONTO THE X-AXIS = taking the X-COORDINATE OF U-HAT
+projecting I-HAT ONTO THE LINE PASSING THROUGH U-HAT = PROJECTING U-HAT ONTO THE X-AXIS. = taking the X-COORDINATE OF U-HAT
+
+WHAT NUMBER DOES J-HAT LAND on WHEN it gets PROJECTED = WHAT NUMBER DOES U-HAT LANDS on when its projected ONTO THE Y-AXIS = taking the Y-COORDINATE OF U-HAT.
+projecting J-HAT ONTO THE LINE PASSING THROUGH U-HAT = PROJECTING U-HAT ONTO THE Y-AXIS. = means taking the Y-COORDINATE OF U-HAT.
+
+
+--MATRIX PROJECTION = COORDINATES OF U-HAT
+So the ENTRIES OF THE 1 X 2 MATRIX describing the PROJECTION TRANSFORMATION 
+are going to be the COORDINATES OF U-HAT.
+
+--PROJECTION TRANSFORMATION = DOT PRODUCT
+And COMPUTING this PROJECTION TRANSFORMATION for arbitrary vectors in space,
+which requires MULTIPLYING THAT MATRIX BY THOSE VECTORS, is computationally IDENTICAL to taking a DOT PRODUCT WITH U-HAT.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+So when we asked WHAT NUMBER DOES I-HAT LAND on WHEN it gets PROJECTED the answer 
+is going to be the same as whatever U-HAT LANDS on when its projected ONTO THE X-AXIS
+
+Traditionally, dot products or something that's 
+introduced really early on in a linear algebra course
+
+typically right at the start.
+So it might seem strange that I push them back this far in the series.
+------------------------------
+I did this because there's a standard way to introduce the topic which
+requires nothing more than a basic understanding of vectors,
+
+but a fuller understanding of the role the dot products play in math,
+can only really be found under the light of linear transformations.
+
+----DOT PRODUCT : STANDARD interpretation
+Before that, though, let me just briefly cover the standard way that products are introduced.
+Which I'm assuming is at least partially review for a number of viewers.
+
+Numerically, if you have two vectors of the same dimension;
+to list of numbers with the SAME LENGTH,
+taking their DOT PRODUCT, means,PAIRING UP all of the COORDINATES,
+MULTIPLYING those PAIRS together,and ADDING THE RESULT.
+
+So the vector [1, 2] dotted with [3, 4],would be 1 x 3 + 2 x 4.
+The vector [6, 2, 8, 3] dotted with [1, 8,5, 3] would be:
+6 x 1 + 2 x 8 + 8 x 5 + 3 x 3.
+
+----DOT PRODUCT : PROJECTION interpretation
+Luckily, this computation has a really nice geometric interpretation.
+
+To think about the dot product between two vectors V AND W,
+imagine projecting W onto the LINE that passes through THE ORIGIN AND THE TIP OF V.
+
+MULTIPLYING the LENGTH OF THIS PROJECTION by the LENGTH OF V, you have the DOT PRODUCT V*W.
+
+Except when this projection of W is pointing in the OPPOSITE DIRECTION FROM v,
+THAT DOT PRODUCT will actually be NEGATIVE.
+So when two vectors are generally pointing in the SAME DIRECTION,their DOT PRODUCT is POSITIVE.
+When they're PERPENDICULAR, meaning,the PROJECTION of one onto the other is the 0 VECTOR,the DOT PRODUCT IS 0.
+And if they're pointing generally the OPPOSITE DIRECTION, their DOT PRODUCT IS NEGATIVE.
+------------------------------
+Now, this interpretation is weirdly ASYMMETRIC,it TREATS the two VECTORS VERY DIFFERENTLY,
+so when I first learned this, I was surprised that order doesn't matter.
+You could instead project v onto w;multiply the length of the projected v by the length of w and get the same result.
+
+------------------------------WHY ORDER DOESN'T MATTER---------------------
+I mean, doesn't that feel like a really different process?
+
+Here's the intuition for why order doesn't matter:
+
+if V AND W happened to have THE SAME LENGTH,we could leverage some SYMMETRY.
+
+Since PROJECTING W ONTO V then MULTIPLYING THE LENGTH of that projection BY THE LENGTH OF V,
+is a complete mirror image of PROJECTING V ONTO W then MULTIPLYING the length of that projection BY THE LENGTH OF W.
+
+Now, if you “scale” one of them, say v by some constant like 2,so that they don't have equal length,
+the symmetry is broken.
+------------------------------WHY “SCALING” DOESN'T MATTER---------------------
+But let's think through how to interpret the dot PRODUCT between this new vector 2V AND W.
+
+If you think of W is getting PROJECTED ONTO V then the DOT PRODUCT 2V・W will be exactly TWICE THE DOT PRODUCT V・W.
+This is because when you “SCALE” V BY 2,it DOESN'T CHANGE THE LENGTH of the PROJECTION OF W
+but it DOUBLES THE LENGTH of the VECTOR THAT YOU'RE PROJECTING ONTO.
+
+But, on the other hand, let's say you're thinking about V GETTING PROJECTED ONTO W.
+Well, in that case, the LENGTH OF THE PROJECTION is the thing to get “SCALED” WHEN WE MULTIPLYV BY 2.
+The length of the VECTOR that you're PROJECTING onto STAYS CONSTANT.
+
+So the OVERALL EFFECT is still to just DOUBLE THE DOT PRODUCT.
+
+So, EVEN though SYMMETRY IS BROKEN in this case,THE EFFECT that this “SCALING” has on the value of the dot product, IS THE SAME
+under both interpretations.
+------------------------------WHY MULTIPLYING PAIRS MEAN PROJECTION------------------------------
+There's also one other big question that confused me when I first learned this stuff:
+Why on earth does this NUMERICAL PROCESS of matching coordinates, multiplying pairs and adding them together,
+HAVE anything TO DO WITH PROJECTION?
+
+Well, to give a satisfactory answer,and also to do full justice to the significance of the dot product,
+we need to unearth something a little bit deeper going on here which often goes by the name "DUALITY".
+
+But, before getting into that,
+I need to spend some time talking about linear transformations FROM MULTIPLE dimensions to ONE dimension
+which is just the number line.
+
+--linear transformations FROM MULTIPLE dimensions to ONE dimension
+These are functions that take in a 2D VECTOR and spit out some NUMBER(1D).
+
+But linear transformations are, of course,much MORE RESTRICTED than your run-of-the-mill function with a 2D INPUT AND A 1D OUTPUT.
+AS with transformations in HIGHER DIMENSIONS,like the ones I talked about in chapter 3,
+there are some FORMAL PROPERTIES that make these FUNCTIONS LINEAR.
+
+But I'm going to purposely IGNORE those here so as to not distract from our end goal,
+and instead FOCUS on a certain VISUAL PROPERTY that's equivalent TO ALL THE FORMAL STUFF.
+
+If you take a line of EVENLY SPACED DOTS and apply a transformation,a linear transformation will KEEP THOSE DOTS
+EVENLY SPACED,once they land in the output space, which is the number line.
+Otherwise, if there's some line of dots that GETS UNEVENLY SPACED then your transformation IS NOT LINEAR.
+
+--linear transformations : determine I-HAT and J-HAT
+As with the cases we've seen before,one of these linear transformations is COMPLETELY DETERMINED by where it takes
+I-HAT and J-HAT
+but this time, each one of those basis vectors just lands on A NUMBER.
+
+So when we record where they land as the columns of a matrix each of those columns just has a single number.
+This is a 1 X 2 MATRIX.
+
+------------------------------MULTIPLYING A 1 BY 2 MATRIX BY A VECTOR=DOT PRODUCT ------------------------------
+Let's walk through an EXAMPLE of what it means to apply one of these transformations to a vector.
+
+Let's say you have a linear transformation that takes I-HAT TO 1 and J-HAT TO -2.
+To follow where a vector with coordinates,say, [4, 3] ends up,
+think of breaking up this vector as 4 times I-HAT + 3 TIMES J-HAT.
+
+A consequence of linearity, is that after the transformation the vector will be: 
+4 TIMES the place where I-HAT LANDS, 1,plus 3 TIMES the place where J-HAT LANDS,-2.
+which in this case implies that it LANDS ON -2.
+
+When you do this calculation purely numerically,it’s a matrix-vector multiplication.
+Now, this numerical operation of MULTIPLYING A 1 BY 2 MATRIX BY A VECTOR,feels JUST LIKE TAKING THE DOT PRODUCT OF TWO VECTORS.
+
+------------------------------DOT PRODUCT=tilting or back up matrix ------------------------------
+Doesn't that 1 x 2 matrix just look like a vector that we tipped on its side?
+In fact, we could say right now that there's a NICE ASSOCIATION BETWEEN 1 X 2 MATRICES and 2D vectors,
+defined by tilting the numerical representation of a vector on its side to get the associated matrix,
+or to tip the matrix back up to get the associated vector.
+
+------------------------------CONNECTION (duality)------------------------------
+Since we're just looking at numerical expressions right now,
+going back and forth between vectors and 1 x 2 matrices might feel like a silly thing to do.
+
+But this suggests something that's truly awesome from the geometric view:
+there's some kind of CONNECTION between LINEAR TRANSFORMATIONS THAT TAKE VECTORS TO NUMBERS and VECTORS THEMSELVES.
+
+------------------------------CONNECTION (duality explain)------------------------------
+Let me show an example that clarifies the significance 
+and which just so happens to also answer the dot product puzzle from earlier.
+
+Unlearn what you have learned and imagine that you don't already know that the dot product relates to projection.
+
+--------------DIAGONALLY LINE
+What I'm going to do here is take a copy of the number line and place it DIAGONALLY 
+and space somehow with the NUMBER 0 sitting at the ORIGIN.
+
+--------------U-HAT (unit vector [2D] onto diagonally line)
+Now think of the two-dimensional unit vector, whose TIPS SIT WHERE THE NUMBER 1 on the number LINE is.
+I want to give THAT GUY A NAME U-HAT.
+This little guy plays an important role in what's about to happen,so just keep them in the back of your mind.
+
+--------------PROJECT is a linear transformation [1 X 2] (2D VECTORS ---> one number)
+If we PROJECT 2D VECTORS STRAIGHT onto this DIAGONAL NUMBER LINE,in effect, 
+we've just defined a function that takes 2D VECTORS TO NUMBERS.
+
+What's more, this function is ACTUALLY LINEAR since it passes our visual test that any line of EVENLY SPACED DOTS 
+REMAINS EVENLY SPACED once it lands on the number line.
+
+Just to be clear,even though I've embedded the number line in 2D space like this,
+THE OUTPUT OF THE FUNCTION ARE NUMBERS, NOT 2D VECTORS.
+
+You should think of a function that takes into coordinateS and outputs a SINGLE COORDINATE.
+
+But that vector U-HAT is a two-dimensional vector living in the input space.
+It's just situated in such a way that overlaps with the embedding of the number line.
+With this projection, we just defined a linear transformation FROM 2D VECTORS TO NUMBERS,
+so we're going to be able to find some kind of 1 X 2 MATRIX that describes that transformation.
+
+--------------MATRIX of this transformation
+
+--find where I-HAT AND J-HAT land
+To FIND THAT 1 X 2 MATRIX, let's zoom in on this diagonal number line setup
+and think about where I-HAT AND J-HAT each LAND,since those LANDING SPOTS are going to be the COLUMNS OF THE MATRIX.
+
+--use symmetry to do it
+This part's super cool, we can reason through it with a really elegant piece of symmetry:
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+since I-HAT and U-HAT are both UNIT VECTORS,
+projecting I-HAT ONTO THE LINE PASSING THROUGH U-HAT
+looks totally symmetric to PROJECTING U-HAT ONTO THE X-AXIS.
+
+So when we asked WHAT NUMBER DOES I-HAT LAND on WHEN it gets PROJECTED the answer 
+is going to be the same as whatever U-HAT LANDS on when its projected ONTO THE X-AXIS
+
+projecting I-HAT ONTO THE LINE PASSING THROUGH U-HAT = PROJECTING U-HAT ONTO THE X-AXIS.
+WHAT NUMBER DOES I-HAT LAND on WHEN it gets PROJECTED = WHAT NUMBER DOES U-HAT LANDS on when its projected ONTO THE X-AXIS
+
+--where I-HAT land
+but PROJECTING U-HAT ONTO THE X-AXIS just means taking the X-COORDINATE OF U-HAT.
+So, by symmetry, the NUMBER WHERE I-HAT LANDS when it’s projected onto that DIAGONAL NUMBER LINE 
+is going to be the X COORDINATE OF U-HAT.
+
+Isn't that cool?
+
+--where J-HAT land
+The reasoning is almost IDENTICAL FOR THE J-HAT CASE.
+Think about it for a moment.For all the same reasons, 
+the Y-COORDINATE of U-HAT gives us the NUMBER WHERE J-HAT LANDS when it’s projected onto the NUMBER LINE COPY.
+Pause and ponder that for a moment; I just think that's really cool.
+
+
+--MATRIX PROJECTION = COORDINATES OF U-HAT
+So the ENTRIES OF THE 1 X 2 MATRIX describing the PROJECTION TRANSFORMATION 
+are going to be the COORDINATES OF U-HAT.
+
+--PROJECTION TRANSFORMATION = DOT PRODUCT
+And COMPUTING this PROJECTION TRANSFORMATION for arbitrary vectors in space,
+which requires MULTIPLYING THAT MATRIX BY THOSE VECTORS, is computationally IDENTICAL to taking a DOT PRODUCT WITH U-HAT.
+
+This is WHY TAKING THE DOT PRODUCT WITH A UNIT VECTOR,
+can be interpreted as PROJECTING A VECTOR ONTO THE SPAN OF THAT UNIT VECTOR and taking the length.
+
+---NON-UNIT VECTORS
+So what about non-unit vectors? 
+
+---NON-UNIT VECTORS--> example: factor of 3.
+For example,let's say we take that unit vector U-HAT,but we “scale” it up by a FACTOR OF 3.
+
+Numerically, each of its COMPONENTS GETS MULTIPLIED BY 3, 
+So looking at the matrix associated with that vector,it takes I-HAT AND J-HAT TO 3 TIMES THE VALUES where they landed before.
+
+--DOT PRODUCT = PROJECTION (generally to scaling)
+Since this is all linear,it implies more generally,
+that the new matrix can be interpreted as PROJECTING any vector ONTO THE NUMBER LINE COPY and mULTIPLYING WHERE IT LANDS BY 3.
+
+This is why the dot product with a non-unit vector can be interpreted 
+as first PROJECTING ONTO THAT VECTOR then SCALING UP THE LENGTH OF THAT PROJECTION by the LENGTH OF THE VECTOR.
+
+--LINEAR TRANSFORMATIONS where output space is the NUMBER LINE = TAKING A DOT PRODUCT WITH SOME UNIQUE VECTOR
+Take a moment to think about what happened here.
+We had a LINEAR TRANSFORMATION FROM 2D SPACE TO THE NUMBER line,which was NOT DEFINED in terms of NUMERICAL VECTORS OR NUMERICAL DOT PRODUCTS.
+It was just defined by PROJECTING SPACE onto a DIAGONAL COPY OF THE NUMBER LINE.
+
+But because the TRANSFORMATION IS LINEAR, it was NECESSARILY described by some 1 X 2 MATRIX,
+and since MULTIPLYING A 1 X 2 MATRIX BY A 2D VECTOR is the same as TURNING THAT MATRIX ON ITS SIDE AND TAKING A DOT PRODUCT,
+THIS TRANSFORMATION was, inescapably, RELATED TO SOME 2D VECTOR.
+
+The lesson here, is that ANYTIME you have one of these LINEAR TRANSFORMATIONS whose OUTPUT space is the NUMBER LINE,
+no matter how it was defined there's going to be SOME UNIQUE VECTOR V CORRESPONDING to that transformation,
+in the sense that APPLYING THE TRANSFORMATION is the SAME THING as TAKING A DOT PRODUCT WITH THAT VECTOR.
+
+--EXAMPLE OF  “DUALITY”.
+To me, this is utterly beautiful.
+It's an example of something in math called “DUALITY”.
+“DUALITY” shows up in many different ways and forms throughout math and it's super tricky to actually define.
+Loosely speaking, it refers to situations where you have a natural but surprising CORRESPONDENCE between TWO TYPES OF MATHEMATICAL THING.
+
+For the linear algebra case that you just learned about,
+you'd say that the “DUAL” OF A VECTOR is THE LINEAR TRANSFORMATION THAT IT ENCODES.
+
+And the DUAL OF A LINEAR TRANSFORMATION FROM SPACE TO ONE DIMENSION,is A CERTAIN VECTOR IN THAT SPACE.
+
+So, to sum up, on the surface, the DOT PRODUCT is a very USEFUL GEOMETRIC TOOL for UNDERSTANDING PROJECTIONS
+and for TESTING whether or not vectors TEND TO POINT IN THE SAME DIRECTION.
+
+And that's probably the MOST IMPORTANT THING for you to remember ABOUT THE DOT PRODUCT,
+
+--VECTORS : PHYSICAL EMBODIMENT OF A LINEAR TRANSFORMATION instead ARROW IN SPACE
+but at DEEPER level, 
+DOTTING TWO VECTORS TOGETHER is a way to TRANSLATE ONE OF THEM into THE WORLD OF TRANSFORMATIONS:
+again, numerically, this might feel like a silly point to emphasize,it's just two computations that happen to look similar.
+But the reason I find this so important,is that throughout math, when you're DEALING WITH A VECTOR, once you REALLY get to know its PERSONALITY
+sometimes you realize that it's EASIER to understand it, NOT AS AN ARROW IN SPACE,but as the PHYSICAL EMBODIMENT OF A LINEAR TRANSFORMATION.
+
+It's as if the vector is really just a CONCEPTUAL SHORTHAND for certain TRANSFORMATION,
+since it's EASIER for us to THINK ABOUT ARROWS AND SPACE 
+rather than MOVING ALL OF THAT SPACE TO THE NUMBER LINE.
+
+In the next video, you'll see ANOTHER REALLY COOL example of this "DUALITY" in action as I talk about the CROSS PRODUCT.

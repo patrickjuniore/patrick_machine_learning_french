@@ -1,0 +1,70 @@
+Quick sort: 
+	A divide-and-conquer sorting algorithm that uses a pivot element to partition the input list into two smaller lists
+	, and then recursively sorts those lists.
+	
+pseudo code quick sort
+Here is an example of pseudo-code for quicksort:
+
+Copy code
+function quicksort(list):
+  if list is empty or has only one item:
+    return list
+
+  choose a pivot item from the list
+
+  partition the list into two sub-lists:
+    - items less than the pivot
+    - items greater than or equal to the pivot
+
+  recursively sort the sub-lists
+
+  return the sorted list
+
+In this pseudo-code, the quicksort() function takes a list of items as input and returns a new, sorted list. 
+The function uses a divide-and-conquer approach to sort the list by choosing a pivot item, partitioning the list into two sub-lists based on their relative position to the pivot, and then recursively sorting the sub-lists. 
+This process continues until the entire list is sorted.
+
+------------------------------------------------------------------------------------------------------------------------------
+Quick sort in python
+
+Quicksort is a sorting algorithm that uses a divide-and-conquer approach to sort a list of items. 
+The algorithm works by selecting a pivot item from the list, partitioning the remaining items into two sub-lists based on their relative position to the pivot, and then recursively sorting the sub-lists. 
+This process continues until the entire list is sorted.
+
+Here is an example of how to implement quicksort in Python:
+
+Copy code
+def quick_sort(items):
+    # Base case: if the list is empty or has only one item, it is already sorted
+    if len(items) <= 1:
+        return items
+
+    # Choose a pivot item (in this case, the first item in the list)
+    pivot = items[0]
+
+    # Partition the list into two sub-lists:
+    #  - items less than the pivot
+    #  - items greater than or equal to the pivot
+    left = []
+    right = []
+    for item in items[1:]:
+        if item < pivot:
+            left.append(item)
+        else:
+            right.append(item)
+
+    # Recursively sort the sub-lists
+    left = quick_sort(left)
+    right = quick_sort(right)
+
+    # Return the sorted list
+    return left + [pivot] + right
+To use this implementation, you can simply call quick_sort() on the list of items you want to sort. For example:
+
+Copy code
+items = [5, 3, 2, 4, 1]
+sorted_items = quick_sort(items)
+print(sorted_items)  # [1, 2, 3, 4, 5]
+Note that this implementation of quicksort uses the first item in the list as the pivot. 
+While this is a simple and effective approach, it is not the most efficient way to choose a pivot, as it can result in unbalanced partitions and poor performance for certain types of input data. 
+For better performance, you may want to use a different method for choosing the pivot, such as choosing the median or a random item from the list.

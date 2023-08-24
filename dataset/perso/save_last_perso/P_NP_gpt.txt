@@ -1,0 +1,39 @@
+VALIANT 
+
+https://www.sciencedirect.com/science/article/pii/0304397579900446?via%3Dihub
+https://core.ac.uk/download/pdf/82500417.pdf
+
+Mulmuley-Sohoni 
+https://cse.buffalo.edu/~regan/papers/pdf/Reg02MSFD.pdf
+
+https://alainconnes.org/wp-content/uploads/symetries.pdf
+----------------------------------------------------------------------
+On dit que le déterminant d'une matrice est une forme multilinéaire alternée parce qu'il est défini en termes de vecteurs et de matrices de manière à ce qu'il soit invariant sous permutation de ces éléments.
+
+Plus précisément, le déterminant d'une matrice peut être défini comme une forme multilinéaire alternée sur les lignes de la matrice. 
+Cela signifie qu'il est défini en tant que combinaison linéaire des lignes de la matrice, avec un signe alterné (-1) pour chaque permutation de lignes. 
+Cette propriété de forme multilinéaire alternée permet au déterminant de rester inchangé lorsqu'on permute les lignes de la matrice, ce qui est utile pour de nombreuses applications en mathématiques et en informatique.
+
+----------------------------------------------------------------------
+il y là une analogie evidente avec les élément d'un groupe de galois non?
+Oui, il y a une analogie évidente entre les éléments d'un groupe de Galois et le déterminant d'une matrice. 
+En effet, un groupe de Galois est un groupe de transformations qui permutent les racines d'un polynôme, et une représentation de Galois permet de représenter ces transformations sous la forme de matrices. 
+De manière similaire, le déterminant d'une matrice est une valeur numérique qui est invariante sous permutation de lignes et de colonnes de la matrice, ce qui en fait une mesure utile de l'effet des permutations sur la matrice.
+
+En utilisant cette analogie, il est possible de définir des opérations sur les représentations de Galois en utilisant les propriétés des déterminants de matrices. 
+Par exemple, on peut définir la somme de deux représentations de Galois en utilisant la formule du déterminant pour la somme de deux matrices. 
+De cette façon, les représentations de Galois peuvent être utilisées pour étudier les propriétés des groupes de Galois et de leurs actions sur les racines de polynômes.
+
+----------------------------------------------------------------------
+qu'est que groupe de galois d'uen equation?
+Le groupe de Galois d'une équation est le groupe de transformations qui permutent les racines de l'équation. Plus précisément, un groupe de Galois est un groupe de symétries de l'ensemble des solutions de l'équation.
+
+Pour chaque équation polynômiale avec des coefficients dans un corps de nombres donné
+, il existe un groupe de Galois associé qui décrit toutes les permutations possibles des racines de l'équation. 
+Ce groupe peut être utilisé pour étudier les propriétés de l'équation et pour résoudre l'équation de manière efficace.
+
+En utilisant les propriétés des groupes de Galois, il est possible de déterminer si une équation polynômiale est résoluble par radical
+, c'est-à-dire si elle peut être résolue en utilisant des opérations arithmétiques et des racines. Si le groupe de Galois de l'équation est solvable
+, cela signifie que l'équation est résolvable par radical
+, tandis que si le groupe de Galois de l'équation est non solvable
+, cela signifie que l'équation ne peut pas être résolue de cette manière.

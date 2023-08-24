@@ -1,0 +1,41 @@
+use cases dijkstra algorithm
+
+The Dijkstra algorithm is a popular and widely used algorithm for finding the shortest path in a graph. 
+Some common use cases for this algorithm include finding the best route for a delivery truck to take between multiple locations, 
+determining the fastest way to get from one location to another in a transportation network, and routing data packets efficiently in a computer network. 
+The algorithm can also be used in a variety of other scenarios where it is necessary to find the shortest path between two points in a graph.
+
+The pseudo code for the Dijkstra algorithm can be written as follows:
+
+Copy code
+function Dijkstra(Graph, source):
+    
+    create an empty set S
+
+    // Initialize distances from source to all other vertices as infinite and the source itself as 0
+    for each vertex v in Graph:
+        if v is source:
+            dist[v] := 0
+        else:
+            dist[v] := infinity
+            
+    // While there are vertices not yet included in the set S
+    while S is not complete:
+        // Choose the vertex u that is not in S and has the smallest distance from the source
+        u := vertex in Graph not in S with smallest dist[] value
+        
+        // Add u to the set S
+        add u to S
+        
+        // Update distances of all adjacent vertices of u
+        for each neighbor v of u:
+            if dist[v] > dist[u] + weight(u, v):
+                dist[v] := dist[u] + weight(u, v)
+    
+    // At this point, the distances from the source to all other vertices are finalized
+    return dist[]
+	
+This is a high-level pseudo code and can be implemented in many different ways in different programming languages. 
+The basic idea behind the algorithm is to iteratively find the shortest path to all other vertices in the graph, starting from the source vertex. 
+It does this by maintaining a set of vertices that have already been visited, and updating the distances of the unvisited vertices based on their distances to the visited vertices. 
+The algorithm terminates when all vertices have been visited, at which point the shortest distances to all other vertices are known.

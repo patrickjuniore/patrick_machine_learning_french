@@ -1,0 +1,58 @@
+Selection sort: 
+	A simple sorting algorithm that repeatedly finds the minimum element from the unsorted list and adds it to the sorted list.
+	
+pseudo code Selection sort
+
+Here is an example of pseudo code for a selection sort algorithm:
+
+Copy code
+procedure selectionSort(A: list of sortable items)
+    n = length(A)
+    for i = 1 to n-1 inclusive do
+        /* find the minimum element in the unsorted sublist[i, n] */
+        min = i
+        for j = i+1 to n inclusive do
+            if A[j] < A[min] then
+                min = j
+            end if
+        end for
+        /* swap the minimum element with A[i] */
+        swap(A[i], A[min])
+    end for
+end procedure
+
+This algorithm works by looping through the list of items
+, and at each step it finds the minimum element in the unsorted portion of the list and swaps it with the current element. 
+This continues until all the elements have been sorted.
+
+As with the other examples, this is just one way to write a selection sort algorithm in pseudo code, and there may be other variations.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+selection sort in python
+Selection sort is a simple sorting algorithm that works by iterating over a list of items, finding the smallest item, and then placing it at the beginning of the sorted list. 
+The algorithm repeats this process until all of the items have been sorted.
+
+Here is an example of how to implement selection sort in Python:
+
+Copy code
+def selection_sort(items):
+    # Iterate over the entire list of items
+    for i in range(len(items)):
+        # Find the index of the smallest item in the list
+        min_idx = i
+        for j in range(i+1, len(items)):
+            if items[j] < items[min_idx]:
+                min_idx = j
+
+        # Swap the smallest item with the first unsorted item in the list
+        items[i], items[min_idx] = items[min_idx], items[i]
+
+    return items
+To use this implementation, you can simply call selection_sort() on the list of items you want to sort. For example:
+
+Copy code
+items = [5, 3, 2, 4, 1]
+sorted_items = selection_sort(items)
+print(sorted_items)  # [1, 2, 3, 4, 5]
+Note that selection sort is not the most efficient sorting algorithm, especially for large lists of items. For better performance, you may want to use a faster sorting algorithm such as quicksort or merge sort.

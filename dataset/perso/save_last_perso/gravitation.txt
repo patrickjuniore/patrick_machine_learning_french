@@ -1,0 +1,42 @@
+https://chat.openai.com/c/7ca04732-9b23-400d-b6a6-615d7ec51c1c TENSEUR
+https://chat.openai.com/c/a8ede220-ae14-4306-80fe-4baf244aae1b BIANCHI
+https://chat.openai.com/c/477e1b12-7185-467f-bb7f-5ed4c861b191 KERR
+
+https://chat.openai.com/chat/e2b792fa-c121-4561-bd2e-dc4e3477bda6 --FERMAT
+11  --> summary électromagnétic field
+12  --> summary bianchi
+98  --> 74	tensors is generality
+103 --> maxwell equations
+386 --> 364	bianchi identities
+--------------------------------------------------------------------------------------------------
+linear machine with input slots for vectors and output that is either:
+	number
+	vector
+
+tensor with output are scalars = tensor with output are vectors 
+
+--------------------------------------------------------------------------------------------------
+"pour avoir des caractéristiques du champ qui offrent une prise sur la source."
+shémas: 
+ (p371)
+
+p387 (p365)
+  4 potentiels ELECTROMAGNÉTIQUE 								 --> 1 differentiation  :  --> tenseur de ELECTROMAGNÉTIQUE										   : F
+ 10 potentiels gravitationnels (les coefficients de la métrique) --> 2 differentiations :  --> dérivée covariante 			--> tenseur de COURBURE (ou de riemann): R
+ 
+ du potentiel au champ de ELECTROMAGNÉTIQUE: 1 differentiation, 1 fois dual
+ la frontière d'une frontière est nulle --> dF = 0
+ lien avec la source J -> d*F= 4pi*J		*F: DUAL  			 du tenseur    ELECTROMAGNÉTIQUE F
+ la frontière d'une frontière est nulle --> 										d*J=0 --> conservation de la source
+
+p392 (p370) 
+ du potentiel au champ de GRAVITATION: 		2 differentiations, 2 fois dual
+ la frontière d'une frontière est nulle --> dR = 0
+ lien avec la source T -> *G=8pi*T          *R*: DOUBLE DUAL *R* du tenseur de COURBURE          R (*R*=G) 
+ la frontière d'une frontière est nulle --> d*G (identité de Bianchi contractée)--> d*T=0 --> conservation de la source
+
+ 
+ 
+ 
+ 
+ 

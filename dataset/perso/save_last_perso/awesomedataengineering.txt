@@ -1,0 +1,4 @@
+https://awesomedataengineering.com/
+https://github.com/igorbarinov/awesome-data-engineering
+https://github.com/adilkhash/Data-Engineering-HowTo
+https://github.com/gunnarmorling/awesome-opensource-data-engineering

@@ -1,0 +1,98 @@
+---------------------------1 Introduction p 9 ------------------------- p 4
+---------------------------2 A Case for Puzzle-based Learning 5 (p 13)-------------------------p 4 
+2.1 Overcome the Knowledge Gap . . . . . . . 7			p 13
+2.10 What You See is All There is . . . . . . . 22		p 30
+---------------------------3 The Elo Rating for Python—and NumPy 24 (p 32)---------------------p 5
+------------------------------4 NumPy Library/5 NumPy Basics  (p 5)----------------------------p 5
+4 A Quick Data Science Tutorial: The NumPy Library 37						p 45 - 84
+5 NumPy Basics 99
+	5.1 Extracting Array Dimensionality . . . . . 78							p 85
+	5.5 Working with Not a Number the Right Way 89								p 97
+-------------------5 NumPy Basics /Linear Algebra and Statistics (p 6)------------------------
+5 NumPy Basics 99															p 99 - 135
+	5.6 Creating Numerical Sequences . . . . . . . 91							
+	5.20 Computing Array of Cumulative Sums . . 127
+6 Linear Algebra and Statistics 129											p 137 - 168
+	6.1 Calculating 1D Dot Product . . . . . . . . 129							p 137
+-------------------7 Practical Data Science/8 Final Remarks (p 7)------------------------
+7 Practical Data Science 161													p 169 - 203
+8 Final Remarks 199
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+---------------------------3 The Elo Rating for Python—and NumPy 24 (p 5)-------------------------
+
+-----------------------------test your Python skills----------------------------------------------------------	
+If you want to test your Python skills, use the following simple method:
+1/ INITIAL RATING
+Track your individual Elo rating as you read the book and solve the code puzzles. 
+Simply write your CURRENT ELO rating into the book. 
+Start with an initial rating of:
+ 1000 if you are a beginner, 
+ 1500 if you are an intermediate, and 
+ 2000 if you are an advanced Python programmer. 
+Of course, if you already have an online rating on finxter.com, starting with this rating would be the most precise option.
+Figure 3.4 shows five different examples of how your Elo will change while working through the book. 
+Two factors impact the FINAL RATING: 
+	how you select your INITIAL RATING and 
+	how good you perform (the latter being more important).
+
+2/ ELO POINTS
+If your solution is :
+	CORRECT,   ADD the Elo points according to the table given with the puzzle. 
+	OTHERWISE, SUBTRACT the given Elo points from your current Elo number.
+
+-------------------------------training plan -----------------------------------------------------------
+Use the following training plan to develop a strong learning habit with puzzle-based learning:
+
+1/ TRIGGER
+Select a daily TRIGGER after which you solve code puzzles for 10 minutes. 
+For example, 
+	decide on your COFFEE BREAK Python, 
+	or even solve code puzzles as you BRUSH YOUR TEETH or 
+	SIT on the TRAIN to WORK,UNIVERSITY, or SCHOOL
+
+2/SCAN over the puzzle in a First quick pass and ask yourself: WHAT IS THE UNIQUE IDEA OF THIS PUZZLE?
+
+
+3/ DIVE DEEPLY into the code. 
+
+Try to understand the purpose of EACH symbol, EVEN IF IT SEEMS TRIVIAL at frist. 
+AVOID being SHALLOW and lazy. 
+INSTEAD, solve each puzzle THOROUGHLY and take your time. 
+It's counterintuitive: 
+	To learn faster in less time, 
+	you must stay calm and TAKE YOUR TIME and allow yourself to DIG DEEP. 
+There is no shortcut.
+
+4/ WRITE your SOLUTION
+Make sure you carry a PEN with you and WRITE your SOLUTION into the book. 
+This ensures that you STAY OBJECTIVE -we all have the tendency to fake ourselves.
+Active learning is a central idea of this book.
+
+5/Look up the solution and read the explanation with care. 
+Do you UNDERSTAND EVERY ASPECT of the code? 
+Write open questions down and look them up later,or send them to me (info@finxter.com). 
+I will do everything I can to come up with a good explanation.
+
+6/ ELO POINTS
+Only if your solution was 100% CORRECT -including 
+	WHITESPACES, 
+	DATA TYPES, and 
+	FORMATTING of the output 
+get Elo points for this puzzle. 
+Otherwise you should count it as a wrong solution and SWALLOW the NEGATIVE ELO POINTS. 
+The reason for this strict rule is that this is the BEST WAY to train yourself to SOLVE THE PUZZLES THOROUGHLY.
+---------
+4 A Quick Data Science Tutorial: The NumPy Library 37
+everything you need to know to successfully solve the puzzles (NumPy Cheat Sheet)			p 45 - 84
+
+5 NumPy Basics 77
+TWENTY PUZZLES to Strengthen Your NUMPY BASICS 												p 85 - 136
+
+6 Linear Algebra and Statistics 129
+ELEVEN PUZZLES to Kickstart Your Understanding of LINEAR ALGEBRA AND STATISTICS in NumPy	p 137 - 168
+
+7 Practical Data Science 161
+THIRTEEN PUZZLES for PRACTICAL DATA SCIENCE													p 169 -198
