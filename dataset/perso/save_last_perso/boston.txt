@@ -1,0 +1,128 @@
+https://people.math.wisc.edu/~boston/869.pdf
+
+1 History and Overview p5
+	big picture p15
+2 Profinite Groups and Complete Local Rings p17
+	2.1 Profinite Groups 					p17
+	2.2 Complete Local Rings				p22
+	The Big Picture							p24
+3 Infinite Galois Groups: Internal Structure P26
+	3.1 Infinite extensions					p34
+	3.2 Structure of GQp /G0 and GQp/G1		p36
+	The Big Picture							p42
+4 Galois Representations from Elliptic Curves, Modular Forms, and Group Schemes p43
+	4.1 Elliptic curves						p43
+	4.2 Group schemes						p49
+	4.3 General schemes						p54
+	4.4 Modular forms						p57
+	The Big Picture							p68
+5 Invariants of Galois representations,semistable representations P69
+	5.1 Serre Invariants					p70
+	5.2 Fontaine-Mazur Conjecture			p72
+	5.3 Reduction of elliptic curves		p73
+		5.3.1 Tate elliptic curves			p75
+	The Big Picture							p80
+6 Deformation theory of Galois representations p81
+
+7 Introduction to Galois cohomology p91
+
+8 Criteria for ring isomorphisms p106
+9 The universal modular lift p120
+10 The minimal case p127
+11 Putting it together - the final trick p133
+References p137
+
+https://en.wikipedia.org/wiki/Inverse_limit
+https://fr.wikipedia.org/wiki/Limite_projective
+
+http://www.sens-neuchatel.ch/bulletin/no18/art18-2-robert.pdf
+------------------------------------
+An outline to the strategy of the proof has been given. 
+A counterexample to Fermat’s Last Theorem would yield an elliptic curve (Frey’s curve) with remarkable properties. 
+This curve is shown as follows not to exist. 
+
+Associated to elliptic curves and to certain modular forms are Galois representations. 
+
+These representations share some features, which might be used to define admissible representations. 
+
+The aim is to show that all such admissible representations come from modular forms 
+(and so in particular the elliptic curve ones do,implying that Frey’s curves are modular, enough for a contradiction). 
+
+We shall 
+	parametrize special subsets of Galois representations by complete Noetherian local RINGS 
+	and 
+	our aim will amount to showing that a given map between such RINGS is an isomorphism. 
+	
+This is achieved by some commutative algebra,which reduces the problem to computing some invariants, accomplished via Galois cohomology. 
+The first step is to define(abstractly) Galois representations.
+------------------------------------
+Un aperçu de la stratégie de la preuve a été donné.
+Un contre-exemple au dernier théorème de Fermat fournirait une courbe elliptique (la courbe de Frey) avec des propriétés remarquables.
+Il est démontré que cette courbe n'existe pas.
+
+Associées aux courbes elliptiques et à certaines formes modulaires, il y a des représentations de Galois.
+
+Ces représentations partagent certaines caractéristiques, qui pourraient être utilisées pour définir des représentations admissibles.
+
+Le but est de montrer que toutes ces représentations admissibles proviennent de formes modulaires
+(et donc en particulier celles des courbes elliptiques, ce qui implique que les courbes de Frey sont modulaires, ce qui conduit à une contradiction).
+
+Nous allons
+	paramétrer des sous-ensembles spéciaux de représentations de Galois par des ANNEAUX locaux noethériens complets
+	et
+	notre objectif consistera à montrer qu'une application donnée entre ces ANNEAUX est un isomorphisme.
+
+Cela est réalisé grâce à une algèbre commutative, qui réduit le problème au calcul de certains invariants, réalisé via la cohomologie de Galois.
+La première étape consiste à définir (de manière abstraite) les représentations de Galois.
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+élévation/élévations :"lift"
+<Σ "R sigma"
+3 Infinite Galois Groups: Internal Structure --p42
+Nous chercherons à utiliser des homomorphismes de groupes continus (représentations de Galois) Gal(Q¯ /Q) → GLn(R), où R appartient à un certain ensemble C
+, pour paramétrer les homomorphismes que les courbes elliptiques et les formes modulaires produisent naturellement. 
+Dans ce chapitre, nous avons construit ces groupes et anneaux et expliqué leurs topologies. 
+Ensuite, nous étudions la structure interne des deux côtés, notamment certains sous-groupes importants du côté gauche. 
+Cela nous permettra de caractériser les représentations de Galois en fonction de leur effet sur ces sous-groupes.
+
+4 Galois Representations from Elliptic Curves, Modular Forms, and Group Schemes --p68
+Nous avons TROIS SOURCES de REPRÉSENTATIONS DE GALOIS qui se produisent naturellement, à savoir 
+	les courbes ELLIPTIQUES, 
+	les formes MODULAIRES et 
+	les schémas de groupes ÉTALE. 
+Le plus général est le DERNIER, et ceux-ci seront ensuite utilisés pour définir la classe générale de représentations semi-stables sur lesquelles nous nous concentrerons. 
+Nous verrons que cette classe contient les représentations provenant d'une courbe elliptique associée par Frey à un prétendu contre-exemple au dernier théorème de Fermat. 
+La première chose à faire est d'établir des LIENS ENTRE LES DIFFÉRENTS TYPES DE REPRÉSENTATIONS définis.
+
+5 Invariants of Galois representations,semistable representations --p80
+La démonstration du dernier théorème de Fermat est ainsi réduite à prouver que toutes les courbes elliptiques semi-stables sont modulaires. 
+Cela sera réalisé en montrant que CERTAINES FAMILLES DE REPRÉSENTATIONS DE GALOIS SEMI-STABLES sont toutes associées à des FORMES MODULAIRES. 
+Nous avons donc besoin d'une manière de PARAMÉTRER de telles familles, et cela sera fourni par les représentations de Galois UNIVERSELLES (semi-stables/modulaires).
+
+6 Deformation theory of Galois representations --p89
+Nous avons vu qu'étant donné une représentation semi-stable ¯ρ et un ensemble fini de nombres premiers Σ, 
+	il existe une élévation universelle ξΣ : GQ → GL2(<Σ) qui paramètre 
+		toutes les élévations de ¯ρ 
+			qui sont semi-stables à l et 
+			qui ont une ramification pas plus mauvaise à p non inclus dans Σ que celle de ¯ρ. 
+Une idée très approximative de la taille de <Σ peut être donnée par la DIMENSION DE SON ESPACE TANGENT. 
+
+Nous décrirons bientôt une élévation universelle de ¯ρ de type Σ qui paramètre les élévations associées aux formes modulaires, ainsi qu'un INVARIANT utile pour mesurer la taille de cet anneau représentatif. 
+Ensuite, une algèbre commutative établira comment une inégalité entre ces deux INVARIANTS suffit à montrer que les deux élévations universelles (de type Σ et modulaire de type Σ) coïncident. 
+Tout d'abord, nous devons décrire comment calculer la DIMENSION TANGENTIELLE de <Σ en termes de COHOMOLOGIE de Galois.
+
+7 Introduction to Galois cohomology --p104
+Nous avons obtenu une FORMULE, impliquant les ordres de différents groupes de cohomologie de Galois, pour la DIMENSION TANGENTIELLE r de <Σ 
+(c'est-à-dire le plus petit r tel que <Σ soit un quotient de W(F)[[T1, . . . , Tr]]). 
+Nous avons également calculé COMMENT CETTE DIMENSION change lors de l'ajout (ou de la suppression) D'UN NOMBRE PREMIER à/de Σ. 
+Nous avons ensuite l'intention de montrer 
+	qu'il existe une élévation universelle de type Σ paramétrant les élévations associées aux formes modulaires, GQ → GL2(TΣ), puis 
+	montrer que l'application <Σ → TΣ ainsi obtenue est un ISOMORPHISME d'anneaux locaux. 
+Toutefois, avant cela, obtenons un CRITÈRE pour établir un tel ISOMORPHISME, un CRITÈRE NUMÉRIQUE impliquant d'une part r et d'autre part un certain invariant de TΣ.
+
+Theorem 8.2 (Wiles, improved by Lenstra)																p108 
+The theorem is established via the following lemma:Lemma 8.3											p109
+Now we prove the lemma. For this we need first to know Nakayama’s lemma and what Fitting ideals are. 	p110
+Lemma 8.4 (Nakayama’s Lemma) 
+

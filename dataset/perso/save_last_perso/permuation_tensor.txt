@@ -1,0 +1,77 @@
+https://pperso.ijclab.in2p3.fr/page_perso/Moreau/Cours-Labarthe_2006-2007.pdf
+
+https://blogs.ncl.ac.uk/mlgutierrezabed2/files/2020/04/Maxwell.pdf
+https://klimas.paginas.ufsc.br/files/2020/04/chapter-2.pdf
+
+http://www-fourier.univ-grenoble-alpes.fr/~ycolver/All-Articles/96e.pdf
+
+
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/math_cours.html
+"permutation tensor" "hodge"
+"levi-civita tensor"  "hodge"
+"antisymmetric"
+Maxwell’s Equations "levi-civita" "hodge"
+http://www.cpt.univ-mrs.fr/~coque/book/source.html#x1-2220004.5.6
+https://inis.iaea.org/collection/NCLCollectionStore/_Public/39/110/39110808.pdf
+https://homepage.univie.ac.at/thomas.mieling/pdf/EM_Duality.pdf
+"hodge dual" "permutation" "maxwell"
+https://blogs.ncl.ac.antisymmetricuk/mlgutierrezabed2/files/2020/04/Maxwell.pdf
+https://klimas.paginas.ufsc.br/files/2020/04/chapter-2.pdf
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/chap_FormeDif.pdf
+https://www-liphy.univ-grenoble-alpes.fr/pagesperso/bahram/Math/chap_DifOperateur.pdf
+https://www.imo.universite-paris-saclay.fr/explique_moi/files/de_rham.pdf
+
+
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+
+"Antisymmetric tensor" "hodge"
+https://math.stackexchange.com/questions/1326024/hodge-star-of-second-rank-antisymmetric-tensor
+https://www2.mathematik.tu-darmstadt.de/~bruhn/Comment-Chap2.htm
+"antisymmetric tensor" "permutation tensor"
+"antisymmetric tensor" "levi-civita tensor"
+https://arxiv.org/ftp/arxiv/papers/1406/1406.3060.pdf
+
+Bianchi
+Levi-Civita faraday bianchi
+http://settheory.net/fr/relativite-generale
+https://arxiv.org/pdf/1703.02655.pdf
+https://physics.stackexchange.com/questions/543237/electromagnetism-bianchi-identity
+https://en.wikipedia.org/wiki/Mathematical_descriptions_of_the_electromagnetic_field
+http://www-fourier.univ-grenoble-alpes.fr/~ycolver/All-Articles/96e.pdf
+
+pour chaque petite COURBE FERMÉE le long de laquelle on considère un transport parallèle, 
+la rotation produite par ce transport ne DÉPEND PAS DU CHOIX DE LA SURFACE DÉLIMITÉE par cette COURBE
+sur laquelle nous intégrons la courbure pour calculer cette petite rotation
+DÉPLACER cette surface (de direction ij) vers la direction k mais en GARDANT LE MÊME BORD, n'a AUCUN EFFET
+
+Comme chacune des deux paires (ab) et (lm) est ANTISYMÉTRIQUES, la CONTRACTION entre ces 2 paires donne un FACTEUR 2 DE REDONDANCE
+, que nous pouvons factoriser sans fractionner l'opération sous-jacente sur les coordonnées
+CONTRACTION entre LES DUAUX DE HODGE des PAIRES ANTISYMÉTRIQUES dans le tenseur de Riemann 
+(AU LIEU d'une CONTRACTION entre CES PAIRES ELLES-MÊMES)
+la COURBURE D'UNE PAIRE DE DIMENSIONS donnée ne contribue au tenseur d'Einstein QUE DANS LES DIMENSIONS ORTHOGONALES.
+x	  y     z     t
+1234  2134  3124  4123
+1243  2143  3142  4132
+1324  2314  3214  4213
+1342  2341  3241  4231
+1423  2413  3412  4312
+1432  2431  3421  4321
+
+equations homogenes
+somme(4123) = 		  (4123+4132+4213+4231+4312+4321)=0
+somme(4123) = 2* somme(4123     +4213     +4312     )=0 
+					   dxBx		+dyBy	  +dzBz		 =0 --> divergence nulle	
+
+somme(4123) = 		  (1234+1243+1324+1342+1423+1432)=0
+somme(4123) = 2* somme(1234     +1324     +1423     )=0
+					   -dyEz	+dzEy	  -dtBx		 =0 --> rot Ex = -dtBx (meme chose pour rot Ex,rot Ey,rot Ez)
+											  	
+
+file://hld.net/dfs/users/pmichel/personaldata/actimize_project/perso/ebook/relativity/relativite.pdf
+p27 le tenseur de Faraday est ANTISYMÉTRIQUE.
+p18 p29				
+
+file://hld.net/dfs/users/pmichel/personaldata/actimize_project/perso/ebook/relativity/chap2.pdf
+p30
+Le dernier membre du droite implique que la partie totalement ANTISYMÉTRIQUES du faraday s’annule, 
+ce-qui est exactement le contenu de l’identité de Bianchi							  

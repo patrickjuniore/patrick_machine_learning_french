@@ -1,0 +1,92 @@
+https://www.math.mcgill.ca/darmon/pub/Articles/Surveys/2.Notices/Frenchpaper.pdf
+https://www.imo.universite-paris-saclay.fr/~christophe.breuil/PUBLICATIONS/Universalis.pdf
+https://www.math.uci.edu/~krubin/lectures/msri1.pdf
+file:///U:/actimize_project/perso/fermat/wileskoll.pdf	--p135
+http://www.math.polytechnique.fr/xups/xups09-05.pdf
+
+file:///U:/actimize_project/perso/fermat/wileskoll.pdf
+https://www.mn.uio.no/math/personer/vit/rognes/papers/wileskoll.pdf
+
+noyau de l'application de l'anneau de déformation R dans l'anneau O
+l'annulateur 
+
+patrick.datascientist@gmail.com
+https://chat.openai.com/c/fdce2a78-1cda-4898-b9cb-ee37abc8f197 --older
+https://chat.openai.com/c/febe0a17-9555-4027-9bfc-cc206e565b87 --selmer
+https://chat.openai.com/c/e2b792fa-c121-4561-bd2e-dc4e3477bda6 --fitting
+il me semble que la notion  de MODULE sur un ANNEAU d'entiers  est similaire à celle de d'ESPACE VECTORIEL sur un CORPS? est ce la cas?
+
+Oui, la notion de module sur un anneau d'entiers est une généralisation de la notion d'espace vectoriel sur un corps. 
+En effet, dans le cas particulier où l'anneau d'entiers est le corps de base, on retrouve la définition classique d'un espace vectoriel.
+pouvez donner un exemple de représentations galoisiennes dans un corps 3-adique.
+
+L'élément de Frobenius est un concept
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Oui, je confirme que les systèmes d'Euler, en utilisant les travaux de KOLYVAGIN ET FLACH, sont utilisés pour étudier la partie #(IR/I²R) de l'inégalité dans la démonstration de Wiles. 
+D'un autre côté, la THÉORIE D'IWASAWA, en particulier la CONGRUENCE DE MODULE, intervient pour établir la partie #(O/etaT) de l'inégalité.
+...) sont liés aux propriétés arithmétiques des points rationnels des courbes elliptiques, et la théorie d'Iwasawa permet de les étudier en relation avec les extensions cyclotomiques. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# (IR/I²R) = #(O/etaT)
+Si l'inégalité est vérifiée, cela indique qu'il y a suffisamment de relations de congruence entre les formes modulaires pour "absorber" les obstructions locales (liées aux points de p-torsion sur la courbe elliptique). 
+Ainsi, cette inégalité joue un rôle crucial dans la compréhension de la relation entre les courbes elliptiques et les formes modulaires dans la démonstration de Wiles.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Le noyau IT est utilisé pour capturer ces relations de congruence, car il contient les éléments qui, lorsqu'ils sont appliqués aux formes modulaires, donnent des résultats congruents modulo ce nombre. 
+Autrement dit, les éléments du noyau IT sont responsables de l'équivalence entre différentes formes modulaires. 
+En étudiant le noyau IT, on obtient un aperçu de la structure des relations de congruence et comment elles relient différentes formes modulaires.
+
+Pour les formes modulaires, le noyau IT capture les relations de congruence entre elles. 
+Les éléments du noyau sont les éléments qui, lorsqu'ils sont appliqués aux formes modulaires, donnent des résultats congruents modulo un certain nombre. 
+En étudiant le noyau, on obtient un aperçu de la structure des relations de congruence et comment elles relient différentes formes modulaires. 
+Cela permet de mieux comprendre les liens entre les formes modulaires et les courbes elliptiques, ainsi que les conditions nécessaires pour l'existence de l'isomorphisme phi.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+R: R désigne un anneau de déformation. 
+Dans le contexte de la démonstration de Wiles, cela fait spécifiquement référence à un ANNEAU DE DÉFORMATION UNIVERSELLE des représentations galoisiennes associées aux courbes elliptiques et aux formes modulaires.
+
+IR: IR est le noyau de l'application de l'anneau de déformation R dans l'anneau O. 
+I est un idéal particulier dans l'anneau R, et IR représente l'ensemble des éléments de R qui sont dans le noyau de cette application.
+
+I²R: I²R est l'action de l'idéal I² sur l'anneau R. I² est le carré de l'idéal I, c'est-à-dire l'ensemble des produits d'éléments de I avec eux-mêmes. 
+I²R représente l'ensemble des éléments de R qui sont multiples des éléments de I². 
+Dans ce contexte, I²R représente les déformations "infinitésimales" d'une représentation galoisienne.
+
+IR/I²R: IR/I²R est le quotient de l'ensemble IR par l'ensemble I²R. Cela signifie que l'on considère les classes d'équivalence des éléments de IR modulo I²R. 
+En d'autres termes, on examine les déformations possibles d'une représentation galoisienne modulo les déformations infinitésimales.
+
+I²R est lié aux déformations infinitésimales en raison de la structure algébrique de l'anneau de déformation R et de l'idéal I. 
+Dans ce contexte, l'idéal I est un sous-ensemble de R qui capture les déformations "locales" ou "proches" de la représentation galoisienne initiale. 
+Lorsque l'on élève I à la puissance 2 (c'est-à-dire I²), on obtient un sous-ensemble encore plus restreint de déformations, qui sont en quelque sorte "plus petites" ou "plus proches" de la représentation initiale.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+anneau T est l'ANNEAU DE HECKE des formes modulaires
+
+O représente un anneau d'entiers. C'est un anneau commutatif avec une unité, et ses éléments sont des entiers algébriques.
+Un exemple d'anneau d'entiers est l'ensemble des entiers relatifs Z.eta est un idéal de l'anneau de Hecke T. 
+
+L'anneau de Hecke est un anneau commutatif qui apparaît dans l'étude des formes modulaires et qui encode des informations sur les opérateurs de Hecke agissant sur les formes modulaires.
+T est l'anneau de Hecke lui-même etaT représente le produit de l'idéal eta et de l'anneau T. 
+Cela signifie que chaque élément de etaT est obtenu en multipliant un élément de eta par un élément de T.
+
+O/etaT est le quotient de l'anneau O par l'idéal etaT. Cela signifie que l'on forme des classes d'équivalence d'éléments de O en utilisant l'idéal etaT. 
+Deux éléments de O sont dans la même classe d'équivalence si et seulement si leur différence est un élément de etaT.
+
+En français, on peut traduire cette expression par "l'anneau d'entiers O modulo l'idéal etaT". 
+Cet objet mathématique, le quotient O/etaT, est appelé module de congruence et intervient dans l'étude des congruences entre les formes modulaires associées à un ensemble S de premiers.
+------------------------------------------------------------------
+Les relations de congruence entre les formes modulaires sont des équivalences entre ces formes modulo un certain nombre, généralement un nombre premier p. 
+
+Le noyau IT est utilisé pour capturer ces relations de congruence, car il contient les éléments qui, lorsqu'ils sont appliqués aux formes modulaires, donnent des résultats congruents modulo ce nombre. 
+Autrement dit, les éléments du noyau IT sont responsables de l'équivalence entre différentes formes modulaires.
+En étudiant le noyau IT, on obtient un aperçu de la structure des relations de congruence et comment elles relient différentes formes modulaires.
+
+L'annulateur d'un idéal IT dans l'anneau T est l'ensemble des éléments de T qui, lorsqu'ils sont multipliés par les éléments de IT, donnent zéro. 
+Ainsi, l'annulateur capture les éléments de T qui annulent les relations de congruence entre les formes modulaires.
+ 
+En utilisant l'annulateur, nous prenons en compte non seulement les relations de congruence entre les formes modulaires (capturées par IT)
+, mais aussi comment ces relations sont annulées par les éléments de l'anneau de déformation T. 
+Cela nous donne une mesure plus fine de la "richesse" des relations de congruence et de la manière dont elles interagissent avec la structure des anneaux de déformation.
+
+Cette mesure nous permet de mieux comprendre comment les relations de congruence peuvent être utilisées pour surmonter les obstructions locales liées à la représentation galoisienne.
+
+Prendre en compte comment les relations de congruence sont annulées par les éléments de l'anneau de déformation T, plutôt que de se concentrer uniquement sur les relations de congruence elles-mêmes
+, offre une perspective plus globale et profonde. 
+Les relations de congruence entre les formes modulaires sont importantes pour comprendre la structure de la représentation galoisienne
+, mais il est également crucial de comprendre comment ces relations interagissent avec l'anneau de déformation T.

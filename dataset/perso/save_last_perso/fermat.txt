@@ -1,0 +1,82 @@
+https://www-fourier.ujf-grenoble.fr/~berhuy/fichiers/Galoiscourse.pdf
+http://math.bu.edu/people/ghs/papers/FermatOverview.pdf
+https://math.mit.edu/classes/18.783/2019/LectureNotes26.pdf
+https://people.math.wisc.edu/~boston/869.pdf
+
+https://www.intlpress.com/site/pub/files/_fulltext/journals/cdm/1995/1995/0001/CDM-1995-1995-0001-a001.pdf
+http://www.math.mcgill.ca/darmon/pub/Articles/Expository/05.DDT/paper.pdf
+https://www.math.mcgill.ca/darmon/pub/Articles/Expository/15.Wiles-Abel/notices.pdf
+https://wstein.org/edu/2004/24g/ribet-hayes.pdf
+
+https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/Universalis.pdf
+http://math.bu.edu/people/ghs/papers/FermatOverview.pdf
+https://www.math.mcgill.ca/darmon/pub/Articles/Surveys/1.Levis/paper.pdf
+https://www.math.mcgill.ca/darmon/pub/Articles/Expository/07.Encyclopedia/paper.pdf
+https://www.ams.org/notices/199911/comm-darmon.pdf
+https://www.math.mcgill.ca/darmon/pub/Articles/Expository/01.Russian-surveys/paper.pdf
+
+https://www.math.uci.edu/~krubin/lectures/msri1.pdf
+http://math.univ-lyon1.fr/~roblot/ihp/weakmw.pdf
+https://www.imo.universite-paris-saclay.fr/~cesnavicius/selmer-class.pdf
+
+https://www.imo.universite-paris-saclay.fr/explique_moi/files/de_rham.pdf
+https://www.math.u-bordeaux.fr/~ybilu/algant/documents/theses/Lacroce.pdf
+https://webusers.imj-prg.fr/~mathieu.florence/PresentationHamburg.pdf
+https://www.math.u-bordeaux.fr/~ybilu/algant/documents/theses/Abhinandan.pdf
+p-adic topology
+galois absolute lift example
+https://www.imo.universite-paris-saclay.fr/~fontaine/galoisrep.pdf
+https://webusers.imj-prg.fr/~pierre.colmez/Orsay.pdf
+https://fr.wikipedia.org/wiki/Anneau_de_valuation_discr%C3%A8te
+https://webusers.imj-prg.fr/~pierre.colmez/ecm2012.pdf
+http://lebarde.alwaysdata.net/maths/l3m2/idr.pdf
+
+https://www.normalesup.org/~sage/Enseignement/Cours/
+http://www.normalesup.org/~sage/Enseignement/Cours/GeoAlg.pdf
+https://www.emis.de/journals/SC/1998/3/pdf/smf_sem-cong_3_11-19.pdf
+------------------
+Hello,
+
+Since Monday 04/05/2022, we can restart the service ETS (on MAd side):.
+we use this command: 
+D:\Program Files\Actimize\ais_server_ets\AISSrv.exe actimize_server_ETS
+
+For all the others services the restart works fine for example for ITNE:
+D:\Program Files\Actimize\ais_server_tc4\AISSrv.exe actimize_server_TC4gen4
+
+It's critical since we are taotally bloked in production now about MAD.
+
+We can see in erros logs these errors:
+
+ERROR: [Server: Server] Init #80017 - Failed to initialize Container Manager
+                                        Containers #54030 - Failed to open Container [IDW_LOADER_alertedProductDates].
+                                        BDB #11117 - BDB Table: failed to open DB. Table [ac_tables/act_IDW_LOADER_alertedProductDates.db][PrimeTable].
+                                        #200 - Error 2 - Entity not found.
+Technical message:
+[Server: Server] 
+Init #80017 - Failed to initialize Container Manager
+                                        #200 - initializer_t::initialize()
+                                        #200 - Containers Manager: init
+                                        #200 - Containers Manager: open containers
+                                        Containers #54030 - Failed to open Container [IDW_LOADER_alertedProductDates].
+                                        #200 - Container
+                                        #200 - Container::open_storage(): IDW_LOADER_alertedProductDates
+                                        #200 - ActiveTable storage::open [IDW_LOADER_alertedProductDates] 
+                                        #200 - BDBTable: [D:/Program Files/Actimize/ais_server_ets/Instances/actimize_server_ETS/data/ac_tables/act_IDW_LOADER_alertedProductDates.db]
+                                        #200 - BDBTable::Open()
+                                        #200 - BDBTable::OpenSubTables()
+                                        #200 - BDBPrimeDB::Open
+                                        BDB #11117 - BDB Table: failed to open DB. Table [ac_tables/act_IDW_LOADER_alertedProductDates.db][PrimeTable].
+                                        #200 - Error 2 - Entity not found.
+                                        #200 - Exception time: 2022-Apr-04 14:08:54.184000 : BDBPrimeDB: failed to open db. fmode:436, db-type:1, flags:0
+
+
+Could you plan a call as soon as possible about thsi issue please?
+
+
+Kind regards,
+Patrick
+---------------
+1. Please ask Sys Admin to check disk health  and  Anti Virus definitions.
+2. Check permissions for specific file act_IDW_LOADER_alertedProductDates.db (if it ok, see #3)
+3. Try to run verify and recovery for specific table by ais_container_mgr with with the option fix_dir_table, see AIS Utility drive.
