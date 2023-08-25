@@ -6,9 +6,11 @@ select
 t.BATCH_ID          --NUMBER
 ,t.BATCH_DATE_TIME  --TIMESTAMP(6)
 ,to_char(t.BATCH_DATE_TIME,'yyyy-MM-dd')
---,t.* 
+,TRUNC(t.BATCH_DATE_TIME, 'DDD') 	
+,t.* 
 from transactions t 
-where t.TRANSACTION_KEY='TRN-COR/76510532';
+where t.TRANSACTION_KEY='TRN-COR/76510532'
+and TRUNC(t.BATCH_DATE_TIME, 'DDD') = TO_DATE('2022/07/22','YYYY/MM/DD');
 
 CURRENT_DATE
 2023-08-25 16:23:49.000000
