@@ -23,3 +23,6 @@ TO_DATE('2023/08/25','YYYY/MM/DD')
 
 BATCH_ID        BATCH_DATE_TIME                 TO_CHAR(T.BATCH_DATE_TIME,'YYYY-MM-DD')--,T.*
 20220727	2022-07-22 08:57:42.000000	2022-07-22
+
+patrick@1rolland.com
+thibaut.mauve@gmail.com
